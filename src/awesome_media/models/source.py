@@ -6,6 +6,34 @@ from awesome_media.utils.strings import url_to_filename
 console = Console()
 
 
+def _normalize_rss_feeds(raw_rss):
+    """
+    Normalize rss_feed value into a list of {'url': str, 'label': str|None} dicts.
+    Supports:
+      - single string: "https://..."
+      - list of strings: ["https://...", "https://..."]
+      - list of dicts: [{"url": "...", "label": "..."}]
+    """
+    if not raw_rss:
+        return []
+
+    if isinstance(raw_rss, str):
+        return [{"url": raw_rss, "label": None}]
+
+    if isinstance(raw_rss, list):
+        feeds = []
+        for item in raw_rss:
+            if isinstance(item, str):
+                feeds.append({"url": item, "label": None})
+            elif isinstance(item, dict):
+                url = item.get("url", "")
+                if url:
+                    feeds.append({"url": url, "label": item.get("label")})
+        return feeds
+
+    return []
+
+
 class Source:
     def __init__(self, filepath, data, validate_rss=False):
         self.filepath = filepath
@@ -32,12 +60,14 @@ class Source:
             self.website_url = ""
             self.website_text = "N/A"
 
-        # 3. Normalize RSS
-        rss = data.get("rss_feed") or data.get("rss")
-        self.rss_url = str(rss) if rss else ""
+        # 3. Normalize RSS (polymorphic: str, list of str, or list of dicts)
+        raw_rss = data.get("rss_feed") or data.get("rss")
+        self.rss_feeds = _normalize_rss_feeds(raw_rss)
+        # Backward-compatible single URL
+        self.rss_url = self.rss_feeds[0]["url"] if self.rss_feeds else ""
 
-        # 4. Validate RSS Link (Only if explicitly requested)
-        if validate_rss and self.rss_url:
+        # 4. Validate RSS Links (Only if explicitly requested)
+        if validate_rss and self.rss_feeds:
             self._validate_rss()
 
         # 5. Normalize Tags
@@ -47,6 +77,7 @@ class Source:
     def _comment_rss_in_file(self):
         """
         Opens the YAML file on disk and comments out the invalid rss_feed line.
+        Only works for single-string rss_feed values.
         """
         try:
             with open(self.filepath, "r", encoding="utf-8") as f:
@@ -75,30 +106,42 @@ class Source:
         except Exception as e:
             console.print(f"[red]Error updating file {self.filepath.name}: {e}[/red]")
 
+    def _check_feed(self, url):
+        """Returns True if the RSS URL is valid."""
+        try:
+            feed = fastfeedparser.parse(url)
+            return bool(feed and feed.feed)
+        except Exception:
+            return False
+
     def _validate_rss(self):
         """
-        Checks if the RSS URL is valid using fastfeedparser.
-        If invalid, comments it out in the YAML file and clears self.rss_url.
+        Validates all RSS feeds.
+        - For a single-string rss_feed, comments it out in the file if invalid.
+        - For list-based rss_feeds, filters invalid ones in memory and warns.
         """
-        try:
-            # Attempt to parse the feed
-            feed = fastfeedparser.parse(self.rss_url)
+        raw_rss = self.raw_data.get("rss_feed") or self.raw_data.get("rss")
+        is_single_string = isinstance(raw_rss, str)
 
-            # Check if we actually got a feed back
-            if not feed or not feed.feed:
-                raise ValueError("Empty or invalid feed structure")
+        valid_feeds = []
 
-        except Exception as e:
-            console.print(
-                f"[yellow]RSS Warning:[/yellow] Removing invalid feed for [bold]{self.title}[/bold]. "
-                f"Reason: {str(e)[:60]}..."
-            )
+        for feed_info in self.rss_feeds:
+            url = feed_info["url"]
+            label = feed_info["label"]
+            if self._check_feed(url):
+                valid_feeds.append(feed_info)
+            else:
+                display = f"{label} ({url})" if label else url
+                console.print(
+                    f"[yellow]RSS Warning:[/yellow] Invalid feed for [bold]{self.title}[/bold]: "
+                    f"{display}"
+                )
+                # For single-string feeds, comment out the line in the file
+                if is_single_string:
+                    self._comment_rss_in_file()
 
-            # 1. Comment it out in the file
-            self._comment_rss_in_file()
-
-            # 2. Clear the URL so it's not exported
-            self.rss_url = ""
+        self.rss_feeds = valid_feeds
+        self.rss_url = self.rss_feeds[0]["url"] if self.rss_feeds else ""
 
     def to_dict(self):
         return {
@@ -111,6 +154,7 @@ class Source:
             "website_url": self.website_url,
             "website_text": self.website_text,
             "rss_url": self.rss_url,
+            "rss_feeds": self.rss_feeds,
             "tags": self.tags,
         }
 

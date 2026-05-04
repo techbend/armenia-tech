@@ -21,7 +21,19 @@ A curated catalog of trusted news outlets, podcasts, YouTube channels, newslette
             web_link = (
                 f"[{s.website_text}]({s.website_url})" if s.website_url else "N/A"
             )
-            rss_link = f"[Feed]({s.rss_url})" if s.rss_url else "❌"
+
+            if s.rss_feeds:
+                links = []
+                for feed in s.rss_feeds:
+                    label = feed.get("label")
+                    if label:
+                        links.append(f"[{label}]({feed['url']})")
+                    else:
+                        links.append(f"[Feed]({feed['url']})")
+                rss_link = ", ".join(links)
+            else:
+                rss_link = "❌"
+
             desc = truncate_text(s.description, 120)
 
             row = f"| {s.title} | {s.media_type} | {s.country} | {s.language} | {web_link} | {rss_link} | {desc} |\n"

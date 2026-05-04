@@ -7,7 +7,7 @@ from awesome_media.loaders.yaml_loader import YamlLoader
 from awesome_media.exporters.json_exporter import JsonExporter
 from awesome_media.exporters.opml_exporter import OpmlExporter
 from awesome_media.exporters.md_exporter import MarkdownExporter
-from awesome_media.exporters.html_exporter import HtmlExporter
+# HTML export is now handled by the Svelte frontend build
 
 console = Console()
 
@@ -19,10 +19,9 @@ def show_summary(sources):
     table.add_column("Country", style="yellow")
     table.add_column("Filename Check", justify="center")
 
-    # Note: Filename check is implicitly '✅' because loader skipped invalid ones,
-    # but let's show if they have RSS
     for entry in sources[:5]:
-        rss = "✅" if entry.rss_url else "❌"
+        feed_count = len(entry.rss_feeds)
+        rss = f"✅ {feed_count}" if feed_count > 0 else "❌"
         c = (entry.country[:15] + "...") if len(entry.country) > 15 else entry.country
         table.add_row(entry.title, entry.media_type, c or "-", rss)
 
@@ -42,7 +41,8 @@ def main():
         console.print("[red]Abort:[/red] No sources found.")
         return
 
-    console.print(f"[green]Found[/green] {len(sources)} media sources.\n")
+    total_feeds = sum(len(s.rss_feeds) for s in sources)
+    console.print(f"[green]Found[/green] {len(sources)} media sources with {total_feeds} RSS feeds.\n")
 
     # 2. Summary
     show_summary(sources)
@@ -53,7 +53,7 @@ def main():
     JsonExporter(OUTPUT_DIR).export(sources)
     OpmlExporter(OUTPUT_DIR).export(sources)
     MarkdownExporter(OUTPUT_DIR).export(sources)
-    HtmlExporter(OUTPUT_DIR).export(sources)
+    # HTML site is built by the Svelte frontend (see frontend/ directory)
 
     rprint("\n[bold green]Build Complete![/bold green]")
 

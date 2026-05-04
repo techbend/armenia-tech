@@ -74,6 +74,7 @@ ALLOWED_TAGS = [
     "opinion",
     # Scope & Context
     "global",
+    "world",
     "local",
     "trending",
     "evergreen",

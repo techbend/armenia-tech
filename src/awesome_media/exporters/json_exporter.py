@@ -21,5 +21,6 @@ class JsonExporter(BaseExporter):
             "description": source.description,
             "website_url": source.website_url,
             "rss_url": source.rss_url,
+            "rss_feeds": source.rss_feeds,
             "tags": source.tags,
         }

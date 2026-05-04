@@ -179,6 +179,82 @@
 
         .btn-primary { background: var(--primary); color: white; }
         .btn-rss { background: #fff7ed; color: #ea580c; border: 1px solid #ffedd5; }
+        .rss-dropdown {
+            position: relative;
+            flex: 1;
+        }
+        .rss-dropdown select {
+            width: 100%;
+            padding: 8px 12px;
+            border-radius: 4px;
+            border: 1px solid #ffedd5;
+            background: #fff7ed;
+            color: #ea580c;
+            font-weight: 600;
+            font-size: 0.9rem;
+            cursor: pointer;
+            appearance: none;
+            text-align: center;
+        }
+        .rss-dropdown select:focus {
+            outline: none;
+            border-color: #ea580c;
+        }
+
+        .toggle-row {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+            cursor: pointer;
+        }
+        .toggle-row input[type="checkbox"] {
+            width: auto;
+            cursor: pointer;
+        }
+
+        .feed-checks {
+            margin-top: 0.5rem;
+            padding-top: 0.5rem;
+            border-top: 1px dashed var(--border);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem 1rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+        .feed-checks label {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            cursor: pointer;
+            user-select: none;
+        }
+        .feed-checks input[type="checkbox"] {
+            width: auto;
+            cursor: pointer;
+            accent-color: var(--primary);
+        }
+
+        .selection-info {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .selection-info button {
+            background: none;
+            border: none;
+            color: var(--primary);
+            cursor: pointer;
+            font-size: 0.8rem;
+            padding: 0;
+        }
+        .selection-info button:hover {
+            text-decoration: underline;
+        }
 
         @media (max-width: 800px) {
             .layout { grid-template-columns: 1fr; }
@@ -249,14 +325,25 @@
             </select>
         </div>
 
+        <div class="filter-group">
+            <label class="toggle-row">
+                <input type="checkbox" id="filter-has-rss">
+                <span>Only sources with RSS</span>
+            </label>
+        </div>
+
         <div class="export-box">
             <h3>Export Data</h3>
-            <a id="download-json-btn" class="export-btn" title="Download JSON data (Filtered)">
-                <span>Download JSON (Filtered)</span>
+            <div class="selection-info" id="selection-info" style="display:none;">
+                <span id="selection-count">0 feeds selected</span>
+                <button type="button" id="clear-selection">Clear</button>
+            </div>
+            <a id="download-json-btn" class="export-btn" title="Download JSON (selected or filtered)">
+                <span>Download JSON</span>
                 <span>&darr;</span>
             </a>
-            <a href="feeds.opml" download class="export-btn">
-                <span>Import to RSS (OPML)</span>
+            <a id="download-opml-btn" class="export-btn" title="Download OPML (selected or filtered)">
+                <span>Download OPML</span>
                 <span>&rarr;</span>
             </a>
         </div>
@@ -275,7 +362,8 @@
                      data-type="{{ source.media_type|default('') }}"
                      data-country="{{ source.country|default('') }}"
                      data-language="{{ source.language|default('') }}"
-                     data-tags="{{ source.tags|join('|') if source.tags else '' }}">
+                     data-tags="{{ source.tags|join('|') if source.tags else '' }}"
+                     data-has-rss="{{ 'true' if source.rss_feeds else 'false' }}">
                 
                 <div class="card-header">
                     <span class="badge">{{ source.media_type }}</span>
@@ -296,10 +384,36 @@
                 
                 <div class="actions">
                     <a href="{{ source.website_url }}" target="_blank" class="btn btn-primary">Visit</a>
-                    {% if source.rss_url %}
-                    <a href="{{ source.rss_url }}" target="_blank" class="btn btn-rss">RSS Feed</a>
+                    {% if source.rss_feeds %}
+                        {% if source.rss_feeds|length == 1 %}
+                        <a href="{{ source.rss_feeds[0]['url'] }}" target="_blank" class="btn btn-rss">RSS Feed</a>
+                        {% else %}
+                        <div class="rss-dropdown">
+                            <select onchange="if(this.value) window.open(this.value, '_blank'); this.selectedIndex=0;">
+                                <option value="" selected>RSS Feeds ▼</option>
+                                {% for feed in source.rss_feeds %}
+                                <option value="{{ feed['url'] }}">{{ feed['label'] or 'Feed' }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        {% endif %}
                     {% endif %}
                 </div>
+                {% if source.rss_feeds %}
+                <div class="feed-checks">
+                    {% for feed in source.rss_feeds %}
+                    <label title="Select for export">
+                        <input type="checkbox" class="feed-check"
+                               data-source-title="{{ source.title|e }}"
+                               data-feed-url="{{ feed['url']|e }}"
+                               data-feed-label="{{ (feed['label'] or '')|e }}"
+                               data-category="{{ source.category|e }}"
+                               data-website="{{ source.website_url|e }}">
+                        <span>{{ feed['label'] or 'Feed' }}</span>
+                    </label>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </article>
             {% endfor %}
         </div>
@@ -326,10 +440,12 @@ document.addEventListener('DOMContentLoaded', () => {
         language: document.getElementById('filter-language'),
         tags:     document.getElementById('filter-tags'),
     };
+    const hasRssCheckbox = document.getElementById('filter-has-rss');
 
     const countDisplay = document.getElementById('count');
     const noResults = document.getElementById('no-results');
-    const downloadBtn = document.getElementById('download-json-btn');
+    const downloadJsonBtn = document.getElementById('download-json-btn');
+    const downloadOpmlBtn = document.getElementById('download-opml-btn');
 
     function getVisibleCards() {
         return document.querySelectorAll('.card');
@@ -343,6 +459,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const countryVal = filterEls.country?.value || "";
         const langVal   = filterEls.language?.value || "";
         const tagsVal   = filterEls.tags?.value || "";
+        const hasRssVal = hasRssCheckbox?.checked || false;
 
         let visibleCount = 0;
 
@@ -354,6 +471,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const country   = card.dataset.country || "";
             const language  = card.dataset.language || "";
             const tags      = (card.dataset.tags || "").split('|').filter(Boolean);
+            const hasRss    = card.dataset.hasRss === 'true';
 
             const matchesSearch = !term || title.includes(term) || desc.includes(term);
             const matchesCat    = !catVal    || category === catVal;
@@ -361,8 +479,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const matchesCountry= !countryVal|| country === countryVal;
             const matchesLang   = !langVal   || language === langVal;
             const matchesTag    = !tagsVal   || tags.includes(tagsVal);
+            const matchesRss    = !hasRssVal || hasRss;
 
-            if (matchesSearch && matchesCat && matchesType && matchesCountry && matchesLang && matchesTag) {
+            if (matchesSearch && matchesCat && matchesType && matchesCountry && matchesLang && matchesTag && matchesRss) {
                 card.style.display = 'flex';
                 visibleCount++;
             } else {
@@ -374,25 +493,139 @@ document.addEventListener('DOMContentLoaded', () => {
         noResults.style.display = visibleCount === 0 ? 'block' : 'none';
     }
 
-    // Download filtered JSON
-    downloadBtn.addEventListener('click', () => {
+    function getVisibleSources() {
         const visibleTitles = Array.from(getVisibleCards())
             .filter(c => c.style.display !== 'none')
             .map(c => c.querySelector('h3').textContent.trim());
+        return allSources.filter(s => visibleTitles.includes(s.title));
+    }
 
-        const filteredData = allSources.filter(s => visibleTitles.includes(s.title));
+    const selectionInfo = document.getElementById('selection-info');
+    const selectionCount = document.getElementById('selection-count');
+    const clearSelectionBtn = document.getElementById('clear-selection');
 
-        const dataStr = JSON.stringify(filteredData, null, 2);
+    function getSelectedFeeds() {
+        return Array.from(document.querySelectorAll('.feed-check:checked')).map(cb => ({
+            sourceTitle: cb.dataset.sourceTitle,
+            feedUrl: cb.dataset.feedUrl,
+            feedLabel: cb.dataset.feedLabel,
+            category: cb.dataset.category,
+            websiteUrl: cb.dataset.website,
+        }));
+    }
+
+    function updateSelectionUI() {
+        const selected = getSelectedFeeds();
+        if (selected.length > 0) {
+            selectionInfo.style.display = 'flex';
+            selectionCount.textContent = `${selected.length} feed${selected.length > 1 ? 's' : ''} selected`;
+        } else {
+            selectionInfo.style.display = 'none';
+        }
+    }
+
+    document.querySelectorAll('.feed-check').forEach(cb => {
+        cb.addEventListener('change', updateSelectionUI);
+    });
+
+    if (clearSelectionBtn) {
+        clearSelectionBtn.addEventListener('click', () => {
+            document.querySelectorAll('.feed-check').forEach(cb => cb.checked = false);
+            updateSelectionUI();
+        });
+    }
+
+    function getVisibleSources() {
+        const visibleTitles = Array.from(getVisibleCards())
+            .filter(c => c.style.display !== 'none')
+            .map(c => c.querySelector('h3').textContent.trim());
+        return allSources.filter(s => visibleTitles.includes(s.title));
+    }
+
+    // Download JSON
+    downloadJsonBtn.addEventListener('click', () => {
+        const selectedFeeds = getSelectedFeeds();
+        let data;
+        if (selectedFeeds.length > 0) {
+            data = selectedFeeds;
+        } else {
+            data = getVisibleSources();
+        }
+        const dataStr = JSON.stringify(data, null, 2);
         const blob = new Blob([dataStr], { type: "application/json" });
         const url = URL.createObjectURL(blob);
-        
         const a = document.createElement('a');
         a.href = url;
-        a.download = "awesome_media_filtered.json";
+        a.download = selectedFeeds.length > 0 ? "awesome_media_selected.json" : "awesome_media_filtered.json";
         a.click();
-        
         URL.revokeObjectURL(url);
     });
+
+    // Download OPML
+    downloadOpmlBtn.addEventListener('click', () => {
+        const selectedFeeds = getSelectedFeeds();
+        let feeds;
+        if (selectedFeeds.length > 0) {
+            feeds = selectedFeeds;
+        } else {
+            const sources = getVisibleSources();
+            feeds = [];
+            sources.forEach(s => {
+                if (s.rss_feeds) {
+                    s.rss_feeds.forEach(f => {
+                        feeds.push({
+                            sourceTitle: s.title,
+                            feedUrl: f.url,
+                            feedLabel: f.label || '',
+                            category: s.category,
+                            websiteUrl: s.website_url,
+                        });
+                    });
+                }
+            });
+        }
+
+        if (feeds.length === 0) {
+            alert('No RSS feeds to export. Select some feeds or adjust your filters.');
+            return;
+        }
+
+        // Group by category
+        const byCat = {};
+        feeds.forEach(f => {
+            byCat[f.category] = byCat[f.category] || [];
+            byCat[f.category].push(f);
+        });
+
+        // Build OPML XML
+        let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<opml version="1.0">\n  <body>\n`;
+        Object.entries(byCat).forEach(([catName, catFeeds]) => {
+            xml += `    <outline text="${escapeXml(catName)}" title="${escapeXml(catName)}">\n`;
+            catFeeds.forEach(f => {
+                const text = f.feedLabel ? `${f.sourceTitle} - ${f.feedLabel}` : f.sourceTitle;
+                xml += `      <outline text="${escapeXml(text)}" title="${escapeXml(text)}" type="rss" htmlUrl="${escapeXml(f.websiteUrl)}" xmlUrl="${escapeXml(f.feedUrl)}"/>\n`;
+            });
+            xml += `    </outline>\n`;
+        });
+        xml += `  </body>\n</opml>`;
+
+        const blob = new Blob([xml], { type: "application/xml" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = selectedFeeds.length > 0 ? "awesome_media_selected.opml" : "awesome_media_filtered.opml";
+        a.click();
+        URL.revokeObjectURL(url);
+    });
+
+    function escapeXml(str) {
+        if (!str) return '';
+        return str.replace(/&/g, '&amp;')
+                  .replace(/</g, '&lt;')
+                  .replace(/>/g, '&gt;')
+                  .replace(/"/g, '&quot;')
+                  .replace(/'/g, '&apos;');
+    }
 
     // Tag click handler
     window.filterByTag = function(tagName) {
@@ -408,6 +641,7 @@ document.addEventListener('DOMContentLoaded', () => {
     Object.values(filterEls).forEach(el => {
         if (el) el.addEventListener('change', filter);
     });
+    if (hasRssCheckbox) hasRssCheckbox.addEventListener('change', filter);
 
     // Initial filter
     filter();

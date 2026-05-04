@@ -21,14 +21,19 @@ def main():
 
     # Summary
     total = len(sources)
-    with_rss = len([s for s in sources if s.rss_url])
+    total_feeds = sum(len(s.rss_feeds) for s in sources)
+    sources_with_feeds = len([s for s in sources if s.rss_feeds])
 
     console.print("\n[bold green]Validation Complete![/bold green]")
     console.print(f"Processed {total} valid sources.")
-    console.print(f"Active RSS feeds: {with_rss}")
-    console.print(f"Sources without valid RSS: {total - with_rss}")
+    console.print(f"Active RSS feeds: {total_feeds}")
+    console.print(f"Sources with RSS: {sources_with_feeds}")
+    console.print(f"Sources without RSS: {total - sources_with_feeds}")
     console.print(
-        "\nInvalid links have been commented out in their respective YAML files."
+        "\nInvalid single-feed links have been commented out in their respective YAML files."
+    )
+    console.print(
+        "Invalid list-feed entries were filtered in memory (YAML files not modified)."
     )
 
 

@@ -6,12 +6,15 @@ A curated catalog of trusted news outlets, podcasts, YouTube channels, newslette
 [![Build Status](https://img.shields.io/badge/Build-Automated-blue?style=for-the-badge&logo=github-actions)](https://github.com/tavallaie/awesome_media/actions)
 
 ## 🌐 Live Version
+
 Visit the interactive catalog at: [https://tavallaie.github.io/awesome_media/](https://tavallaie.github.io/awesome_media/)
 
 ## 📖 About
+
 This project provides a modern, filterable interface for discovering high-quality media resources. Unlike a simple list, this project uses a robust **Object-Oriented Python architecture** to validate content, enforce naming conventions, and generate multiple export formats from a single source of truth.
 
 ## ✨ Features
+
 * **Strict Content Validation:**
     * **Filename Enforcement:** Filenames must match the website URL (e.g., `gunaz.tv/fa` → `gunaz.tv.fa.yaml`).
     * **Tag Whitelisting:** Prevents tag bloat. Only specific Country, Focus, and Access tags are permitted.

@@ -8,8 +8,9 @@ A curated catalog of trusted news outlets, podcasts, YouTube channels, newslette
 
 | Name | Type | Country | Language | Website | RSS | Description |
 |------|------|---------|----------|---------|-----|-------------|
+|  DW English (DW English) | News Website | Germany | English | [Visit Website](https://www.dw.com/en) | [Feed](https://rss.dw.com/atom/rss-en-all) | German public international broadcaster offering news, analysis, and reports in Persian. |
+| Gunaz TV (Gunaz TV) | TV Channel | USA | English | [Visit Website](https://gunaz.tv/en) | ❌ | Broadcaster focusing on news and culture related to the Azerbaijani community in Iran. |
 | آفتاب نیوز (Aftab News) | News Website | Iran | Persian | [Visit Website](https://aftabnews.ir/) | [Feed](https://aftabnews.ir/fa/rss/allnews) | Digital news agency covering domestic and international news with an emphasis on economic and social issues. |
-| احوازنا (Ahwazna) | News Website | Netherlands | Arabic | [Visit Website](https://ahwazna.net/) | ❌ | News portal focusing on the affairs of the Ahwazi Arab community and regional human rights. |
 | اخبار روز (Akhbar-Rooz) | News Website | Germany | Persian | [Visit Website](https://www.akhbar-rooz.com/) | [Feed](https://www.akhbar-rooz.com/feed/) | Left-leaning independent news and analysis site covering Iranian politics and labor movements. |
 | اعتماد آنلاین (Etemad Online) | News Website | Iran | Persian | [Visit Website](https://etemadonline.com/) | ❌ | The digital arm of Etemad newspaper, focusing on political analysis and social commentary. |
 | اکوایران (EcoIran) | Video | Iran | Persian | [Visit Website](https://ecoiran.com/) | ❌ | The primary multimedia platform for economic news, market analysis, and financial interviews in Iran. |
@@ -25,7 +26,7 @@ A curated catalog of trusted news outlets, podcasts, YouTube channels, newslette
 | حال وش (Haalvsh) | Organization Portal | Global | Persian | [Visit Website](https://halavash.org/) | ❌ | Focuses on human rights issues and news related to the Sistan and Baluchestan region. |
 | خبر آنلاین (Khabar Online) | News Website | Iran | Persian | [Visit Website](https://www.khabaronline.ir/) | ❌ | High-traffic news platform covering a wide range of topics including tech, politics, and sports. |
 | خبر فوری (Khabar Foori) | News Website | Iran | Persian | [Visit Website](https://www.khabarfoori.com/) | ❌ | Digital platform specializing in rapid updates on breaking news, trending topics, and social events. |
-| خبرگزاری آنا (ANA) | News Agency | Iran | Persian | [Visit Website](https://ana.ir/) | ❌ | Azad News Agency, specializing in higher education news, science, and technology. |
+| خبرگزاری آنا (ANA) | News Agency | Iran | Persian | [Visit Website](https://ana.ir/) | [Feed](https://ana.press/fa/rss/allnews) | Azad News Agency, specializing in higher education news, science, and technology. |
 | خبرگزاری ایسنا (ISNA) | News Agency | Iran | Persian | [Visit Website](https://www.isna.ir/) | ❌ | Iranian Students' News Agency covering a wide range of social, scientific, and political topics. |
 | خبرگزاری ایلنا (ILNA) | News Agency | Iran | Persian | [Visit Website](https://www.ilna.ir/) | ❌ | The Iranian Labour News Agency focuses on labor rights, trade unions, and economic policy. |
 | خبرگزاری ایکنا (IQNA) | News Agency | Iran | Persian | [Visit Website](https://iqna.ir/) | ❌ | International Quran News Agency focusing on religious affairs, culture, and Islamic philosophy. |
@@ -64,10 +65,8 @@ A curated catalog of trusted news outlets, podcasts, YouTube channels, newslette
 | کردپا (Kurdpa) | News Agency | Germany | Kurdish | [Visit Website](https://kurdpa.net/fa) | ❌ | Kurdistan Press Agency focusing on human rights and social news in Kurdish areas. |
 | کلمه (Kaleme) | News Website | Global | Persian | [Visit Website](https://www.kaleme.com/) | ❌ | News platform associated with the Iranian Green Movement and democratic reform efforts. |
 | کمپین حقوق بشر ایران (CHRI) | Organization Portal | USA | Persian | [Visit Website](https://persian.iranhumanrights.org/) | [Feed](https://persian.iranhumanrights.org/feed/) | Center for Human Rights in Iran providing legal analysis and reports on civil liberties. |
-| کمپین فعالین بلوچ (Baloch Campaign) | Organization Portal | USA | Persian | [Visit Website](https://balochcampaign.us/) | ❌ | Human rights organization monitoring news and developments in the Sistan and Baluchestan region. |
 | کوردستان ۲۴ (Kurdistan 24) | TV Channel | Iraq | Kurdish | [Visit Website](https://www.kurdistan24.net/fa) | ❌ | News broadcaster covering the Kurdistan region, Iraq, and broader Middle East geopolitical issues. |
 | کیهان لندن (Kayhan London) | News Website | United Kingdom | Persian | [Visit Website](https://kayhan.london/fa/) | [Feed](https://kayhan.london/fa/feed/) | Independent news outlet providing political analysis and cultural content from an exiled perspective. |
-| گوناز تی‌وی (Gunaz TV) | TV Channel | USA | English | [Visit Website](https://gunaz.tv/en) | ❌ | Broadcaster focusing on news and culture related to the Azerbaijani community in Iran. |
 | گوناز تی‌وی (Gunaz TV) | TV Channel | USA | Persian | [Visit Website](https://gunaz.tv/fa) | ❌ | Broadcaster focusing on news and culture related to the Azerbaijani community in Iran. |
 | گیل خبر (GilKhabar) | News Website | Iran | Persian | [Visit Website](https://gilkhabar.ir/) | ❌ | Regional news outlet focusing on northern Iran, specifically the Gilan province. |
 | یافته (Yafte News) | News Website | Iran | Persian | [Visit Website](https://yaftenews.ir/) | ❌ | Regional news outlet for the Lorestan province, covering social and urban developments. |
