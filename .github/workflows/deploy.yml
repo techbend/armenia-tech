@@ -1,70 +1,84 @@
 name: Build and Deploy
 
 on:
-    push:
-        branches:
-            - main
+  push:
+    branches: [main]
 
-# Give permission to write to the repository (needed for committing README)
 permissions:
-    contents: write
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
-    build-and-deploy:
-        runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Checkout code
-              uses: actions/checkout@v4
-              with:
-                  fetch-depth: 0 # Important for committing changes
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-            - name: Install Python
-              uses: actions/setup-python@v5
-              with:
-                  python-version: "3.12"
+      # ─── Python ───
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
-            - name: Install UV
-              uses: astral-sh/setup-uv@v2
-              with:
-                  version: "latest"
+      - name: Setup UV
+        uses: astral-sh/setup-uv@v2
+        with:
+          version: "latest"
 
-            - name: Install Node.js
-              uses: actions/setup-node@v4
-              with:
-                  node-version: "20"
+      - name: Install Python dependencies
+        run: uv sync
 
-            - name: Install pnpm
-              uses: pnpm/action-setup@v3
-              with:
-                  version: "latest"
+      # ─── Node / pnpm (via corepack, no extra action needed) ───
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
 
-            - name: Install Python dependencies
-              run: uv sync
+      - name: Enable corepack & pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@latest --activate
+          pnpm --version
 
-            - name: Build site + Update README
-              run: uv run make build
+      - name: Install frontend dependencies
+        run: cd frontend && pnpm install
 
-            - name: Commit updated files (README + any other changes)
-              run: |
-                  git config user.name "github-actions[bot]"
-                  git config user.email "github-actions[bot]@users.noreply.github.com"
+      # ─── Generate data (YAML → JSON / OPML / Markdown) ───
+      - name: Fix filenames & export data
+        run: uv run make data
 
-                  # Add all changed files (mainly README.md, but safe for others too)
-                  git add README.md
+      # ─── Build frontend ───
+      - name: Build Svelte site
+        run: cd frontend && pnpm run build
 
-                  # Commit only if there are actual changes
-                  if git diff --staged --quiet; then
-                    echo "No changes to commit"
-                  else
-                    git commit -m "chore: update README.md and site [skip ci]"
-                    git push
-                  fi
+      # ─── Commit updated README / index.md back to main ───
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
 
-            - name: Deploy to GitHub Pages
-              uses: peaceiris/actions-gh-pages@v4
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  publish_dir: ./output
-                  publish_branch: gh-pages
-                  force_orphan: false
+          git add README.md index.md || true
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update generated files [skip ci]"
+            git push
+          fi
+
+      # ─── Deploy to GitHub Pages ───
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./output
+          publish_branch: gh-pages
