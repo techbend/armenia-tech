@@ -44,7 +44,14 @@
 
   <!-- Filters -->
   <div class="bg-surface-900 border border-surface-800 rounded-xl p-4 space-y-4">
-    <h3 class="text-[11px] font-bold uppercase tracking-widest text-surface-500">Filters</h3>
+    <div class="flex items-center justify-between">
+      <h3 class="text-[11px] font-bold uppercase tracking-widest text-surface-500">Filters</h3>
+      <button
+        class="text-[11px] text-surface-500 hover:text-accent-400 transition-colors"
+        on:click={() => dispatch('clearFilters')}>
+        Clear all
+      </button>
+    </div>
 
     <div class="space-y-3">
       <FilterSelect label="Category" options={categories} bind:value={filters.category} />
@@ -91,7 +98,7 @@
       <button
         class="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-rss-500/10 hover:bg-rss-500/20 text-rss-400 hover:text-rss-300 text-xs font-medium transition-all border border-rss-500/20"
         on:click={() => dispatch('exportOpml')}>
-        <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M6.503 20.752c0 2.07-1.678 3.748-3.749 3.748s-3.749-1.679-3.749-3.748c0-2.071 1.678-3.749 3.749-3.749s3.749 1.678 3.749 3.749zm-3.749-11.26c-4.627 0-8.373 3.747-8.373 8.373h3.748c0-2.572 2.054-4.625 4.625-4.625v-3.748zm0-4.627c-7.03 0-12.752 5.722-12.752 12.752h3.748c0-4.972 4.032-9.004 9.004-9.004v-3.748z"/></svg>
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
         OPML
       </button>
     </div>

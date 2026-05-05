@@ -234,6 +234,7 @@
               tags={allTags}
               bind:filters
               {selectedCount}
+              on:clearFilters={clearFilters}
               on:clearSelection={clearSelection}
               on:exportJson={exportJson}
               on:exportOpml={exportOpml}
