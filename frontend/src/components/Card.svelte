@@ -1,5 +1,6 @@
 <script>
   import { createEventDispatcher } from 'svelte'
+  import { getBadgeStyle } from '../lib/badgeColors.js'
 
   export let company
 
@@ -8,70 +9,135 @@
   function dispatchTagClick(tag) {
     dispatch('tagClick', tag)
   }
+
+  function badgeStyle(value) {
+    const s = getBadgeStyle(value)
+    const style = [
+      `background-color: ${s.bg}`,
+      `color: ${s.text}`,
+      `border-color: ${s.border}`,
+    ]
+    if (s.pattern) {
+      style.push(`background-image: ${s.pattern}`)
+      if (s.patternSize) style.push(`background-size: ${s.patternSize}`)
+    }
+    return style.join('; ')
+  }
+
+  // Company initials for avatar
+  $: initials = company.name.split(' ').map(w => w[0]).join('').slice(0, 2).toUpperCase()
+
+  const LINK_ICONS = {
+    linkedin: `<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>`,
+    careers: `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>`,
+    twitter: `<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>`,
+    github: `<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>`,
+    facebook: `<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>`,
+    instagram: `<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>`,
+    youtube: `<svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>`,
+    other: `<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"/></svg>`,
+  }
+
+  function linkIcon(type) {
+    return LINK_ICONS[type] || LINK_ICONS.other
+  }
 </script>
 
-<article class="group relative bg-surface-900 border border-surface-800 rounded-xl transition-all duration-300 hover:border-surface-700 hover:shadow-lg hover:shadow-accent-500/5 h-full flex flex-col">
-  <!-- Top accent line on hover -->
-  <div class="absolute top-0 left-0 right-0 h-0.5 bg-accent-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left rounded-t-xl"></div>
+<article class="group relative bg-white border border-border rounded-2xl transition-all duration-300 hover:border-border-strong hover:shadow-lg hover:shadow-slate-200/50 h-full flex flex-col overflow-hidden">
+  <!-- Left accent bar -->
+  <div class="absolute left-0 top-4 bottom-4 w-1 rounded-r-full bg-accent opacity-0 group-hover:opacity-100 transition-opacity duration-300" aria-hidden="true"></div>
 
-  <div class="p-5 flex flex-col h-full">
-    <!-- Header badges -->
-    <div class="flex items-start justify-between gap-3 mb-3 shrink-0">
-      <div class="flex items-center gap-2 flex-wrap">
-        {#each company.origin as o}
-          <span class="inline-flex items-center px-2 py-0.5 rounded-md bg-accent-500/10 text-accent-400 text-[11px] font-semibold uppercase tracking-wider border border-accent-500/20">
-            {o}
-          </span>
-        {/each}
-        {#each company.company_type as t}
-          <span class="inline-flex items-center px-2 py-0.5 rounded-md bg-surface-700 text-surface-300 text-[11px] font-semibold uppercase tracking-wider border border-surface-600">
-            {t}
-          </span>
-        {/each}
+  <div class="p-6 flex flex-col h-full">
+    <!-- Top row: Avatar + Badges -->
+    <div class="flex items-start gap-3 mb-4">
+      <!-- Avatar -->
+      <div class="w-12 h-12 rounded-xl bg-accent-light border border-blue-200 flex items-center justify-center shrink-0" aria-hidden="true">
+        <span class="text-sm font-bold text-accent">{initials}</span>
       </div>
-      <span class="inline-flex items-center px-2 py-0.5 rounded-md bg-surface-800 text-surface-400 text-[11px] font-medium border border-surface-700 shrink-0">
+
+      <div class="flex-1 min-w-0">
+        <!-- Title -->
+        <h2 class="text-lg font-bold text-text-primary leading-tight mb-1 group-hover:text-accent transition-colors truncate">
+          {company.name}
+        </h2>
+
+        <!-- Origin + Type badges -->
+        <div class="flex items-center gap-1.5 flex-wrap">
+          {#each company.origin as o}
+            <span
+              class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider border"
+              style={badgeStyle(o)}>
+              {o}
+            </span>
+          {/each}
+          {#each company.company_type as t}
+            <span
+              class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold uppercase tracking-wider border"
+              style={badgeStyle(t)}>
+              {t}
+            </span>
+          {/each}
+        </div>
+      </div>
+
+      <!-- Employees badge -->
+      <span
+        class="inline-flex items-center px-2 py-1 rounded-lg text-[11px] font-semibold border shrink-0"
+        style={badgeStyle(company.employees)}>
         {company.employees}
       </span>
     </div>
 
-    <!-- Title -->
-    <h2 class="text-base font-semibold text-white leading-snug mb-1 group-hover:text-accent-400 transition-colors line-clamp-2 min-h-[2.5rem]">
-      {company.name}
-    </h2>
-
     <!-- Description -->
-    <p class="text-sm text-surface-400 leading-relaxed mb-4 line-clamp-3 min-h-[3.75rem]">
+    <p class="text-sm text-text-secondary leading-relaxed mb-5 line-clamp-3">
       {company.description}
     </p>
 
     <!-- Tags -->
     {#if company.tags && company.tags.length > 0}
-      <div class="flex flex-wrap gap-1.5 mb-4 shrink-0 overflow-hidden h-6">
+      <div class="flex flex-wrap gap-1.5 mb-5">
         {#each company.tags as tag}
           <button
-            class="px-2 py-0.5 rounded-md bg-surface-800 hover:bg-surface-700 text-surface-400 hover:text-white text-[11px] font-medium transition-colors border border-transparent hover:border-surface-600 shrink-0"
+            class="px-2.5 py-1 rounded-lg bg-surface text-text-secondary text-xs font-medium transition-all border border-border hover:border-border-strong hover:bg-white hover:text-text-primary hover:shadow-sm min-h-[28px]"
             on:click={() => dispatchTagClick(tag)}>
             {tag}
           </button>
         {/each}
       </div>
     {:else}
-      <div class="h-6 mb-4 shrink-0"></div>
+      <div class="min-h-[28px] mb-5"></div>
     {/if}
 
-    <!-- Spacer pushes actions to bottom -->
+    <!-- Spacer -->
     <div class="flex-1"></div>
 
-    <!-- Actions -->
+    <!-- Divider -->
+    <div class="border-t border-border mb-4" aria-hidden="true"></div>
+
+    <!-- Links -->
     <div class="flex gap-2 shrink-0">
-      <a
-        href={company.website_url}
-        target="_blank"
-        rel="noopener"
-        class="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-surface-800 hover:bg-surface-700 text-surface-300 hover:text-white text-sm font-medium transition-all border border-surface-700 hover:border-surface-600">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
-        Visit
-      </a>
+      {#if company.website_url}
+        <a
+          href={company.website_url}
+          target="_blank"
+          rel="noopener"
+          class="flex-1 inline-flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-xl bg-accent text-white text-sm font-semibold transition-all hover:bg-accent-hover hover:shadow-md hover:shadow-blue-200/50 min-h-[44px]">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg>
+          Visit
+        </a>
+      {/if}
+      {#if company.links && company.links.length > 0}
+        {#each company.links as link}
+          <a
+            href={link.url}
+            target="_blank"
+            rel="noopener"
+            class="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-surface hover:bg-white text-text-secondary hover:text-text-primary transition-all border border-border hover:border-border-strong hover:shadow-sm min-h-[44px] min-w-[44px]"
+            aria-label="{company.name} {link.type}">
+            {@html linkIcon(link.type)}
+          </a>
+        {/each}
+      {/if}
     </div>
   </div>
 </article>

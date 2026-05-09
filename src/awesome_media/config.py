@@ -15,31 +15,21 @@ ALLOWED_ORIGINS = ["local", "global"]
 ALLOWED_EMPLOYEE_RANGES = ["1-10", "11-50", "51-100", "101-250", "251-500", "+500"]
 ALLOWED_COMPANY_TYPES = ["service", "product"]
 
+LINK_TYPES = ["linkedin", "careers", "twitter", "github", "facebook", "instagram", "youtube", "other"]
+
 # Tech verticals / tags
 ALLOWED_TAGS = [
-    "ai-ml",
-    "ar-vr",
-    "biotech",
-    "blockchain",
-    "cloud",
     "cybersecurity",
-    "data-analytics",
-    "design-creative",
-    "developer-tools",
-    "devops",
-    "e-commerce",
-    "edtech",
-    "fintech",
-    "gaming",
+    "developer-tools-cloud",
+    "e-commerce-marketing-adtech",
+    "fintech-blockchain",
+    "gambling",
+    "gamedev-ar-vr",
+    "hardware-eda",
     "healthtech",
-    "hr-tech",
-    "iot",
-    "logistics",
-    "marketing-tech",
-    "mobile-apps",
-    "open-source",
-    "robotics",
-    "saas",
-    "semiconductors",
-    "web3",
+    "hr-tech-edtech",
+    "lifetime-on-demand-hospitality",
+    "media-photo-video-audio-voip",
+    "other-product-companies",
+    "service-providers",
 ]

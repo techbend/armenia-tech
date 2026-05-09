@@ -4,6 +4,7 @@ from awesome_media.config import (
     ALLOWED_ORIGINS,
     ALLOWED_EMPLOYEE_RANGES,
     ALLOWED_COMPANY_TYPES,
+    LINK_TYPES,
 )
 from awesome_media.utils.strings import url_to_filename
 
@@ -46,9 +47,26 @@ class Company:
         self.employees = str(data.get("employees", "")).strip()
         self.company_type = _normalize_string_or_list(data.get("company_type"))
 
-        # 4. Normalize Tags
+        # 4. Normalize Links
+        raw_links = data.get("links", [])
+        self.links = []
+        if isinstance(raw_links, list):
+            for item in raw_links:
+                if isinstance(item, dict):
+                    link_type = str(item.get("type", "")).strip().lower()
+                    if not link_type:
+                        link_type = "other"
+                    self.links.append({
+                        "url": str(item.get("url", "")).strip(),
+                        "type": link_type,
+                    })
+
+        # 5. Normalize Tags
         raw_tags = data.get("tags", [])
-        self.tags = sorted(list({str(t).strip().lower() for t in raw_tags if t}))
+        self.tags = sorted(list({
+            str(t).strip().lower().replace(" ", "-").replace("/", "-").replace("--", "-")
+            for t in raw_tags if t
+        }))
 
     def to_dict(self):
         return {
@@ -59,6 +77,7 @@ class Company:
             "description": self.description,
             "website_url": self.website_url,
             "website_text": self.website_text,
+            "links": self.links,
             "tags": self.tags,
         }
 
@@ -111,6 +130,14 @@ class Company:
             self._errors.append(
                 f"Invalid company_type values: {invalid_types}. "
                 f"Allowed: {ALLOWED_COMPANY_TYPES}"
+            )
+
+        # G. Validate Link Types
+        invalid_link_types = [l["type"] for l in self.links if l["type"] not in LINK_TYPES]
+        if invalid_link_types:
+            self._errors.append(
+                f"Invalid link types: {invalid_link_types}. "
+                f"Allowed: {LINK_TYPES}"
             )
 
         return len(self._errors) == 0

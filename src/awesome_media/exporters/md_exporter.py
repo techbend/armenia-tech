@@ -11,20 +11,25 @@ A curated directory of Armenian tech companies — from local startups to global
 
 ## 🏢 Companies
 
-| Name | Origin | Employees | Type | Website | Tags | Description |
+| Name | Origin | Employees | Type | Links | Tags | Description |
 |------|--------|-----------|------|---------|------|-------------|
 """
         rows = []
         for c in companies:
-            web_link = (
-                f"[{c.website_text}]({c.website_url})" if c.website_url else "N/A"
-            )
             origin = ", ".join(c.origin) if c.origin else "-"
             ctype = ", ".join(c.company_type) if c.company_type else "-"
             tags = ", ".join(c.tags) if c.tags else "-"
             desc = truncate_text(c.description, 120)
 
-            row = f"| {c.name} | {origin} | {c.employees} | {ctype} | {web_link} | {tags} | {desc} |\n"
+            link_parts = []
+            if c.website_url:
+                link_parts.append(f"[{c.website_text}]({c.website_url})")
+            for link in c.links:
+                if link["url"]:
+                    link_parts.append(f"[{link['type']}]({link['url']})")
+            links_md = ", ".join(link_parts) if link_parts else "-"
+
+            row = f"| {c.name} | {origin} | {c.employees} | {ctype} | {links_md} | {tags} | {desc} |\n"
             rows.append(row)
 
         with open(README_PATH, "w", encoding="utf-8") as f:

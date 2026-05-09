@@ -20,5 +20,6 @@ class JsonExporter(BaseExporter):
             "description": company.description,
             "website_url": company.website_url,
             "website_text": company.website_text,
+            "links": company.links,
             "tags": company.tags,
         }
