@@ -1,23 +1,27 @@
-import yaml
 import sys
 from pathlib import Path
 
-# Add src to path to import our utils
-sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
+import yaml
+from rich.console import Console
+from awesome_media.config import CONTENT_DIR
 from awesome_media.utils.strings import url_to_filename
 
-CONTENT_DIR = Path(__file__).parent.parent / "contents"
+console = Console()
 
 
 def main():
-    print("🔍 Checking filenames against URLs...")
+    if not CONTENT_DIR.exists():
+        console.print("[red]Error:[/red] 'contents' directory not found.")
+        return
 
     yaml_files = sorted(CONTENT_DIR.glob("*.yaml"))
-    renamed_count = 0
+    renamed = 0
+    skipped = 0
 
     for file in yaml_files:
-        if file.name.startswith("example"):
+        if file.name.lower().startswith("example"):
             continue
 
         try:
@@ -27,40 +31,35 @@ def main():
             if not data:
                 continue
 
-            # Get URL
             web = data.get("website")
             if isinstance(web, dict):
-                url = web.get("url")
-            elif isinstance(web, str):
-                url = web
+                url = web.get("url", "")
             else:
-                url = None
+                url = web or ""
 
             if not url:
+                console.print(f"[yellow]Skipping {file.name}:[/yellow] No website URL found.")
+                skipped += 1
                 continue
 
-            # Calculate expected name
-            expected_name = url_to_filename(url)
-
-            # Check mismatch
-            if expected_name and file.name != expected_name:
-                old_path = file
-                new_path = CONTENT_DIR / expected_name
-
-                print(f"Renaming: {file.name} -> {expected_name}")
-
-                # Perform rename
-                # Avoid conflict if target already exists
-                if new_path.exists():
-                    print(f"  ⚠️  Skipped: Target {expected_name} already exists.")
+            expected = url_to_filename(url)
+            if file.name != expected:
+                target = file.parent / expected
+                if target.exists():
+                    console.print(
+                        f"[yellow]Cannot rename {file.name} → {expected}:[/yellow] Target exists."
+                    )
+                    skipped += 1
                 else:
-                    old_path.rename(new_path)
-                    renamed_count += 1
+                    file.rename(target)
+                    console.print(f"[green]Renamed[/green] {file.name} → {expected}")
+                    renamed += 1
 
         except Exception as e:
-            print(f"❌ Error processing {file.name}: {e}")
+            console.print(f"[red]Error processing {file.name}:[/red] {e}")
+            skipped += 1
 
-    print(f"\n✅ Done! Renamed {renamed_count} files.")
+    console.print(f"\n[bold]Done:[/bold] {renamed} renamed, {skipped} skipped.")
 
 
 if __name__ == "__main__":

@@ -52,7 +52,7 @@ jobs:
       - name: Install frontend dependencies
         run: cd frontend && pnpm install
 
-      # ─── Generate data (YAML → JSON / OPML / Markdown) ───
+      # ─── Generate data (YAML → JSON / Markdown) ───
       - name: Fix filenames & export data
         run: uv run make data
 

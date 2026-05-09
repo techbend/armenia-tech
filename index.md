@@ -1,72 +1,16 @@
-# Awesome Media Catalog
+# Armenia Tech Landscape
 
-A curated catalog of trusted news outlets, podcasts, YouTube channels, newsletters, and independent sources.
+A curated directory of Armenian tech companies — from local startups to global giants.
 
-[![View Web Version](https://img.shields.io/badge/View-Web%20Version-blue)](https://tavallaie.github.io/awesome_media/)
+## 🏢 Companies
 
-## 📰 Catalog
-
-| Name | Type | Country | Language | Website | RSS | Description |
-|------|------|---------|----------|---------|-----|-------------|
-|  DW English (DW English) | News Website | Germany | English | [Visit Website](https://www.dw.com/en) | [All News](https://rss.dw.com/atom/rss-en-all), [Top Stories](https://rss.dw.com/atom/rss-en-top), [Germany](https://rss.dw.com/rdf/rss-en-ger), [World](https://rss.dw.com/atom/rss-en-world), [Europe](https://rss.dw.com/atom/rss-en-eu), [Africa](https://rss.dw.com/rdf/rss-en-africa), [Business](https://rss.dw.com/atom/rss-en-bus  ), [Science](https://rss.dw.com/atom/rss_en_science), [Environment](https://rss.dw.com/atom/rss_en_environment), [Culture & Lifestyle](https://rss.dw.com/atom/rss-en-cul), [Sports](https://rss.dw.com/atom/rss-en-sports), [Travel](https://rss.dw.com/atom/rss-en-visitgermany), [Asia](https://rss.dw.com/rdf/rss-en-asia) | German public international broadcaster offering news, analysis, and reports in Persian. |
-| Gunaz TV (Gunaz TV) | TV Channel | USA | English | [Visit Website](https://gunaz.tv/en) | ❌ | Broadcaster focusing on news and culture related to the Azerbaijani community in Iran. |
-| آفتاب نیوز (Aftab News) | News Website | Iran | Persian | [Visit Website](https://aftabnews.ir/) | [Feed](https://aftabnews.ir/fa/rss/allnews) | Digital news agency covering domestic and international news with an emphasis on economic and social issues. |
-| اخبار روز (Akhbar-Rooz) | News Website | Germany | Persian | [Visit Website](https://www.akhbar-rooz.com/) | [Feed](https://www.akhbar-rooz.com/feed/) | Left-leaning independent news and analysis site covering Iranian politics and labor movements. |
-| اعتماد آنلاین (Etemad Online) | News Website | Iran | Persian | [Visit Website](https://etemadonline.com/) | ❌ | The digital arm of Etemad newspaper, focusing on political analysis and social commentary. |
-| اکوایران (EcoIran) | Video | Iran | Persian | [Visit Website](https://ecoiran.com/) | ❌ | The primary multimedia platform for economic news, market analysis, and financial interviews in Iran. |
-| ایران اینترنشنال (Iran International) | TV Channel | United Kingdom | Persian | [Visit Website](https://www.iranintl.com/) | ❌ | Satellite TV and digital platform providing 24/7 news coverage for the Persian-speaking world. |
-| ایران‌وایر (IranWire) | News Website | Canada | Persian | [Visit Website](https://iranwire.com/fa/) | ❌ | Independent collaborative news site focusing on human rights and investigative journalism. |
-| ایندیپندنت فارسی (Independent Persian) | News Website | United Kingdom | Persian | [Visit Website](https://www.independentpersian.com/) | ❌ | The Persian edition of The Independent, covering global news, analysis, and culture. |
-| بی‌بی‌سی فارسی (BBC Persian) | News Website | United Kingdom | Persian | [Visit Website](https://www.bbc.com/persian) | [Feed](https://www.bbc.com/persian/index.xml) | International broadcaster providing global news, analysis, and multimedia content in Persian. |
-| تابناک (Tabnak) | News Website | Iran | Persian | [Visit Website](https://www.tabnak.ir/) | [Feed](https://www.tabnak.ir/fa/rss/allnews) | High-traffic news site known for its commentary on economic policies and transparency. |
-| تجارت‌نیوز (TejaratNews) | News Website | Iran | Persian | [Visit Website](https://tejaratnews.com/) | ❌ | Digital media specializing in financial markets, stock exchanges, and economic analysis. |
-| ترکمن‌نیوز (TurkmensNews) | News Website | Iran | Persian | [Visit Website](http://turkmensnews.com/) | ❌ | News and culture portal dedicated to the Turkmen community in Iran and the Caspian region. |
-| جهان نیوز (Jahan News) | News Website | Iran | Persian | [Visit Website](https://www.jahannews.com/) | ❌ | Conservative news platform focusing on national security, governance, and traditional values. |
-| جوان آنلاین (Javan Online) | News Website | Iran | Persian | [Visit Website](https://www.javanonline.ir/) | [Feed](https://www.javanonline.ir/fa/rss/allnews) | Conservative outlet focusing on social affairs, defense, and the concerns of the youth within a traditional framework. |
-| حال وش (Haalvsh) | Organization Portal | Global | Persian | [Visit Website](https://halavash.org/) | ❌ | Focuses on human rights issues and news related to the Sistan and Baluchestan region. |
-| خبر آنلاین (Khabar Online) | News Website | Iran | Persian | [Visit Website](https://www.khabaronline.ir/) | ❌ | High-traffic news platform covering a wide range of topics including tech, politics, and sports. |
-| خبر فوری (Khabar Foori) | News Website | Iran | Persian | [Visit Website](https://www.khabarfoori.com/) | ❌ | Digital platform specializing in rapid updates on breaking news, trending topics, and social events. |
-| خبرگزاری آنا (ANA) | News Agency | Iran | Persian | [Visit Website](https://ana.ir/) | [Feed](https://ana.press/fa/rss/allnews) | Azad News Agency, specializing in higher education news, science, and technology. |
-| خبرگزاری ایسنا (ISNA) | News Agency | Iran | Persian | [Visit Website](https://www.isna.ir/) | ❌ | Iranian Students' News Agency covering a wide range of social, scientific, and political topics. |
-| خبرگزاری ایلنا (ILNA) | News Agency | Iran | Persian | [Visit Website](https://www.ilna.ir/) | ❌ | The Iranian Labour News Agency focuses on labor rights, trade unions, and economic policy. |
-| خبرگزاری ایکنا (IQNA) | News Agency | Iran | Persian | [Visit Website](https://iqna.ir/) | ❌ | International Quran News Agency focusing on religious affairs, culture, and Islamic philosophy. |
-| خبرگزاری تسنیم (Tasnim News) | News Agency | Iran | Persian | [Visit Website](https://www.tasnimnews.com/) | ❌ | News agency providing updates on Islamic world issues, defense, and governance. |
-| خبرگزاری دانشجو (SNN) | News Agency | Iran | Persian | [Visit Website](https://snn.ir/) | [Feed](https://snn.ir/fa/rss/allnews) | Student News Network focusing on revolutionary ideals, campus news, and political policy. |
-| خبرگزاری فارس (Fars News) | News Agency | Iran | Persian | [Visit Website](https://www.farsnews.ir/) | ❌ | Major news agency in Iran, providing extensive coverage on security, defense, and regional politics. |
-| خبرگزاری مهر (Mehr News) | News Agency | Iran | Persian | [Visit Website](https://www.mehrnews.com/) | [Feed](https://www.mehrnews.com/rss) | Comprehensive news agency covering culture, science, technology, and international news. |
-| دویچه وله فارسی (DW Persian) | News Website | Germany | Persian | [Visit Website](https://www.dw.com/fa-ir/) | ❌ | German public international broadcaster offering news, analysis, and reports in Persian. |
-| دیجیاتو (Digiato) | News Website | Iran | Persian | [Visit Website](https://digiato.com/) | [Feed](https://digiato.com/feed) | Leading technology news website covering gadgets, software, startups, and digital lifestyle. |
-| رادیو رنگین‌کمان (Radio Ranginkaman) | Podcast | Global | Persian | [Visit Website](https://radioranginkaman.org/) | ❌ | Broadcasting platform for the Iranian LGBTQ+ community, covering identity and rights. |
-| رادیو زمانه (Radio Zamaneh) | News Website | Netherlands | Persian | [Visit Website](https://www.radiozamaneh.com/) | ❌ | Independent media focusing on civil society, environment, and progressive politics in Iran. |
-| رادیو فردا (Radio Farda) | Podcast | Czech Republic | Persian | [Visit Website](https://www.radiofarda.com/) | ❌ | The Persian service of RFE/RL, offering independent news and cultural programming. |
-| رجانیوز (Raja News) | News Website | Iran | Persian | [Visit Website](https://www.rajanews.com/) | ❌ | A hardline conservative news site providing commentary on revolutionary policy and defense. |
-| روزنامه شرق (Shargh Daily) | Newspaper | Iran | Persian | [Visit Website](https://www.sharghdaily.com/) | [Feed](https://www.sharghdaily.com/fa/rss/allnews) | One of Iran's most influential reformist newspapers, focusing on deep-dive reporting. |
-| رویداد۲۴ (Rouydad24) | News Website | Iran | Persian | [Visit Website](https://www.rouydad24.ir/) | [Feed](https://www.rouydad24.ir/fa/rss/allnews) | Digital platform focused on political investigative reporting and domestic economic issues. |
-| زومیت (Zoomit) | News Website | Iran | Persian | [Visit Website](https://www.zoomit.ir/) | [Feed](https://www.zoomit.ir/feed/) | Premier technology media in Iran covering gadgets, AI, software reviews, and hardware specs. |
-| زیتون (Zeitoons) | News Website | Global | Persian | [Visit Website](https://zeitoons.com/) | [Feed](https://zeitoons.com/feed/) | Critical news and commentary site focusing on democratic reform and intellectual discourse. |
-| زیست آنلاین (Zist Online) | News Website | Iran | Persian | [Visit Website](https://zistonline.com/) | ❌ | Specialized platform focusing on environmental news, sustainability, and renewable energy. |
-| سازمان حقوق بشر ایران (Iran Human Rights) | Organization Portal | Norway | Persian | [Visit Website](https://iranhr.net/fa/) | ❌ | NGO reporting on the death penalty, executions, and civil rights in Iran. |
-| سایت خبری الف (Alef) | News Website | Iran | Persian | [Visit Website](https://www.alef.ir/) | ❌ | Analytical platform focusing on public policy, economic transparency, and legislative reviews. |
-| سیناپرس (Sinapress) | News Agency | Iran | Persian | [Visit Website](https://sinapress.ir/) | ❌ | Science news agency covering health, technology, physics, and medical research in Iran. |
-| شش‌رنگ (6Rang) | Organization Portal | Germany | Persian | [Visit Website](https://6rang.org/) | [Feed](https://6rang.org/feed/) | Iranian Lesbian and Transgender Network focusing on human rights and sexual freedom. |
-| شفقنا (Shafaqna) | News Agency | Global | Persian | [Visit Website](https://fa.shafaqna.com/) | [Feed](https://fa.shafaqna.com/rss) | International Shia news agency covering religious news and Islamic diplomacy. |
-| صدای آمریکا (VOA Persian) | News Website | USA | Persian | [Visit Website](https://ir.voanews.com/) | ❌ | Voice of America's Persian service, delivering US and international news to Iran. |
-| عصر ایران (Asr Iran) | News Website | Iran | Persian | [Visit Website](https://www.asriran.com/) | [Feed](https://www.asriran.com/fa/rss/allnews) | A digital news portal covering a wide spectrum of topics including politics, sports, and lifestyle. |
-| فرارو (Fararu) | News Website | Iran | Persian | [Visit Website](https://fararu.com/) | [Feed](https://fararu.com/fa/rss/allnews) | An analytical news platform focusing on political, economic, and cultural developments with a critical lens. |
-| قشقایی آنلاین (Qashqai Online) | News Website | Iran | Persian | [Visit Website](http://qashqaionline.ir/) | ❌ | Cultural and social news portal dedicated to the Qashqai nomadic community and heritage. |
-| مازندنومه (Mazandnume) | News Website | Iran | Persian | [Visit Website](http://www.mazandnume.com/) | ❌ | Local news and cultural portal specializing in the Mazandaran province and Caspian region. |
-| مشرق نیوز (Mashregh News) | News Website | Iran | Persian | [Visit Website](https://www.mashreghnews.ir/) | ❌ | Analytical news site focusing on geopolitical security, defense, and international policy. |
-| هرانا (HRANA) | News Agency | USA | Persian | [Visit Website](https://www.hra-news.org/) | [Feed](https://www.hra-news.org/feed/) | Human Rights Activists News Agency providing documentation on rights violations in Iran. |
-| هه‌نگاو (Hengaw) | Organization Portal | Norway | Kurdish | [Visit Website](https://hengaw.net/fa) | ❌ | Hengaw Organization for Human Rights monitors violations in Kurdish regions of Iran. |
-| پارسینه (Parsine) | News Website | Iran | Persian | [Visit Website](https://www.parsine.com/) | ❌ | Digital platform covering social trends, entertainment news, and political rumors. |
-| پایگاه خبری انتخاب (Entekhab) | News Website | Iran | Persian | [Visit Website](https://www.entekhab.ir/) | [Feed](https://www.entekhab.ir/fa/rss/allnews) | Prominent news outlet covering Iranian domestic politics, international relations, and social trends. |
-| پایگاه خبری جماران (Jamaran) | News Website | Iran | Persian | [Visit Website](https://www.jamaran.news/) | ❌ | Analytical portal focusing on political and social affairs, often centered on revolutionary heritage. |
-| پیوست (Peivast) | News Website | Iran | Persian | [Visit Website](https://peivast.com/) | [Feed](https://peivast.com/feed/) | Specialized news and analysis on digital economy, IT policy, and connectivity in Iran. |
-| کردپا (Kurdpa) | News Agency | Germany | Kurdish | [Visit Website](https://kurdpa.net/fa) | ❌ | Kurdistan Press Agency focusing on human rights and social news in Kurdish areas. |
-| کلمه (Kaleme) | News Website | Global | Persian | [Visit Website](https://www.kaleme.com/) | ❌ | News platform associated with the Iranian Green Movement and democratic reform efforts. |
-| کمپین حقوق بشر ایران (CHRI) | Organization Portal | USA | Persian | [Visit Website](https://persian.iranhumanrights.org/) | [Feed](https://persian.iranhumanrights.org/feed/) | Center for Human Rights in Iran providing legal analysis and reports on civil liberties. |
-| کوردستان ۲۴ (Kurdistan 24) | TV Channel | Iraq | Kurdish | [Visit Website](https://www.kurdistan24.net/fa) | ❌ | News broadcaster covering the Kurdistan region, Iraq, and broader Middle East geopolitical issues. |
-| کیهان لندن (Kayhan London) | News Website | United Kingdom | Persian | [Visit Website](https://kayhan.london/fa/) | [Feed](https://kayhan.london/fa/feed/) | Independent news outlet providing political analysis and cultural content from an exiled perspective. |
-| گوناز تی‌وی (Gunaz TV) | TV Channel | USA | Persian | [Visit Website](https://gunaz.tv/fa) | ❌ | Broadcaster focusing on news and culture related to the Azerbaijani community in Iran. |
-| گیل خبر (GilKhabar) | News Website | Iran | Persian | [Visit Website](https://gilkhabar.ir/) | ❌ | Regional news outlet focusing on northern Iran, specifically the Gilan province. |
-| یافته (Yafte News) | News Website | Iran | Persian | [Visit Website](https://yaftenews.ir/) | ❌ | Regional news outlet for the Lorestan province, covering social and urban developments. |
+| Name | Origin | Employees | Type | Website | Tags | Description |
+|------|--------|-----------|------|---------|------|-------------|
+| CodeSignal | global | 101-250 | product | [Visit Website](https://codesignal.com) | developer-tools, edtech, hr-tech | Technical assessment and interview platform used by top companies to hire developers. Founded by Armenians, headquartere... |
+| Krisp | global | 101-250 | product | [Visit Website](https://krisp.ai) | ai-ml, developer-tools, saas | AI-powered noise cancellation and voice enhancement software for calls and meetings. Armenian-founded startup with globa... |
+| PicsArt | global | +500 | product | [Visit Website](https://picsart.com) | ai-ml, design-creative, mobile-apps | A leading photo and video editing platform with AI-powered creative tools. Founded in Armenia, now a global company with... |
+| Renderforest | local | 51-100 | product | [Visit Website](https://renderforest.com) | design-creative, marketing-tech, saas | All-in-one branding platform for creating videos, logos, mockups, and websites. Based in Armenia with a global user base... |
+| ServiceTitan | global | +500 | product | [Visit Website](https://servicetitan.com) | developer-tools, saas | The leading software platform for home and commercial service businesses. Founded by Armenians, headquartered in the US,... |
+| SFL | local | 251-500 | service | [Visit Website](https://sflpro.com) | cloud, developer-tools, devops | A leading software development company providing custom engineering solutions, cloud services, and DevOps expertise to g... |
+| Teamable | global | 11-50 | product | [Visit Website](https://teamable.com) | hr-tech, saas | Employee referral and internal mobility platform that helps companies hire better through their existing talent networks... |
+| VOLO | local | 101-250 | service | [Visit Website](https://volo.global) | cloud, developer-tools, fintech | Software development and technology consulting company delivering enterprise solutions across fintech, healthtech, and d... |

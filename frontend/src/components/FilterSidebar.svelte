@@ -1,30 +1,22 @@
 <script>
   import { createEventDispatcher } from 'svelte'
   import FilterSelect from './FilterSelect.svelte'
+  import FilterCheckboxGroup from './FilterCheckboxGroup.svelte'
 
-  export let categories = []
-  export let mediaTypes = []
-  export let countries = []
-  export let languages = []
+  export let origins = []
+  export let employeeRanges = []
+  export let companyTypes = []
   export let tags = []
 
   export let filters = {
     search: '',
-    category: '',
-    type: '',
-    country: '',
-    language: '',
+    origin: [],
+    employees: [],
+    company_type: [],
     tag: '',
-    hasRss: false,
   }
-
-  export let selectedCount = 0
 
   const dispatch = createEventDispatcher()
-
-  function update(key, value) {
-    filters = { ...filters, [key]: value }
-  }
 </script>
 
 <div class="space-y-4">
@@ -53,54 +45,24 @@
       </button>
     </div>
 
-    <div class="space-y-3">
-      <FilterSelect label="Category" options={categories} bind:value={filters.category} />
-      <FilterSelect label="Media Type" options={mediaTypes} bind:value={filters.type} />
-      <FilterSelect label="Country" options={countries} bind:value={filters.country} />
-      <FilterSelect label="Language" options={languages} bind:value={filters.language} />
+    <FilterCheckboxGroup title="Origin" options={origins} bind:selected={filters.origin} />
+    <FilterCheckboxGroup title="Employees" options={employeeRanges} bind:selected={filters.employees} />
+    <FilterCheckboxGroup title="Company Type" options={companyTypes} bind:selected={filters.company_type} />
+
+    <div class="pt-2 border-t border-surface-800">
       <FilterSelect label="Tag" options={tags} bind:value={filters.tag} />
     </div>
-
-    <label class="flex items-center gap-3 cursor-pointer group py-1">
-      <div class="relative">
-        <input
-          type="checkbox"
-          class="peer sr-only"
-          checked={filters.hasRss}
-          on:change={(e) => update('hasRss', e.target.checked)}
-        />
-        <div class="w-9 h-5 rounded-full bg-surface-800 peer-checked:bg-accent-600 transition-colors relative">
-          <div class="absolute top-0.5 left-0.5 w-4 h-4 rounded-full bg-white shadow-sm transition-transform peer-checked:translate-x-4"></div>
-        </div>
-      </div>
-      <span class="text-sm text-surface-400 group-hover:text-white transition-colors">Only sources with RSS</span>
-    </label>
   </div>
 
   <!-- Export -->
   <div class="bg-surface-900 border border-surface-800 rounded-xl p-4 space-y-3">
     <h3 class="text-[11px] font-bold uppercase tracking-widest text-surface-500">Export</h3>
 
-    {#if selectedCount > 0}
-      <div class="flex items-center justify-between bg-accent-500/5 border border-accent-500/20 rounded-lg px-3 py-2">
-        <span class="text-xs text-accent-400 font-medium">{selectedCount} selected</span>
-        <button class="text-xs text-surface-500 hover:text-white transition-colors" on:click={() => dispatch('clearSelection')}>Clear</button>
-      </div>
-    {/if}
-
-    <div class="grid grid-cols-2 gap-2">
-      <button
-        class="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-surface-800 hover:bg-surface-700 text-surface-300 hover:text-white text-xs font-medium transition-all border border-surface-700"
-        on:click={() => dispatch('exportJson')}>
-        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
-        JSON
-      </button>
-      <button
-        class="inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-rss-500/10 hover:bg-rss-500/20 text-rss-400 hover:text-rss-300 text-xs font-medium transition-all border border-rss-500/20"
-        on:click={() => dispatch('exportOpml')}>
-        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-        OPML
-      </button>
-    </div>
+    <button
+      class="w-full inline-flex items-center justify-center gap-1.5 px-3 py-2 rounded-lg bg-surface-800 hover:bg-surface-700 text-surface-300 hover:text-white text-xs font-medium transition-all border border-surface-700"
+      on:click={() => dispatch('exportJson')}>
+      <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+      JSON
+    </button>
   </div>
 </div>

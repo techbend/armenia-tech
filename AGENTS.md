@@ -1,32 +1,29 @@
-# Awesome Media Catalog — Agent Guide
+# Armenia Tech Landscape — Agent Guide
 
 ## Project Overview
-A curated catalog of trusted news outlets, podcasts, YouTube channels, newsletters, and independent sources. It uses an Object-Oriented Python architecture to validate YAML content, enforce naming conventions, and generate multiple export formats (HTML, Markdown, JSON, OPML) from a single source of truth.
+A curated directory of Armenian tech companies, from local startups to global giants. It uses an Object-Oriented Python architecture to validate YAML content, enforce naming conventions, and generate multiple export formats (HTML, Markdown, JSON) from a single source of truth.
 
-**Live site:** https://tavallaie.github.io/awesome_media/
+**Live site:** https://tavallaie.github.io/armenia-tech-landscape/
 
 ## Architecture
 
 ```
 src/awesome_media/
-├── main.py              # Entry point: load -> summarize -> export
+├── main.py              # Entry point: load → summarize → export
 ├── config.py            # Paths, REQUIRED_FIELDS, ALLOWED_TAGS whitelist
 ├── loaders/
-│   └── yaml_loader.py   # Loads & validates all contents/*.yaml into Source objects
+│   └── yaml_loader.py   # Loads & validates all contents/*.yaml into Company objects
 ├── models/
-│   └── source.py        # Source dataclass with validation logic
+│   └── company.py       # Company dataclass with validation logic
 ├── exporters/
 │   ├── base.py          # Abstract BaseExporter
-│   ├── md_exporter.py   # Generates index.md (GitHub preview)
 │   ├── json_exporter.py # Generates data.json
-│   └── opml_exporter.py # Generates feeds.opml
+│   └── md_exporter.py   # Generates index.md (GitHub preview)
 └── utils/
     └── strings.py       # url_to_filename(), truncate_text()
 
 scripts/
-├── rename_mismatched_files.py  # Auto-renames YAML files to match their URLs
-├── validate_rss.py             # Network check: comments out invalid RSS feeds
-└── rss_finder.py               # Utility to discover RSS feeds for a URL
+└── rename_mismatched_files.py  # Auto-renames YAML files to match their URLs
 
 frontend/                  # Svelte + DaisyUI SPA
 ├── src/
@@ -35,7 +32,8 @@ frontend/                  # Svelte + DaisyUI SPA
 │   ├── app.css
 │   ├── components/
 │   │   ├── Card.svelte
-│   │   └── FilterSidebar.svelte
+│   │   ├── FilterSidebar.svelte
+│   │   └── FilterSelect.svelte
 │   └── lib/
 │       └── utils.js
 ├── index.html
@@ -44,7 +42,7 @@ frontend/                  # Svelte + DaisyUI SPA
 └── package.json
 
 contents/
-└── *.yaml               # One file per media source
+└── *.yaml               # One file per company
 ```
 
 ## Key Conventions & Rules
@@ -56,45 +54,29 @@ contents/
   - Strip `https://` and `www.`
   - Replace path slashes with dots
   - Examples:
-    - `https://gunaz.tv/fa` → `gunaz.tv.fa.yaml`
-    - `https://www.dw.com/fa-ir/` → `dw.com.fa-ir.yaml`
+    - `https://picsart.com` → `picsart.com.yaml`
+    - `https://krisp.ai` → `krisp.ai.yaml`
 
 ### 2. Tag Whitelisting
-Only tags listed in `config.py:ALLOWED_TAGS` are permitted. If a new tag is needed, add it to `ALLOWED_TAGS` **before** using it in a content file. Invalid tags cause the source to be skipped during build.
+Only tags listed in `config.py:ALLOWED_TAGS` are permitted. If a new tag is needed, add it to `ALLOWED_TAGS` **before** using it in a content file. Invalid tags cause the company to be skipped during build.
 
 ### 3. Required Fields
-Every YAML file must contain: `title`, `category`, `country`, `language`, `website`.
+Every YAML file must contain: `name`, `origin`, `employees`, `company_type`, `website`.
 
 ### 4. YAML Schema
 ```yaml
-title: "Source Name"
-category: "News"          # or Podcast, YouTube, Newsletter, etc.
-country: "United Kingdom"
-language: "Persian"
+name: "Company Name"
+origin: "local"              # or "global"
+employees: "11-50"           # one of: 1-10, 11-50, 51-100, 101-250, 251-500, +500
+company_type: "product"      # or "service"
 website:
-  url: "https://www.bbc.com/persian"
-  text: "Visit Website"   # optional, defaults to "Visit Website"
-media_type: "News Website" # optional, falls back to category
+  url: "https://example.com"
+  text: "Visit Website"      # optional, defaults to "Visit Website"
 description: "Short description..."
-rss_feed: "https://..."    # optional; single feed (backward compatible)
-# OR multiple feeds with optional labels:
-# rss_feed:
-#   - url: "https://example.com/fa/rss/allnews"
-#     label: "All News"
-#   - url: "https://example.com/fa/rss/politics"
-#     label: "Politics"
 tags:
-  - global
-  - politics
-  - united-kingdom
+  - ai-ml
+  - saas
 ```
-
-### 5. RSS Handling
-- `make validate-rss` performs slow network checks.
-  - **Single-string `rss_feed`:** invalid feeds are commented out in the YAML file.
-  - **List-based `rss_feed`:** invalid entries are filtered in-memory and logged; the YAML file is **not** modified.
-- Standard `make build` skips RSS validation for speed.
-- Multiple feeds per source are supported. Each feed appears as a separate entry in OPML exports, and as a dropdown in the HTML interface.
 
 ## Build System
 
@@ -102,7 +84,6 @@ tags:
 |---------|-------------|
 | `make build` | Full build (fix-names → Python exports → Svelte build) |
 | `make fix-names` | Rename YAML files to match URLs |
-| `make validate-rss` | Network check & comment out broken RSS |
 | `make serve` | Build + start local server at `localhost:8000` |
 | `make clean` | Remove `output/` directory |
 
@@ -110,18 +91,20 @@ All commands run via `uv run` (Python 3.12+).
 
 ## Validation Flow
 1. `YamlLoader.load()` iterates `contents/*.yaml`
-2. Each file is parsed and passed to `Source(file, data)`
-3. `Source.validate()` checks:
+2. Each file is parsed and passed to `Company(file, data)`
+3. `Company.validate()` checks:
    - Required fields present
    - Filename matches URL (`expected_filename`)
    - All tags are in `ALLOWED_TAGS`
-4. Invalid sources are skipped with a warning; valid sources are sorted by title
+   - `origin` is in `ALLOWED_ORIGINS`
+   - `employees` is in `ALLOWED_EMPLOYEE_RANGES`
+   - `company_type` is in `ALLOWED_COMPANY_TYPES`
+4. Invalid companies are skipped with a warning; valid companies are sorted by name
 
 ## Export Flow
 `main.py` calls exporters in sequence:
 1. `JsonExporter` → `output/data.json`
-2. `OpmlExporter` → `output/feeds.opml`
-3. `MarkdownExporter` → `index.md`
+2. `MarkdownExporter` → `index.md`
 
 Then the Svelte frontend is built to `output/`:
 - `pnpm run build` (in `frontend/`) → `output/index.html` + `output/assets/`
@@ -132,7 +115,7 @@ Then the Svelte frontend is built to `output/`:
 - **Workflow:** `.github/workflows/deploy.yml`
 - **Steps:** `uv sync` → `make build` → commit `README.md` updates → deploy `output/` to `gh-pages` branch via `peaceiris/actions-gh-pages`
 
-## Adding a New Source
+## Adding a New Company
 1. Create a YAML file in `contents/` with the correct filename (run `make fix-names` if unsure)
 2. Ensure all required fields are present and tags are whitelisted in `config.py`
 3. Run `make build` to verify
@@ -154,7 +137,7 @@ pnpm run build    # Production build to ../output
 
 ## Adding a New Exporter
 1. Create a class inheriting from `BaseExporter` in `exporters/`
-2. Implement `export(self, sources)`
+2. Implement `export(self, companies)`
 3. Register it in `main.py`
 
 ## Technology Stack
@@ -163,5 +146,4 @@ pnpm run build    # Production build to ../output
 - `jinja2` for HTML templating
 - `pyyaml` for content parsing
 - `rich` for CLI output
-- `fastfeedparser` for RSS validation
 - `beautifulsoup4` / `lxml` / `requests` for utilities

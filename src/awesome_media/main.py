@@ -5,55 +5,48 @@ from rich import print as rprint
 from awesome_media.config import OUTPUT_DIR
 from awesome_media.loaders.yaml_loader import YamlLoader
 from awesome_media.exporters.json_exporter import JsonExporter
-from awesome_media.exporters.opml_exporter import OpmlExporter
 from awesome_media.exporters.md_exporter import MarkdownExporter
-# HTML export is now handled by the Svelte frontend build
 
 console = Console()
 
 
-def show_summary(sources):
+def show_summary(companies):
     table = Table(title="Generated Summary")
-    table.add_column("Source", style="cyan")
-    table.add_column("Type", style="magenta")
-    table.add_column("Country", style="yellow")
-    table.add_column("Filename Check", justify="center")
+    table.add_column("Company", style="cyan")
+    table.add_column("Origin", style="magenta")
+    table.add_column("Employees", style="yellow")
+    table.add_column("Type", style="green")
 
-    for entry in sources[:5]:
-        feed_count = len(entry.rss_feeds)
-        rss = f"✅ {feed_count}" if feed_count > 0 else "❌"
-        c = (entry.country[:15] + "...") if len(entry.country) > 15 else entry.country
-        table.add_row(entry.title, entry.media_type, c or "-", rss)
+    for entry in companies[:5]:
+        origin = ", ".join(entry.origin) if entry.origin else "-"
+        ctype = ", ".join(entry.company_type) if entry.company_type else "-"
+        table.add_row(entry.name, origin, entry.employees, ctype)
 
-    if len(sources) > 5:
-        table.add_row(f"... and {len(sources) - 5} more", "", "", "")
+    if len(companies) > 5:
+        table.add_row(f"... and {len(companies) - 5} more", "", "", "")
     console.print(table)
 
 
 def main():
-    rprint("[bold blue]Building Awesome Media...[/bold blue]")
+    rprint("[bold blue]Building Armenia Tech Landscape...[/bold blue]")
 
     # 1. Load
     loader = YamlLoader()
-    sources = loader.load()
+    companies = loader.load()
 
-    if not sources:
-        console.print("[red]Abort:[/red] No sources found.")
+    if not companies:
+        console.print("[red]Abort:[/red] No companies found.")
         return
 
-    total_feeds = sum(len(s.rss_feeds) for s in sources)
-    console.print(f"[green]Found[/green] {len(sources)} media sources with {total_feeds} RSS feeds.\n")
+    console.print(f"[green]Found[/green] {len(companies)} companies.\n")
 
     # 2. Summary
-    show_summary(sources)
+    show_summary(companies)
     print()
 
     # 3. Export
-    # We inject OUTPUT_DIR to exporters
-    JsonExporter(OUTPUT_DIR).export(sources)
-    OpmlExporter(OUTPUT_DIR).export(sources)
-    MarkdownExporter(OUTPUT_DIR).export(sources)
-    # HTML site is built by the Svelte frontend (see frontend/ directory)
+    JsonExporter(OUTPUT_DIR).export(companies)
+    MarkdownExporter(OUTPUT_DIR).export(companies)
 
     rprint("\n[bold green]Build Complete![/bold green]")
 

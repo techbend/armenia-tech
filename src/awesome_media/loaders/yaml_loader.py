@@ -1,14 +1,14 @@
 import yaml
 from rich.console import Console
 from awesome_media.config import CONTENT_DIR
-from awesome_media.models.source import Source
+from awesome_media.models.company import Company
 
 console = Console()
 
 
 class YamlLoader:
-    def load(self, validate_rss=False):
-        sources = []
+    def load(self):
+        companies = []
         if not CONTENT_DIR.exists():
             console.print("[red]Error:[/red] 'contents' directory not found.")
             return []
@@ -26,17 +26,16 @@ class YamlLoader:
                 if not data:
                     continue
 
-                # Pass the flag here
-                source = Source(file, data, validate_rss=validate_rss)
+                company = Company(file, data)
 
-                if source.validate():
-                    sources.append(source)
+                if company.validate():
+                    companies.append(company)
                 else:
                     console.print(
-                        f"[yellow]Skipping {file.name}:[/yellow] {source.get_errors()}"
+                        f"[yellow]Skipping {file.name}:[/yellow] {company.get_errors()}"
                     )
 
             except Exception as e:
                 console.print(f"[red]Error loading {file.name}:[/red] {e}")
 
-        return sorted(sources, key=lambda x: x.title.lower())
+        return sorted(companies, key=lambda x: x.name.lower())

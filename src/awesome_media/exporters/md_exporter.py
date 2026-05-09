@@ -4,39 +4,27 @@ from awesome_media.utils.strings import truncate_text
 
 
 class MarkdownExporter(BaseExporter):
-    def export(self, sources):
-        header = """# Awesome Media Catalog
+    def export(self, companies):
+        header = """# Armenia Tech Landscape
 
-A curated catalog of trusted news outlets, podcasts, YouTube channels, newsletters, and independent sources.
+A curated directory of Armenian tech companies — from local startups to global giants.
 
-[![View Web Version](https://img.shields.io/badge/View-Web%20Version-blue)](https://tavallaie.github.io/awesome_media/)
+## 🏢 Companies
 
-## 📰 Catalog
-
-| Name | Type | Country | Language | Website | RSS | Description |
-|------|------|---------|----------|---------|-----|-------------|
+| Name | Origin | Employees | Type | Website | Tags | Description |
+|------|--------|-----------|------|---------|------|-------------|
 """
         rows = []
-        for s in sources:
+        for c in companies:
             web_link = (
-                f"[{s.website_text}]({s.website_url})" if s.website_url else "N/A"
+                f"[{c.website_text}]({c.website_url})" if c.website_url else "N/A"
             )
+            origin = ", ".join(c.origin) if c.origin else "-"
+            ctype = ", ".join(c.company_type) if c.company_type else "-"
+            tags = ", ".join(c.tags) if c.tags else "-"
+            desc = truncate_text(c.description, 120)
 
-            if s.rss_feeds:
-                links = []
-                for feed in s.rss_feeds:
-                    label = feed.get("label")
-                    if label:
-                        links.append(f"[{label}]({feed['url']})")
-                    else:
-                        links.append(f"[Feed]({feed['url']})")
-                rss_link = ", ".join(links)
-            else:
-                rss_link = "❌"
-
-            desc = truncate_text(s.description, 120)
-
-            row = f"| {s.title} | {s.media_type} | {s.country} | {s.language} | {web_link} | {rss_link} | {desc} |\n"
+            row = f"| {c.name} | {origin} | {c.employees} | {ctype} | {web_link} | {tags} | {desc} |\n"
             rows.append(row)
 
         with open(README_PATH, "w", encoding="utf-8") as f:

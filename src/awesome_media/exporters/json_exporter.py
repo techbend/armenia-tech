@@ -3,24 +3,22 @@ from awesome_media.exporters.base import BaseExporter, console
 
 
 class JsonExporter(BaseExporter):
-    def export(self, sources):
+    def export(self, companies):
         path = self.output_dir / "data.json"
         with open(path, "w", encoding="utf-8") as f:
             json.dump(
-                [self._serialize(s) for s in sources], f, indent=2, ensure_ascii=False
+                [self._serialize(c) for c in companies], f, indent=2, ensure_ascii=False
             )
-        console.print(f"[green]✓[/green] Exported {len(sources)} sources to data.json")
+        console.print(f"[green]✓[/green] Exported {len(companies)} companies to data.json")
 
-    def _serialize(self, source):
+    def _serialize(self, company):
         return {
-            "title": source.title,
-            "category": source.category,
-            "media_type": source.media_type,
-            "country": source.country,
-            "language": source.language,
-            "description": source.description,
-            "website_url": source.website_url,
-            "rss_url": source.rss_url,
-            "rss_feeds": source.rss_feeds,
-            "tags": source.tags,
+            "name": company.name,
+            "origin": company.origin,
+            "employees": company.employees,
+            "company_type": company.company_type,
+            "description": company.description,
+            "website_url": company.website_url,
+            "website_text": company.website_text,
+            "tags": company.tags,
         }
