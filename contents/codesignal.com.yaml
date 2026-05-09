@@ -1,0 +1,11 @@
+name: "CodeSignal"
+origin: "global"
+employees: "101-250"
+company_type: "product"
+website:
+  url: "https://codesignal.com"
+description: "Technical assessment and interview platform used by top companies to hire developers. Founded by Armenians, headquartered in the US."
+tags:
+  - developer-tools
+  - edtech
+  - hr-tech

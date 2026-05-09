@@ -1,0 +1,11 @@
+name: "PicsArt"
+origin: "global"
+employees: "+500"
+company_type: "product"
+website:
+  url: "https://picsart.com"
+description: "A leading photo and video editing platform with AI-powered creative tools. Founded in Armenia, now a global company with millions of users worldwide."
+tags:
+  - mobile-apps
+  - design-creative
+  - ai-ml

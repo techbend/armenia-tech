@@ -1,0 +1,11 @@
+name: "Krisp"
+origin: "global"
+employees: "101-250"
+company_type: "product"
+website:
+  url: "https://krisp.ai"
+description: "AI-powered noise cancellation and voice enhancement software for calls and meetings. Armenian-founded startup with global reach."
+tags:
+  - ai-ml
+  - developer-tools
+  - saas

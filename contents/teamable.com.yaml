@@ -1,0 +1,10 @@
+name: "Teamable"
+origin: "global"
+employees: "11-50"
+company_type: "product"
+website:
+  url: "https://teamable.com"
+description: "Employee referral and internal mobility platform that helps companies hire better through their existing talent networks. Armenian-founded."
+tags:
+  - hr-tech
+  - saas

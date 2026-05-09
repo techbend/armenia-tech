@@ -1,0 +1,10 @@
+name: "ServiceTitan"
+origin: "global"
+employees: "+500"
+company_type: "product"
+website:
+  url: "https://servicetitan.com"
+description: "The leading software platform for home and commercial service businesses. Founded by Armenians, headquartered in the US, serving thousands of contractors."
+tags:
+  - saas
+  - developer-tools

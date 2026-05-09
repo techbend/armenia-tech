@@ -1,0 +1,11 @@
+name: "SFL"
+origin: "local"
+employees: "251-500"
+company_type: "service"
+website:
+  url: "https://sflpro.com"
+description: "A leading software development company providing custom engineering solutions, cloud services, and DevOps expertise to global clients."
+tags:
+  - developer-tools
+  - cloud
+  - devops
