@@ -37,7 +37,7 @@ jobs:
       - name: Install Python dependencies
         run: uv sync
 
-      # ─── Node / pnpm (via corepack, no extra action needed) ───
+      # ─── Node / pnpm ───
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -49,16 +49,12 @@ jobs:
           corepack prepare pnpm@latest --activate
           pnpm --version
 
-      - name: Install frontend dependencies
-        run: cd frontend && pnpm install
-
-      # ─── Generate data (YAML → JSON / Markdown) ───
-      - name: Fix filenames & export data
+      # ─── Build: YAML → JSON / Markdown + Svelte frontend ───
+      - name: Export data
         run: uv run make data
 
-      # ─── Build frontend ───
-      - name: Build Svelte site
-        run: cd frontend && pnpm run build
+      - name: Build Svelte frontend
+        run: uv run make site
 
       # ─── Commit updated README / index.md back to main ───
       - name: Commit generated files
