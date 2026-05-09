@@ -1,0 +1,15 @@
+name: AITARGET TECH
+origin: global
+employees: 51-100
+company_type: product
+website:
+  url: https://aitarget.tech/
+description: A marketing technology company specializing in ad automation and performance
+  optimization tools.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/aitarget/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:11:43.669416+00:00'

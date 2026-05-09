@@ -3,7 +3,12 @@ origin: ''
 employees: ''
 company_type: service
 website:
-  url: ''
-description: ''
+  url: https://codialog.com/
+description: A software development firm providing custom IT solutions and consulting.
 tags:
 - service-providers
+links:
+- url: https://www.linkedin.com/company/codialog/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.238903+00:00'

@@ -1,0 +1,17 @@
+name: DIGITAIN
+origin: local
+employees: '+500'
+company_type: product
+website:
+  url: https://digitain.com
+description: Digitain is a global leader in providing sportsbook and casino platform
+  solutions for the iGaming industry.
+tags:
+- gambling
+links:
+- url: https://www.linkedin.com/company/digitain
+  type: linkedin
+- url: https://digitain.com/careers
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:38:08.825272+00:00'

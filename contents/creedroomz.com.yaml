@@ -1,0 +1,14 @@
+name: CREEDROOMZ
+origin: local
+employees: 101-250
+company_type: product
+website:
+  url: https://creedroomz.com/
+description: A leading provider of live casino software and gaming solutions.
+tags:
+- gambling
+links:
+- url: https://www.linkedin.com/company/creedroomz/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.260917+00:00'

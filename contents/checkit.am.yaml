@@ -1,0 +1,15 @@
+name: CHECK IT
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://checkit.am/
+description: A software testing and quality assurance company specializing in manual
+  and automated verification services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/check-it-am/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.224167+00:00'

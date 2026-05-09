@@ -1,0 +1,17 @@
+name: BUYMIE
+origin: global
+employees: 51-100
+company_type: product
+website:
+  url: https://buymie.eu/
+description: A grocery delivery technology company connecting shoppers with personal
+  shoppers in real-time.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/buymie/
+  type: linkedin
+- url: https://buymie.eu/careers/
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:23:41.218809+00:00'

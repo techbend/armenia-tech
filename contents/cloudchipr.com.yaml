@@ -1,0 +1,15 @@
+name: CLOUDCHIPR
+origin: global
+employees: 11-50
+company_type: product
+website:
+  url: https://cloudchipr.com/
+description: A cloud management and optimization platform that helps organizations
+  reduce cloud infrastructure costs.
+tags:
+- developer-tools-cloud
+links:
+- url: https://www.linkedin.com/company/cloudchipr/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.230426+00:00'

@@ -3,7 +3,13 @@ origin: ''
 employees: ''
 company_type: ''
 website:
-  url: ''
-description: ''
+  url: https://www.bluip.com/
+description: BLUIP, Inc. provides enterprise-level telecommunications and unified
+  communications solutions.
 tags:
 - fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/bluip-inc/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.207128+00:00'

@@ -1,0 +1,12 @@
+name: AMAROS AI
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://amaros.ai/
+description: A healthtech company leveraging AI to provide medical imaging and diagnostic
+  insights.
+tags:
+- healthtech
+_meta:
+  checked_at: '2026-05-09T23:11:43.675110+00:00'

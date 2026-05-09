@@ -1,0 +1,14 @@
+name: COSYSOFT
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://cosysoft.com/
+description: A provider of custom software development services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/cosysoft/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.251265+00:00'

@@ -4,6 +4,9 @@ employees: ''
 company_type: service
 website:
   url: ''
-description: ''
+description: A service provider focused on collaboration software and IT consulting
+  solutions.
 tags:
 - service-providers
+_meta:
+  checked_at: '2026-05-09T23:23:41.244352+00:00'

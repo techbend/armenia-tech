@@ -1,0 +1,15 @@
+name: CLAIMLEADER
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://claimleader.com/
+description: A platform specializing in the automation and management of insurance
+  claims processes.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/claimleader/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.228374+00:00'

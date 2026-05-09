@@ -1,0 +1,14 @@
+name: CYBER LABS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://cyberlabs.ai
+description: An IT security and development services company.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/cyberlabs-ai
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:38:08.785941+00:00'

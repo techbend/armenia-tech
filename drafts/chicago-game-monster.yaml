@@ -4,6 +4,9 @@ employees: ''
 company_type: product
 website:
   url: ''
-description: ''
+description: A game development company focused on creating interactive entertainment
+  experiences.
 tags:
 - gamedev-ar-vr
+_meta:
+  checked_at: '2026-05-09T23:23:41.225275+00:00'

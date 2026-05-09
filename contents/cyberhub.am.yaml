@@ -1,0 +1,14 @@
+name: CYBERHUB-AM
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: https://cyberhub.am
+description: An Armenian initiative focused on digital safety and cybersecurity awareness.
+tags:
+- cybersecurity
+links:
+- url: https://www.linkedin.com/company/cyberhubam
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:38:08.790766+00:00'

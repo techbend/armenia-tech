@@ -1,0 +1,16 @@
+name: DAS META
+origin: global
+employees: 11-50
+company_type: service
+website:
+  url: https://dasmeta.com
+description: A cloud and DevOps consulting company helping businesses scale infrastructure.
+tags:
+- developer-tools-cloud
+links:
+- url: https://www.linkedin.com/company/dasmeta
+  type: linkedin
+- url: https://dasmeta.com/careers
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:38:08.797524+00:00'

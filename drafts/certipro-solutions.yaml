@@ -3,7 +3,13 @@ origin: local
 employees: ''
 company_type: service
 website:
-  url: ''
-description: ''
+  url: https://certipro.com/
+description: A provider of ERP and business integration solutions focusing on Sage
+  and manufacturing software.
 tags:
 - service-providers
+links:
+- url: https://www.linkedin.com/company/certipro-solutions/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.223099+00:00'

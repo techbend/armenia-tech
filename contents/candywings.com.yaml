@@ -1,0 +1,15 @@
+name: CANDY WINGS
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://candywings.com/
+description: A game development studio focused on creating engaging casual and social
+  games.
+tags:
+- gambling
+links:
+- url: https://www.linkedin.com/company/candy-wings/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.219967+00:00'

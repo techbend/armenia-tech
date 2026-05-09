@@ -1,0 +1,15 @@
+name: ANIV
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://aniv.app/
+description: A software company providing specialized management systems for the hospitality
+  and rental industries.
+tags:
+- lifetime-on-demand-hospitality
+links:
+- url: https://www.linkedin.com/company/aniv-app/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:11:43.677979+00:00'

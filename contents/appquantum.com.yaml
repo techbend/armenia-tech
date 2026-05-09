@@ -1,0 +1,17 @@
+name: APPQUANTUM
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://appquantum.com/
+description: A mobile game publisher specializing in the production and marketing
+  of casual and mid-core games.
+tags:
+- gamedev-ar-vr
+links:
+- url: https://www.linkedin.com/company/appquantum/
+  type: linkedin
+- url: https://appquantum.com/jobs/
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:11:43.684959+00:00'

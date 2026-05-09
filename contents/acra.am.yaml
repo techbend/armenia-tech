@@ -1,0 +1,15 @@
+name: ACRA CREDIT REPORTING
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://acra.am/
+description: Armenia's national credit bureau providing credit history reporting and
+  risk management services.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/acra-credit-reporting/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:11:43.659550+00:00'

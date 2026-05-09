@@ -1,0 +1,15 @@
+name: BUY.AM
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://buy.am/
+description: A leading e-commerce platform in Armenia offering a wide range of retail
+  products.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/buy-am/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.217752+00:00'

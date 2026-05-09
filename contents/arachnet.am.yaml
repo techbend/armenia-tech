@@ -1,0 +1,11 @@
+name: ARACHNET LLC
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: https://arachnet.am/
+description: An IT company providing networking solutions and custom software development.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T23:11:43.686945+00:00'

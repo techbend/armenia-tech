@@ -1,0 +1,14 @@
+name: CREATIVELAB
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://creativelab.am/
+description: A digital agency providing design and marketing services.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/creativelab-am/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.258477+00:00'

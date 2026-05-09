@@ -1,0 +1,17 @@
+name: ALISON
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://alison.com/
+description: A global online learning platform providing free certificate and diploma
+  courses.
+tags:
+- hr-tech-edtech
+links:
+- url: https://www.linkedin.com/company/alison-courses/
+  type: linkedin
+- url: https://alison.com/about/careers
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:11:43.671251+00:00'

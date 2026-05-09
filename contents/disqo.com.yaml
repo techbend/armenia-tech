@@ -1,0 +1,17 @@
+name: DISQO
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://disqo.com
+description: DISQO is an insights platform that provides data and analytics to help
+  brands measure brand lift and customer sentiment.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/disqo
+  type: linkedin
+- url: https://disqo.com/careers
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:40:30.183681+00:00'

@@ -1,0 +1,14 @@
+name: APARG TECHNOLOGIES
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://aparg.com/
+description: A software development company offering custom mobile and web solutions.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/aparg/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:11:43.681992+00:00'

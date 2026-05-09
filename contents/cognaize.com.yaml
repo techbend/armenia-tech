@@ -1,0 +1,17 @@
+name: COGNAIZE
+origin: global
+employees: 251-500
+company_type: product
+website:
+  url: https://cognaize.com/
+description: An AI-powered financial data automation platform helping companies process
+  unstructured financial documents.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/cognaize/
+  type: linkedin
+- url: https://cognaize.com/careers/
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:23:41.241030+00:00'

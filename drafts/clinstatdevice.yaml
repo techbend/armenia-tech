@@ -4,6 +4,9 @@ employees: ''
 company_type: service
 website:
   url: ''
-description: ''
+description: A provider of consulting and technical services for clinical research
+  and medical devices.
 tags:
 - service-providers
+_meta:
+  checked_at: '2026-05-09T23:23:41.229447+00:00'

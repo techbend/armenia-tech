@@ -1,0 +1,12 @@
+name: ARMED
+origin: local
+employees: '+500'
+company_type: product
+website:
+  url: https://armed.am/
+description: ArMed is the national digital health system of Armenia, facilitating
+  patient data management, appointment booking, and healthcare service automation.
+tags:
+- healthtech
+_meta:
+  checked_at: '2026-05-09T23:11:43.696422+00:00'

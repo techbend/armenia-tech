@@ -1,0 +1,17 @@
+name: A1
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://www.a1.am/
+description: A leading telecommunications provider in Armenia offering mobile, fixed,
+  and digital services.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/a1-armenia/
+  type: linkedin
+- url: https://www.a1.am/en/career
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:11:43.653888+00:00'

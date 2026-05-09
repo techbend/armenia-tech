@@ -4,6 +4,8 @@ employees: 1-10
 company_type: service
 website:
   url: ''
-description: ''
+description: A cybersecurity consulting and services firm.
 tags:
 - cybersecurity
+_meta:
+  checked_at: '2026-05-09T23:38:08.819595+00:00'

@@ -1,0 +1,11 @@
+name: ARCTIC FOX TECH
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: https://arcticfox.tech/
+description: An IT consultancy providing web and software development services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T23:11:43.690626+00:00'

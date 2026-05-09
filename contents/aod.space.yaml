@@ -1,0 +1,12 @@
+name: AOD.SPACE
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: https://aod.space/
+description: A creative and technical agency specializing in web development and digital
+  experiences.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T23:11:43.680014+00:00'

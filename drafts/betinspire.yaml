@@ -4,6 +4,9 @@ employees: 11-50
 company_type: product
 website:
   url: ''
-description: ''
+description: Betinspire is an iGaming technology supplier based in Yerevan, focused
+  on platform software for multi-brand operators.
 tags:
 - gambling
+_meta:
+  checked_at: '2026-05-09T23:18:44.073936+00:00'

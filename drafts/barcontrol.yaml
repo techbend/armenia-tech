@@ -3,7 +3,10 @@ origin: local
 employees: ''
 company_type: product
 website:
-  url: ''
-description: ''
+  url: https://www.barcontrol.am
+description: BarControl provides inventory management software tailored for bars and
+  restaurants to automate stock monitoring and reduce waste.
 tags:
 - lifetime-on-demand-hospitality
+_meta:
+  checked_at: '2026-05-09T23:18:44.066298+00:00'

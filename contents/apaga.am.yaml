@@ -1,0 +1,15 @@
+name: APAGA TECHNOLOGIES
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: https://apaga.am/
+description: A cybersecurity and IT infrastructure services company providing security
+  audits and management.
+tags:
+- cybersecurity
+links:
+- url: https://www.linkedin.com/company/apaga-technologies/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:11:43.680955+00:00'

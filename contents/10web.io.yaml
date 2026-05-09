@@ -1,0 +1,17 @@
+name: 10WEB
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://10web.io/
+description: An AI-powered WordPress platform that automates website building, hosting,
+  and performance optimization.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/10web/
+  type: linkedin
+- url: https://10web.io/careers/
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:11:43.647037+00:00'

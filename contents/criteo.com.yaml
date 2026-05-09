@@ -1,0 +1,17 @@
+name: CRITEO
+origin: global
+employees: 51-100
+company_type: product
+website:
+  url: https://www.criteo.com
+description: Criteo is a global technology company providing a commerce media platform
+  for marketers and media owners.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/criteo
+  type: linkedin
+- url: https://careers.criteo.com
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:38:08.781798+00:00'

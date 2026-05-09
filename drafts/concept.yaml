@@ -3,7 +3,13 @@ origin: local
 employees: ''
 company_type: service
 website:
-  url: ''
-description: ''
+  url: https://concept.am/
+description: A creative digital agency providing web development, design, and marketing
+  services.
 tags:
 - service-providers
+links:
+- url: https://www.linkedin.com/company/concept-studio/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.246411+00:00'

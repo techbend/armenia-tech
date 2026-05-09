@@ -1,0 +1,12 @@
+name: ANIMPIC
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://animpic.com/
+description: A creative studio focused on animation, 3D design, and AR/VR development
+  services.
+tags:
+- gamedev-ar-vr
+_meta:
+  checked_at: '2026-05-09T23:11:43.676998+00:00'

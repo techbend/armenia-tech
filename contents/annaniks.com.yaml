@@ -1,0 +1,15 @@
+name: ANNANIKS LLC
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://annaniks.com/
+description: A software development company providing web and mobile app engineering
+  services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/annaniks/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:11:43.678998+00:00'

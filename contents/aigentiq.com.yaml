@@ -1,0 +1,15 @@
+name: AIGENTIQ
+origin: global
+employees: 1-10
+company_type: product
+website:
+  url: https://aigentiq.com/
+description: An AI-focused technology company providing intelligent solutions for
+  enterprise automation.
+tags:
+- developer-tools-cloud
+links:
+- url: https://www.linkedin.com/company/aigentiq/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:11:43.666420+00:00'

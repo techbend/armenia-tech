@@ -1,9 +1,12 @@
 name: AXELLECT
-origin: ''
+origin: global
 employees: ''
-company_type: ''
+company_type: service
 website:
-  url: ''
-description: ''
+  url: https://axellect.am
+description: Axellect provides digital transformation services, including IT strategy,
+  custom software development, and AI-driven business solutions.
 tags:
 - service-providers
+_meta:
+  checked_at: '2026-05-09T23:18:44.058664+00:00'

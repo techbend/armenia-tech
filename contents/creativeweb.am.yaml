@@ -1,0 +1,14 @@
+name: CREATIVE WEB
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://creativeweb.am/
+description: A web development and design agency.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/creative-web-armenia/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.256803+00:00'

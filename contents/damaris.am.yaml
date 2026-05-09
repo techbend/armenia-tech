@@ -1,0 +1,14 @@
+name: DAMARIS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://damaris.am
+description: A technology services and software development provider.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/damaris-llc
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:38:08.794619+00:00'

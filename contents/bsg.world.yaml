@@ -1,0 +1,14 @@
+name: BSG IT GROUP
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://bsg.world/
+description: A global provider of communication and messaging solutions for businesses.
+tags:
+- gambling
+links:
+- url: https://www.linkedin.com/company/bsg-it-group/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.216585+00:00'

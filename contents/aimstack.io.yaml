@@ -1,0 +1,15 @@
+name: AIMSTACK (EX AIMHUB)
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://aimstack.io/
+description: An open-source platform providing observability and experiment tracking
+  for AI development.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/aimstack/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:11:43.668409+00:00'

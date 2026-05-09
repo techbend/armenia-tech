@@ -1,9 +1,11 @@
 name: AKTRADE SOFT
 origin: ''
 employees: ''
-company_type: ''
+company_type: service
 website:
   url: ''
 description: ''
 tags:
 - service-providers
+_meta:
+  checked_at: '2026-05-09T23:11:43.670404+00:00'

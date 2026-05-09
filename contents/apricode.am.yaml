@@ -1,0 +1,11 @@
+name: APRICODE WEB LAB
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: https://apricode.am/
+description: A web development studio focusing on custom websites and digital solutions.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T23:11:43.686006+00:00'

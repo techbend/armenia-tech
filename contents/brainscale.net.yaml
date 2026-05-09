@@ -1,0 +1,15 @@
+name: BRAINSCALE
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://brainscale.net/
+description: A technology services company providing software engineering and product
+  development.
+tags:
+- developer-tools-cloud
+links:
+- url: https://www.linkedin.com/company/brainscale/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.212969+00:00'

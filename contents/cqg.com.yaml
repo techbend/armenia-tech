@@ -1,0 +1,17 @@
+name: CQG
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.cqg.com/
+description: A global provider of high-performance trade routing, global market data,
+  and advanced technical analysis tools.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/cqg-inc/
+  type: linkedin
+- url: https://www.cqg.com/careers
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:23:41.252307+00:00'

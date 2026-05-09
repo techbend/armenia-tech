@@ -4,6 +4,9 @@ employees: ''
 company_type: service
 website:
   url: ''
-description: ''
+description: An IT services company focused on software development and technical
+  consulting.
 tags:
 - service-providers
+_meta:
+  checked_at: '2026-05-09T23:11:43.661664+00:00'

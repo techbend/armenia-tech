@@ -3,7 +3,10 @@ origin: local
 employees: ''
 company_type: service
 website:
-  url: ''
-description: ''
+  url: https://ayotech.am/
+description: Ayotech is an Armenian IT company specializing in website development,
+  mobile applications, and end-to-end e-commerce solutions.
 tags:
 - e-commerce-marketing-adtech
+_meta:
+  checked_at: '2026-05-09T23:18:44.062059+00:00'

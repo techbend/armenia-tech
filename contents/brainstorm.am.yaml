@@ -1,0 +1,15 @@
+name: BRAINSTORM TECHNOLOGIES
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://brainstorm.am/
+description: A technology services firm providing specialized IT consulting and custom
+  software development.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/brainstorm-technologies/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.214269+00:00'

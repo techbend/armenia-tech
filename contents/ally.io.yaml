@@ -1,0 +1,14 @@
+name: ALLY INC.
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://ally.io/
+description: A goal-setting and OKR tracking software platform (acquired by Microsoft).
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/ally-io/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:11:43.672295+00:00'

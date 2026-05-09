@@ -1,0 +1,17 @@
+name: COHESITY
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.cohesity.com/
+description: A leader in data security and management that simplifies data management
+  and protection.
+tags:
+- developer-tools-cloud
+links:
+- url: https://www.linkedin.com/company/cohesity/
+  type: linkedin
+- url: https://www.cohesity.com/careers/
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:23:41.242207+00:00'

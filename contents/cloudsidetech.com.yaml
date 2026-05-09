@@ -1,0 +1,15 @@
+name: CLOUDSIDETECH
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://cloudsidetech.com/
+description: A technology company providing specialized software development and IT
+  infrastructure services.
+tags:
+- gambling
+links:
+- url: https://www.linkedin.com/company/cloudsidetech/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.231564+00:00'

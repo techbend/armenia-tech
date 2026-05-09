@@ -1,0 +1,17 @@
+name: ADJARABET
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://www.adjarabet.am/
+description: A major online gambling and sports betting platform operating in the
+  Caucasus region.
+tags:
+- gambling
+links:
+- url: https://www.linkedin.com/company/adjarabet/
+  type: linkedin
+- url: https://www.adjarabet.am/careers
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:11:43.662539+00:00'

@@ -3,7 +3,13 @@ origin: local
 employees: ''
 company_type: product
 website:
-  url: ''
-description: ''
+  url: https://bookamed.com/
+description: A health-tech platform connecting healthcare professionals with medical
+  facilities for staffing solutions.
 tags:
 - hr-tech-edtech
+links:
+- url: https://www.linkedin.com/company/bookamed/
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T23:23:41.210965+00:00'

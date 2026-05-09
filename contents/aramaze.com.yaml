@@ -1,0 +1,12 @@
+name: ARAMAZE LLC
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: https://aramaze.com/
+description: A technology consultancy providing custom software solutions and development
+  services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T23:11:43.688726+00:00'

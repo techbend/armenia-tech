@@ -1,0 +1,17 @@
+name: EASYDMARC
+origin: local
+employees: 101-250
+company_type: product
+website:
+  url: https://easydmarc.com
+description: EasyDMARC is a cloud-based cybersecurity solution that helps organizations
+  protect their email domains and prevent phishing attacks.
+tags:
+- cybersecurity
+links:
+- url: https://www.linkedin.com/company/easydmarc
+  type: linkedin
+- url: https://easydmarc.com/careers
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:40:30.201081+00:00'

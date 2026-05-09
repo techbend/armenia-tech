@@ -1,0 +1,17 @@
+name: ACCUSOFT
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://www.accusoft.com/
+description: A software company providing document imaging, data extraction, and workflow
+  automation solutions.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/accusoft/
+  type: linkedin
+- url: https://www.accusoft.com/about/careers/
+  type: careers
+_meta:
+  checked_at: '2026-05-09T23:11:43.658362+00:00'
