@@ -451,9 +451,11 @@ def main():
                                 web = updated_data.get("website", {})
                                 url = web.get("url", "") if isinstance(web, dict) else web
                                 expected = url_to_filename(url)
-                                target = contents_dir / expected
+                                target_name = expected if expected else path.name
+                                target = contents_dir / target_name
                                 if target.exists():
-                                    console.print(f"[yellow]Exists:[/yellow] {path.name} → {target.name}")
+                                    console.print(f"[yellow]Exists:[/yellow] {path.name} → {target.name} (deleting draft)")
+                                    path.unlink()
                                 else:
                                     path.rename(target)
                                     path = target
