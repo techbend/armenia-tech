@@ -1,0 +1,9 @@
+name: "PINCAT NETWORKS"
+origin: "local"
+employees: "1-10"
+company_type: "service"
+website:
+  url: ""  # TODO: add company website
+description: ""  # TODO: add description
+tags:
+  - cybersecurity

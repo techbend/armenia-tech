@@ -4,7 +4,12 @@ employees: "+500"
 company_type: "product"
 website:
   url: "https://servicetitan.com"
+links:
+  - url: "https://www.linkedin.com/company/servicetitan/"
+    type: "linkedin"
+  - url: "https://www.servicetitan.com/careers"
+    type: "careers"
 description: "The leading software platform for home and commercial service businesses. Founded by Armenians, headquartered in the US, serving thousands of contractors."
 tags:
-  - saas
-  - developer-tools
+  - developer-tools-cloud
+  - other-product-companies

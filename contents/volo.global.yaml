@@ -6,6 +6,6 @@ website:
   url: "https://volo.global"
 description: "Software development and technology consulting company delivering enterprise solutions across fintech, healthtech, and data analytics."
 tags:
-  - developer-tools
-  - cloud
-  - fintech
+  - fintech-blockchain
+  - healthtech
+  - service-providers

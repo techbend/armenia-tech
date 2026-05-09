@@ -4,8 +4,11 @@ employees: "51-100"
 company_type: "product"
 website:
   url: "https://renderforest.com"
+links:
+  - url: "https://www.linkedin.com/company/renderforest/"
+    type: "linkedin"
 description: "All-in-one branding platform for creating videos, logos, mockups, and websites. Based in Armenia with a global user base."
 tags:
-  - design-creative
-  - saas
-  - marketing-tech
+  - media-photo-video-audio-voip
+  - e-commerce-marketing-adtech
+  - other-product-companies

@@ -1,0 +1,9 @@
+name: "SPARTECH CJSC"
+origin: "local"
+employees: "1-10"
+company_type: "product"
+website:
+  url: ""  # TODO: add company website
+description: ""  # TODO: add description
+tags:
+  - cybersecurity

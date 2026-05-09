@@ -4,8 +4,13 @@ employees: "101-250"
 company_type: "product"
 website:
   url: "https://codesignal.com"
+links:
+  - url: "https://www.linkedin.com/company/codesignal/"
+    type: "linkedin"
+  - url: "https://codesignal.com/careers"
+    type: "careers"
 description: "Technical assessment and interview platform used by top companies to hire developers. Founded by Armenians, headquartered in the US."
 tags:
-  - developer-tools
-  - edtech
-  - hr-tech
+  - developer-tools-cloud
+  - hr-tech-edtech
+  - other-product-companies

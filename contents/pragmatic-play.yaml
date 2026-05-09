@@ -1,0 +1,9 @@
+name: "PRAGMATIC PLAY"
+origin: "global"
+employees: "1-10"
+company_type: "product"
+website:
+  url: ""  # TODO: add company website
+description: ""  # TODO: add description
+tags:
+  - gambling

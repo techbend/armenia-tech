@@ -1,0 +1,9 @@
+name: "TEAMVIEWER"
+origin: "global"
+employees: "101-250"
+company_type: "product"
+website:
+  url: ""  # TODO: add company website
+description: ""  # TODO: add description
+tags:
+  - developer-tools-cloud

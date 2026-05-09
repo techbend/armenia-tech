@@ -1,0 +1,9 @@
+name: "B.I.G. (BSG IT GROUP)"
+origin: "local"
+employees: "11-50"
+company_type: "service"
+website:
+  url: ""  # TODO: add company website
+description: ""  # TODO: add description
+tags:
+  - gambling

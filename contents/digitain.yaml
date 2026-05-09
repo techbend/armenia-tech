@@ -1,0 +1,9 @@
+name: "DIGITAIN"
+origin: "local"
+employees: "+500"
+company_type: "product"
+website:
+  url: ""  # TODO: add company website
+description: ""  # TODO: add description
+tags:
+  - gambling

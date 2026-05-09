@@ -1,0 +1,9 @@
+name: "TELCELL"
+origin: "local"
+employees: "251-500"
+company_type: "product"
+website:
+  url: ""  # TODO: add company website
+description: ""  # TODO: add description
+tags:
+  - fintech-blockchain

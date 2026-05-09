@@ -4,8 +4,12 @@ employees: "+500"
 company_type: "product"
 website:
   url: "https://picsart.com"
+links:
+  - url: "https://www.linkedin.com/company/picsart/"
+    type: "linkedin"
+  - url: "https://picsart.com/careers"
+    type: "careers"
 description: "A leading photo and video editing platform with AI-powered creative tools. Founded in Armenia, now a global company with millions of users worldwide."
 tags:
-  - mobile-apps
-  - design-creative
-  - ai-ml
+  - media-photo-video-audio-voip
+  - other-product-companies
