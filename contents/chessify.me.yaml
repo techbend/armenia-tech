@@ -1,0 +1,15 @@
+name: CHESSIFY
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://chessify.me
+description: A comprehensive chess platform providing cloud-based engine analysis,
+  grandmaster-level preparation tools, and tournament management.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/chessify
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:50:35.116450+00:00'

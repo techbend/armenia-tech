@@ -1,0 +1,15 @@
+name: INSTIGATE DESIGN
+origin: local
+employees: 101-250
+company_type: service
+website:
+  url: https://instigatedesign.com
+description: A software engineering company focused on microchip design services and
+  software development.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/instigate-design
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:01:11.159367+00:00'

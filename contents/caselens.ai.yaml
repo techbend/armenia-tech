@@ -1,0 +1,12 @@
+name: CASELENS
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://caselens.ai
+description: An AI-powered legal technology platform designed to streamline case analysis
+  and document review for legal professionals.
+tags:
+- other-product-companies
+_meta:
+  checked_at: '2026-05-09T18:50:35.106615+00:00'

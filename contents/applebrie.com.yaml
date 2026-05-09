@@ -1,0 +1,12 @@
+name: APPLEBRIE
+origin: global
+employees: 11-50
+company_type: product
+website:
+  url: https://applebrie.com
+description: An international fintech company providing CRM and exchange software
+  for the financial services sector.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:20:55.419417+00:00'

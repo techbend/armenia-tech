@@ -1,0 +1,15 @@
+name: GRAFIT
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://grafitart.com
+description: A creative studio providing professional art and asset creation for the
+  global game development industry.
+tags:
+- gamedev-ar-vr
+links:
+- url: https://www.linkedin.com/company/grafitart
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.642446+00:00'

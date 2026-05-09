@@ -1,0 +1,15 @@
+name: AKNA
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://akna.io
+description: A nearshore IT consulting company specializing in AI/ML, cloud engineering,
+  and DevOps with offices in Yerevan and Berlin.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/akna-llc
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:18:10.625691+00:00'

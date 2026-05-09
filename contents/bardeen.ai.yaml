@@ -1,0 +1,15 @@
+name: BARDEEN
+origin: global
+employees: 51-100
+company_type: product
+website:
+  url: https://bardeen.ai
+description: An AI-powered automation platform that integrates with browsers to streamline
+  workflows and repetitive tasks.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/bardeen-ai
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:24:00.510654+00:00'

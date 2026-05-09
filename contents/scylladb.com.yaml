@@ -1,0 +1,14 @@
+name: SCYLLA
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://scylladb.com
+description: A global database technology company with engineering operations in Armenia.
+tags:
+- media-photo-video-audio-voip
+links:
+- url: https://www.linkedin.com/company/scylla-db
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:16:33.714660+00:00'

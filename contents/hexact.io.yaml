@@ -1,0 +1,15 @@
+name: HEXACT
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://hexact.io
+description: A SaaS company providing web scraping, data extraction, and automation
+  tools.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/hexact
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.667681+00:00'

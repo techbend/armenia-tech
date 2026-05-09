@@ -1,0 +1,15 @@
+name: DASARAN
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://dasaran.am
+description: An Armenian educational technology platform digitizing school management,
+  assessment, and student progress tracking.
+tags:
+- hr-tech-edtech
+links:
+- url: https://www.linkedin.com/company/dasaran
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:53:39.121209+00:00'

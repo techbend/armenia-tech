@@ -1,0 +1,11 @@
+name: LABZ.AI
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: https://labz.ai
+description: An AI solutions provider focused on business automation and smart tools.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:05:08.386707+00:00'

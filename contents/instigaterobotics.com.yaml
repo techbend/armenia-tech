@@ -1,0 +1,15 @@
+name: INSTIGATE ROBOTICS
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://instigaterobotics.com
+description: A company specializing in hardware design, robotics, and industrial automation
+  solutions.
+tags:
+- hardware-eda
+links:
+- url: https://www.linkedin.com/company/instigate-robotics
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:01:11.160477+00:00'

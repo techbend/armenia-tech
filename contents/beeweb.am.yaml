@@ -1,0 +1,15 @@
+name: BEE WEB SYSTEMS
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://beeweb.am
+description: A custom software development company offering web, mobile, and cloud-based
+  engineering solutions.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/beeweb
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:24:00.512689+00:00'

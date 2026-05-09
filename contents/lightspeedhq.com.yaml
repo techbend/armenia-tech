@@ -1,0 +1,15 @@
+name: LIGHTSPEED / ECWID
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.lightspeedhq.com
+description: A global commerce platform with an engineering and operations presence
+  in Armenia.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/lightspeed-hq
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:05:08.398932+00:00'

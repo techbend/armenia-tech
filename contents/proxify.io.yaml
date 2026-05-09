@@ -1,0 +1,15 @@
+name: PROXIFY AB
+origin: global
+employees: 101-250
+company_type: service
+website:
+  url: https://proxify.io
+description: A remote work platform connecting developers with companies, with a strong
+  presence in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/proxify-io
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.700530+00:00'

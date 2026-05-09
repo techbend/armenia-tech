@@ -1,0 +1,12 @@
+name: ADC (ARMENIAN DATACOM COMPANY)
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: http://www.adc.am
+description: An Armenian-Norwegian joint venture providing broadband internet and
+  telecommunications services via fiber-optic networks.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:16:15.120027+00:00'

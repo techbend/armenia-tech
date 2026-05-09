@@ -1,0 +1,15 @@
+name: HIMNARK
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://himnark.am
+description: An HR technology platform for human resources management and employee
+  payroll administration.
+tags:
+- hr-tech-edtech
+links:
+- url: https://www.linkedin.com/company/himnark
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.675886+00:00'

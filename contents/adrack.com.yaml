@@ -1,0 +1,12 @@
+name: ADRACK
+origin: global
+employees: 11-50
+company_type: product
+website:
+  url: https://adrack.com
+description: A marketing technology company providing cloud-based platforms for lead
+  distribution, click tracking, and ad management.
+tags:
+- e-commerce-marketing-adtech
+_meta:
+  checked_at: '2026-05-09T18:16:15.124175+00:00'

@@ -1,0 +1,12 @@
+name: AIRWORKER
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://airworker.aero
+description: A Yerevan-based engineering company specializing in the development of
+  unmanned aerial vehicles (UAVs) and robotics.
+tags:
+- developer-tools-cloud
+_meta:
+  checked_at: '2026-05-09T18:17:45.226811+00:00'

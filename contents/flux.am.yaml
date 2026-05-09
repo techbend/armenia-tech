@@ -1,0 +1,15 @@
+name: FLUX TECHNOLOGIES
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://flux.am
+description: A full-cycle software development company providing web, mobile, and
+  enterprise solutions.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/flux-technologies
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:57:43.083582+00:00'

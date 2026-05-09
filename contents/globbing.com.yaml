@@ -1,0 +1,15 @@
+name: GLOBBING
+origin: local
+employees: '+500'
+company_type: product
+website:
+  url: https://globbing.com
+description: An international e-commerce and logistics platform facilitating cross-border
+  shopping and shipping to Armenia.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/globbing
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.633109+00:00'

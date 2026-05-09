@@ -1,0 +1,12 @@
+name: AMUNGO NAVIGATION
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://amungo-navigation.com
+description: An Armenian engineering company developing professional satellite navigation
+  hardware, anti-jamming kits, and GNSS solutions.
+tags:
+- hardware-eda
+_meta:
+  checked_at: '2026-05-09T18:19:55.956928+00:00'

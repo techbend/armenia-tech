@@ -1,0 +1,12 @@
+name: CEDRO
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://cedro.am
+description: A marketing and digital agency providing performance-based advertising,
+  social media management, and branding services.
+tags:
+- e-commerce-marketing-adtech
+_meta:
+  checked_at: '2026-05-09T18:50:35.111159+00:00'

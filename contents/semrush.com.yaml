@@ -1,0 +1,15 @@
+name: SEMRUSH
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://semrush.com
+description: A global SEO and digital marketing software leader with a major R&D office
+  in Armenia.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/semrush
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:16:33.717843+00:00'

@@ -1,0 +1,15 @@
+name: REDMINEUP
+origin: global
+employees: 11-50
+company_type: product
+website:
+  url: https://www.redmineup.com
+description: A company providing plugins and software extensions for the Redmine project
+  management platform.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/redmineup
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:16:33.674694+00:00'

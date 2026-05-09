@@ -1,0 +1,15 @@
+name: CBONDS
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://cbonds.com
+description: An international financial data provider focusing on fixed income markets
+  with research and analysis operations in Armenia.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/cbonds
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:50:35.108838+00:00'

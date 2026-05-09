@@ -1,0 +1,15 @@
+name: INCONCEPT LABS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://inconcept.com
+description: A software development studio specializing in mobile and web product
+  development.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/inconcept-labs
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:01:11.136432+00:00'

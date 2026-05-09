@@ -1,0 +1,14 @@
+name: EXPPER TECHNOLOGIES (ROBIN)
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://expper.tech
+description: A company developing social robots and AI-powered healthcare technologies.
+tags:
+- hardware-eda
+links:
+- url: https://www.linkedin.com/company/expper
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:55:57.130053+00:00'

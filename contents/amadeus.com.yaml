@@ -1,0 +1,12 @@
+name: AMADEUS IT GROUP SA
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.amadeus.com
+description: A global travel technology company with an office in Yerevan providing
+  software solutions for the airline and travel industries.
+tags:
+- lifetime-on-demand-hospitality
+_meta:
+  checked_at: '2026-05-09T18:19:55.952855+00:00'

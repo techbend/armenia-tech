@@ -1,0 +1,15 @@
+name: CHESSMOOD
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://chessmood.com
+description: An online chess education platform providing video courses, coaching,
+  and community support by grandmasters.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/chessmood
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:50:35.117562+00:00'

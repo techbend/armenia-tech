@@ -1,0 +1,15 @@
+name: FORTRA
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.fortra.com
+description: A global cybersecurity and software company with technical operations
+  in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/fortra
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:57:43.090364+00:00'

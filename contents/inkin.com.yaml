@@ -1,0 +1,12 @@
+name: INKIN
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://inkin.com
+description: A wellness and corporate health platform that promotes employee fitness
+  and healthy habits.
+tags:
+- healthtech
+_meta:
+  checked_at: '2026-05-09T19:01:11.146655+00:00'

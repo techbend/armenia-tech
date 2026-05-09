@@ -1,0 +1,15 @@
+name: QLESS
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://qless.com
+description: A global queue management platform with software engineering operations
+  in Armenia.
+tags:
+- lifetime-on-demand-hospitality
+links:
+- url: https://www.linkedin.com/company/qless
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.706607+00:00'

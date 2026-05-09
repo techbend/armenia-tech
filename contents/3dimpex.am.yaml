@@ -1,0 +1,10 @@
+name: 3D IMPEX
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://3dimpex.am
+description: A 3D print studio offering 3D modeling, printing, scanning, and prototyping
+  services.
+tags:
+- service-providers

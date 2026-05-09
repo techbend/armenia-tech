@@ -1,0 +1,11 @@
+name: PRODMAP.AI
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://prodmap.ai
+description: An AI-powered product management and roadmapping tool for software teams.
+tags:
+- other-product-companies
+_meta:
+  checked_at: '2026-05-09T19:12:33.694582+00:00'

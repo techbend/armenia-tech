@@ -1,0 +1,12 @@
+name: AR++
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://arplusplus.tech
+description: A software development and consulting company providing mobile app, web,
+  and custom software development services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:20:55.425663+00:00'

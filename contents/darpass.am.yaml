@@ -1,0 +1,12 @@
+name: DARPASS
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://darpass.am
+description: An e-commerce and digital payment platform providing integrated online
+  shopping solutions.
+tags:
+- e-commerce-marketing-adtech
+_meta:
+  checked_at: '2026-05-09T18:53:39.119726+00:00'

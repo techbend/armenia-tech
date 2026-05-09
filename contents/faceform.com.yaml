@@ -1,0 +1,12 @@
+name: FACEFORM
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://faceform.com
+description: A company providing advanced 3D face tracking and character animation
+  technology.
+tags:
+- media-photo-video-audio-voip
+_meta:
+  checked_at: '2026-05-09T18:55:57.133346+00:00'

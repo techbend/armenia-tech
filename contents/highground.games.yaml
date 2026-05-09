@@ -1,0 +1,15 @@
+name: HIGH GROUND GAMES
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://highground.games
+description: A mobile game development studio providing full-cycle creation and live
+  operations services.
+tags:
+- gamedev-ar-vr
+links:
+- url: https://www.linkedin.com/company/high-ground-games
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.671803+00:00'

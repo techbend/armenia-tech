@@ -1,0 +1,15 @@
+name: GREENDATA
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://greendata.am
+description: A leading provider of business intelligence (BI) and analytics solutions
+  in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/greendata-am
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.644685+00:00'

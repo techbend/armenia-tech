@@ -1,0 +1,15 @@
+name: DOUBLETAPP
+origin: global
+employees: 51-100
+company_type: service
+website:
+  url: https://doubletapp.io
+description: A mobile and web development company specializing in high-performance
+  applications.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/doubletapp
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:54:45.373404+00:00'

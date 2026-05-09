@@ -1,0 +1,11 @@
+name: SATISFAI
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://satisfai.com
+description: An AI-powered customer satisfaction and feedback analysis platform.
+tags:
+- e-commerce-marketing-adtech
+_meta:
+  checked_at: '2026-05-09T19:16:33.705563+00:00'

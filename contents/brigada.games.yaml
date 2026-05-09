@@ -1,0 +1,12 @@
+name: BRIGADA GAMES
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://brigada.games
+description: A game development studio focused on creating immersive mobile gaming
+  experiences.
+tags:
+- gamedev-ar-vr
+_meta:
+  checked_at: '2026-05-09T18:49:43.465493+00:00'

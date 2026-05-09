@@ -1,0 +1,12 @@
+name: MERSOFT
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://mersoft.am
+description: A software development firm providing automated business management systems
+  and software for various industries.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:08:44.501843+00:00'

@@ -1,0 +1,14 @@
+name: DEVELANDOO
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://develandoo.com
+description: An AI-focused software development and R&D consultancy.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/develandoo
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:53:39.151558+00:00'

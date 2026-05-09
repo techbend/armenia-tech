@@ -1,0 +1,15 @@
+name: DEEP ORIGIN
+origin: global
+employees: 11-50
+company_type: product
+website:
+  url: https://deeporigin.com
+description: A biotechnology and AI company accelerating drug discovery through advanced
+  computational platforms.
+tags:
+- healthtech
+links:
+- url: https://www.linkedin.com/company/deeporigin
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:53:39.142741+00:00'

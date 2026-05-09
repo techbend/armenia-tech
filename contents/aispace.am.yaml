@@ -1,0 +1,12 @@
+name: AI SPACE
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://aispace.am
+description: An Armenian technology provider offering smart city, industrial, and
+  transport infrastructure management solutions based on AI and SCADA.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:17:45.223365+00:00'

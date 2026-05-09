@@ -1,0 +1,15 @@
+name: LIGHTNING TOOLS
+origin: global
+employees: 11-50
+company_type: product
+website:
+  url: https://lightningtools.com
+description: A software company providing collaboration tools for Microsoft 365 and
+  SharePoint.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/lightning-tools
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:05:08.397831+00:00'

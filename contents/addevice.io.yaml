@@ -1,0 +1,12 @@
+name: ADDEVICE
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://addevice.io
+description: A software development company focused on mobile application development,
+  AI, IoT, and custom digital solutions.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:16:15.121057+00:00'

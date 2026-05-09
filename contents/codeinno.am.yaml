@@ -1,0 +1,12 @@
+name: CODEINNO
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://codeinno.am
+description: A company providing innovative software development solutions and digital
+  product engineering.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:51:50.606687+00:00'

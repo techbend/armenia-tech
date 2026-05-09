@@ -1,0 +1,12 @@
+name: ARAGILE
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: https://aragile.com
+description: A design studio based in Yerevan specializing in web design, web development,
+  and API integration services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:20:55.428863+00:00'

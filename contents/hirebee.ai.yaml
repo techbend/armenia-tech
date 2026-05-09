@@ -1,0 +1,14 @@
+name: HIREBEE.AI
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://hirebee.ai
+description: An AI-powered recruitment and applicant tracking platform.
+tags:
+- hr-tech-edtech
+links:
+- url: https://www.linkedin.com/company/hirebee-ai
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.676990+00:00'

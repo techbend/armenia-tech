@@ -1,0 +1,11 @@
+name: LOCATOR
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://locator.am
+description: A GPS tracking and fleet management service provider in Armenia.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:05:08.413609+00:00'

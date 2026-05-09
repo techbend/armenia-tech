@@ -1,0 +1,12 @@
+name: RUMORS MONITORING
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://rumors.am
+description: A media monitoring and analysis platform tracking news and digital media
+  sentiment in Armenia.
+tags:
+- media-photo-video-audio-voip
+_meta:
+  checked_at: '2026-05-09T19:16:33.695129+00:00'

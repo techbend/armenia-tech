@@ -1,0 +1,15 @@
+name: ITSEEZ3D
+origin: global
+employees: 51-100
+company_type: product
+website:
+  url: https://itseez3d.com
+description: A company developing 3D scanning and computer vision solutions for mobile
+  platforms.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/itseez3d
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:03:39.017891+00:00'

@@ -1,0 +1,12 @@
+name: ANALOG PORT AM
+origin: global
+employees: 101-250
+company_type: service
+website:
+  url: https://analogport.com
+description: A semiconductor design services company specializing in high-speed interconnect
+  technologies for AI infrastructure with operations in Armenia.
+tags:
+- hardware-eda
+_meta:
+  checked_at: '2026-05-09T18:19:55.959004+00:00'

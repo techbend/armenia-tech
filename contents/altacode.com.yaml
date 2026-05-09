@@ -1,0 +1,12 @@
+name: ALTACODE
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://www.altacode.com
+description: An Armenian IT company founded in 2006 providing custom software development,
+  web services, and IT outsourcing solutions.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:19:55.950528+00:00'

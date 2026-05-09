@@ -1,0 +1,12 @@
+name: BOON TECHNOLOGIES
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://boontech.am
+description: An Armenian software development company providing web and mobile app
+  development services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:49:43.454113+00:00'

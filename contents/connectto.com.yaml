@@ -1,0 +1,11 @@
+name: CONNECTTO COMMUNICATIONS
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://connectto.com
+description: A provider of unified communication and contact center software solutions.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:51:50.621659+00:00'

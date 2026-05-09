@@ -1,0 +1,12 @@
+name: HAYHOST
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://hayhost.am
+description: A provider of domain registration, web hosting, VPS, and managed server
+  infrastructure in Armenia.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:59:31.659759+00:00'

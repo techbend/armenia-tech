@@ -1,0 +1,12 @@
+name: ARMAT ANALYTICS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://armatanalytics.com
+description: A clinical biometrics service provider specializing in statistical programming,
+  data management, and clinical database design.
+tags:
+- healthtech
+_meta:
+  checked_at: '2026-05-09T18:20:55.440504+00:00'

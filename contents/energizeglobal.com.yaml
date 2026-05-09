@@ -1,0 +1,15 @@
+name: ENERGIZE GLOBAL SERVICES CJSC
+origin: local
+employees: 101-250
+company_type: service
+website:
+  url: https://www.energizeglobal.com
+description: A software development company specializing in banking, fintech, and
+  payment solutions.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/energizeglobal
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:55:57.103707+00:00'

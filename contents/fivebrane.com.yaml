@@ -1,0 +1,12 @@
+name: FIVEBRANE
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://fivebrane.com
+description: A biotechnology company researching neural interface and medical brain-related
+  technologies.
+tags:
+- healthtech
+_meta:
+  checked_at: '2026-05-09T18:57:43.078669+00:00'

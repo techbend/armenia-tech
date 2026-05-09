@@ -1,0 +1,15 @@
+name: CIVITTA
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://civitta.com
+description: An international management consulting firm with a strong presence in
+  Armenia, offering strategy, innovation, and digital transformation services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/civitta
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:50:35.123399+00:00'

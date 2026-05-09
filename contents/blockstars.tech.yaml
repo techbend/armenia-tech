@@ -1,0 +1,12 @@
+name: BLOCKSTARS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://blockstars.tech
+description: A Web3 development company specializing in blockchain, smart contract
+  development, and decentralized applications.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:25:30.779745+00:00'

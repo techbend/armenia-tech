@@ -1,0 +1,12 @@
+name: ACTUAL SOLUTIONS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://www.actualsolutions.am
+description: An IT company specializing in customized CRM, banking software, and automated
+  business solutions.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:16:15.115524+00:00'

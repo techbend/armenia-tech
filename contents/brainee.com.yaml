@@ -1,0 +1,12 @@
+name: BRAINEE
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://brainee.com
+description: An educational technology platform providing gamified training and skill-assessment
+  tools.
+tags:
+- hr-tech-edtech
+_meta:
+  checked_at: '2026-05-09T18:49:43.458509+00:00'

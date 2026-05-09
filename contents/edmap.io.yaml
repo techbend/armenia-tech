@@ -1,0 +1,12 @@
+name: EDMAP
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://edmap.io
+description: An educational technology platform focused on mapping skills and connecting
+  them with learning paths.
+tags:
+- hr-tech-edtech
+_meta:
+  checked_at: '2026-05-09T18:54:45.394960+00:00'

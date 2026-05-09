@@ -1,0 +1,15 @@
+name: FASTEX
+origin: local
+employees: 101-250
+company_type: product
+website:
+  url: https://fastex.com
+description: A comprehensive Web3 ecosystem providing exchange, crypto-payment, and
+  blockchain services.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/fastex-ecosystem
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:55:57.141118+00:00'

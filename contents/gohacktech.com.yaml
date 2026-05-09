@@ -1,0 +1,12 @@
+name: HACKTECH
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://gohacktech.com
+description: A digital transformation partner delivering solutions in AI, DevOps,
+  and IT consulting.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:59:31.653111+00:00'

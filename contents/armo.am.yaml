@@ -1,0 +1,12 @@
+name: ARMO IT SOLUTIONS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://armo.am
+description: ARMO IT Solutions is a software development and consulting firm providing
+  custom web and backend development services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:22:10.787184+00:00'

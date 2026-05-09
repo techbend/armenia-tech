@@ -1,0 +1,11 @@
+name: Q GROUP
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://qgroup.am
+description: An IT consultancy and software services firm based in Armenia.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:12:33.704631+00:00'

@@ -1,0 +1,11 @@
+name: FOREACH
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://foreach.am
+description: A software development studio providing web and mobile programming services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:57:43.088457+00:00'

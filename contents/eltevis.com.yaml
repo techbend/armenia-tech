@@ -1,0 +1,12 @@
+name: ELTEVIS
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://eltevis.com
+description: An engineering company specializing in automated visual inspection systems
+  and quality control hardware.
+tags:
+- hardware-eda
+_meta:
+  checked_at: '2026-05-09T18:55:57.098881+00:00'

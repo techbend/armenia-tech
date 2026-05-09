@@ -1,0 +1,15 @@
+name: GLOWBYTE CONSULTING
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://glowbyteconsulting.com
+description: A consulting company specializing in business intelligence, data management,
+  and CRM implementations.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/glowbyte-consulting
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.636760+00:00'

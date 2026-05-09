@@ -1,0 +1,12 @@
+name: ARNOLOGY LLC
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://arnology.am
+description: Arnology LLC is an IT services company providing web development, design,
+  and software programming solutions.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:22:10.790068+00:00'

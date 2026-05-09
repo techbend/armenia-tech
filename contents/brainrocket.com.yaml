@@ -1,0 +1,15 @@
+name: BRAINROCKET
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://brainrocket.com
+description: A global IT company headquartered in Cyprus with a large R&D center in
+  Armenia, providing scalable software solutions for the iGaming industry.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/brainrocket
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:49:43.459497+00:00'

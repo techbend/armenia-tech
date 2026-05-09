@@ -1,0 +1,15 @@
+name: GRANICUS ARMENIA
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://granicus.com
+description: A global cloud-based government technology provider with an engineering
+  presence in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/granicus
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.643576+00:00'

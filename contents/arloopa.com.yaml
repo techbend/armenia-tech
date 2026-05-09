@@ -1,0 +1,12 @@
+name: ARLOOPA
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://arloopa.com
+description: An augmented reality (AR) and virtual reality (VR) app and game development
+  company.
+tags:
+- gamedev-ar-vr
+_meta:
+  checked_at: '2026-05-09T18:20:55.437468+00:00'

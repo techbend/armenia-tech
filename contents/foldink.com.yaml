@@ -1,0 +1,12 @@
+name: FOLDINK
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://foldink.com
+description: A biotechnology company developing 3D bioprinting solutions and custom
+  bio-inks for tissue engineering.
+tags:
+- hardware-eda
+_meta:
+  checked_at: '2026-05-09T18:57:43.085609+00:00'

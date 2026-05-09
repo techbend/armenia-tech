@@ -1,0 +1,12 @@
+name: CITYMOBIL
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://city-mobil.ru
+description: An international ride-hailing and taxi service provider with operational
+  support teams based in Armenia.
+tags:
+- lifetime-on-demand-hospitality
+_meta:
+  checked_at: '2026-05-09T18:50:35.122416+00:00'

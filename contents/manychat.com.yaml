@@ -1,0 +1,12 @@
+name: MANYCHAT
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://manychat.com
+description: A global platform for chat marketing automation that maintains a significant
+  R&D office in Yerevan.
+tags:
+- e-commerce-marketing-adtech
+_meta:
+  checked_at: '2026-05-09T19:08:44.478754+00:00'

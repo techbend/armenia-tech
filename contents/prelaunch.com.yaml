@@ -1,0 +1,15 @@
+name: PRELAUNCH.COM
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://prelaunch.com
+description: A product validation platform that helps entrepreneurs test and validate
+  product ideas before manufacturing.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/prelaunch-com
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.689396+00:00'

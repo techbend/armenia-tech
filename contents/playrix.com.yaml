@@ -1,0 +1,15 @@
+name: PLAYRIX
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://playrix.com
+description: A top-tier global mobile game development company with significant operations
+  and development hubs in Armenia.
+tags:
+- gamedev-ar-vr
+links:
+- url: https://www.linkedin.com/company/playrix
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.675131+00:00'

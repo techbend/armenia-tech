@@ -1,0 +1,12 @@
+name: ANDERSEN LAB
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://andersenlab.com
+description: A international software development company providing custom engineering
+  and IT consulting services with a presence in Armenia.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:19:55.960893+00:00'

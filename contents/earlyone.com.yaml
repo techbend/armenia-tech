@@ -1,0 +1,15 @@
+name: EARLYONE
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://earlyone.com
+description: A queue management and customer experience platform used for optimizing
+  service flows in banks and retail.
+tags:
+- lifetime-on-demand-hospitality
+links:
+- url: https://www.linkedin.com/company/earlyone
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:54:45.387046+00:00'

@@ -1,0 +1,12 @@
+name: HAYSELL
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://haysell.com
+description: A cloud-based retail automation and point-of-sale (POS) software system
+  for small to medium businesses.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:59:31.660748+00:00'

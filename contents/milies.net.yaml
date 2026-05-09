@@ -1,0 +1,12 @@
+name: MILIES
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://milies.net
+description: A software development agency based in Gyumri, Armenia, offering custom
+  development, web, and mobile solutions.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:08:44.506728+00:00'

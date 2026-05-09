@@ -1,0 +1,12 @@
+name: FINCONSTRUCT
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://finconstruct.am
+description: A fintech company providing credit management and financial services
+  technology.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:55:57.147684+00:00'

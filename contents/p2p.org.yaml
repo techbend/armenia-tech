@@ -1,0 +1,15 @@
+name: P2P VALIDATOR
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://p2p.org
+description: A professional staking provider and validator for blockchain networks
+  with a significant Armenian presence.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/p2p-org
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:11:35.253982+00:00'

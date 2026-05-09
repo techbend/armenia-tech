@@ -1,0 +1,12 @@
+name: REDINET
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://redinet.am
+description: An Armenian company providing IT infrastructure, networking, and telecommunications
+  services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:16:33.672583+00:00'

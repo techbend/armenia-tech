@@ -1,0 +1,11 @@
+name: DATANECT
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://datanect.com
+description: A company providing software development and data integration services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:53:39.133291+00:00'

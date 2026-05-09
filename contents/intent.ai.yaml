@@ -1,0 +1,15 @@
+name: INTENT.AI
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://intent.ai
+description: An AI-powered advertising technology company that provides predictive
+  marketing and user engagement tools.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/intent-ai
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:03:38.994490+00:00'

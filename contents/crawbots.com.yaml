@@ -1,0 +1,11 @@
+name: CRAWBOTS
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://crawbots.com
+description: A provider of web scraping and automated data extraction tools.
+tags:
+- other-product-companies
+_meta:
+  checked_at: '2026-05-09T18:51:50.628021+00:00'

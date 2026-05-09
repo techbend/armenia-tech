@@ -1,0 +1,15 @@
+name: POLIXIS
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://polixis.com
+description: A global fintech and regulatory technology firm with a major data science
+  hub in Yerevan.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/polixis
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.679382+00:00'

@@ -1,0 +1,12 @@
+name: IMUSIC
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://imusic.am
+description: A music streaming platform providing legal access to licensed music content
+  in Armenia.
+tags:
+- media-photo-video-audio-voip
+_meta:
+  checked_at: '2026-05-09T19:01:11.135378+00:00'

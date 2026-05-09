@@ -1,0 +1,15 @@
+name: BOSTONGENE CORPORATION
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://bostongene.com
+description: A global AI-driven biotechnology company with a significant R&D office
+  in Armenia, focusing on precision medicine and cancer research.
+tags:
+- healthtech
+links:
+- url: https://www.linkedin.com/company/bostongene
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:49:43.456403+00:00'

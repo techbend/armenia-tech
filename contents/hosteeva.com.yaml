@@ -1,0 +1,15 @@
+name: HOSTEEVA LLC
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://hosteeva.com
+description: A travel technology company providing property management and booking
+  software.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/hosteeva
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.681897+00:00'

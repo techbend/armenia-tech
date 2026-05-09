@@ -1,0 +1,11 @@
+name: KINDDA
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://kindda.com
+description: A short-form video social media platform and content creation application.
+tags:
+- media-photo-video-audio-voip
+_meta:
+  checked_at: '2026-05-09T19:03:39.037786+00:00'

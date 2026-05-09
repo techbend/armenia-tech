@@ -1,0 +1,12 @@
+name: BRIKLY
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://brikly.com
+description: An HR technology platform that helps companies automate recruitment,
+  talent management, and onboarding workflows.
+tags:
+- hr-tech-edtech
+_meta:
+  checked_at: '2026-05-09T18:49:43.467353+00:00'

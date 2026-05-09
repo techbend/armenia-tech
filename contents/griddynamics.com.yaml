@@ -1,0 +1,15 @@
+name: GRID DYNAMICS
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://griddynamics.com
+description: A digital engineering and consulting company with a significant office
+  in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/grid-dynamics
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.645763+00:00'

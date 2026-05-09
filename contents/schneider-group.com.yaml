@@ -1,0 +1,15 @@
+name: SCHNEIDER GROUP
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://schneider-group.com
+description: A global consulting and IT services firm supporting international business
+  with a presence in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/schneider-group
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:16:33.710501+00:00'

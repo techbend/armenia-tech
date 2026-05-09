@@ -1,0 +1,12 @@
+name: PIXERIA
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://pixeria.com
+description: A technology product company creating software tools for digital design
+  and media.
+tags:
+- other-product-companies
+_meta:
+  checked_at: '2026-05-09T19:11:35.272109+00:00'

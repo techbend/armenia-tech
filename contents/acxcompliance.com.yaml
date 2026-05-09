@@ -1,0 +1,12 @@
+name: ACX COMPLIANCE
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://www.acxcompliance.com
+description: A crypto-specialized regulatory technology and managed services firm
+  focusing on AML, KYC, and risk management.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:16:15.117953+00:00'

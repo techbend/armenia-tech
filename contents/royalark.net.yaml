@@ -1,0 +1,11 @@
+name: ROYAL ARK
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://royalark.net
+description: A company developing interactive gaming products and entertainment software.
+tags:
+- gamedev-ar-vr
+_meta:
+  checked_at: '2026-05-09T19:16:33.692141+00:00'

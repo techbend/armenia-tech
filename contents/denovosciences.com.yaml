@@ -1,0 +1,12 @@
+name: DENOVO SCIENCES
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://denovosciences.com
+description: An AI-powered drug discovery company creating novel molecules for pharmaceutical
+  development.
+tags:
+- healthtech
+_meta:
+  checked_at: '2026-05-09T18:53:39.146344+00:00'

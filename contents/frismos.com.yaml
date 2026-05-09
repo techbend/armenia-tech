@@ -1,0 +1,11 @@
+name: FRISMOS
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://frismos.com
+description: A mobile game development company creating casual and social gaming experiences.
+tags:
+- gamedev-ar-vr
+_meta:
+  checked_at: '2026-05-09T18:57:43.095126+00:00'

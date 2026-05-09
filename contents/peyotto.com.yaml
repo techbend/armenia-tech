@@ -1,0 +1,15 @@
+name: PEYOTTO TECHNOLOGIES
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://peyotto.com
+description: An IT company focused on web development, mobile applications, and software
+  outsourcing services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/peyotto-technologies
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:11:35.264513+00:00'

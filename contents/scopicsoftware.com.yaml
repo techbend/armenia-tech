@@ -1,0 +1,15 @@
+name: SCOPIC SOFTWARE
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://scopicsoftware.com
+description: A global software development company with a significant and long-standing
+  team in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/scopic-software
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:16:33.711621+00:00'

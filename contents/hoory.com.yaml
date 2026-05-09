@@ -1,0 +1,14 @@
+name: HOORY
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://hoory.com
+description: An AI-powered customer experience and conversational commerce platform.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/hoory
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.679911+00:00'

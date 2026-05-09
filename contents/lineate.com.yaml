@@ -1,0 +1,15 @@
+name: LINEATE
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://lineate.com
+description: A custom software development company with a strong engineering team
+  in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/lineate
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:05:08.401772+00:00'

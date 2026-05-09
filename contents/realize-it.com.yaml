@@ -1,0 +1,15 @@
+name: REALIZEIT
+origin: global
+employees: 51-100
+company_type: product
+website:
+  url: https://realize-it.com
+description: An adaptive learning software company with an engineering presence in
+  Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/realizeit
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.721705+00:00'

@@ -1,0 +1,12 @@
+name: LOY & HUTZ
+origin: global
+employees: 11-50
+company_type: service
+website:
+  url: https://www.loyhutz.de
+description: A German IT company providing software and IT management services with
+  local operations.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:05:08.418126+00:00'

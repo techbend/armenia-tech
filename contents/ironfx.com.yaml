@@ -1,0 +1,15 @@
+name: IRONFX
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://www.ironfx.com
+description: A global financial brokerage firm providing online trading services with
+  support operations in Armenia.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/ironfx
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:03:39.002019+00:00'

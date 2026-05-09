@@ -1,0 +1,14 @@
+name: HELTUN / REVOTECH
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://heltun.com
+description: A company specializing in smart home hardware and automation solutions.
+tags:
+- hardware-eda
+links:
+- url: https://www.linkedin.com/company/heltun
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.663800+00:00'

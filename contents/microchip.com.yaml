@@ -1,0 +1,15 @@
+name: MICROCHIP
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.microchip.com
+description: A global semiconductor and embedded systems company with a significant
+  R&D presence in Armenia.
+tags:
+- hardware-eda
+links:
+- url: https://www.linkedin.com/company/microchip-technology
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:08:44.504625+00:00'

@@ -1,0 +1,12 @@
+name: CIFORA
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://cifora.com
+description: A technology company specializing in data-driven insights and AI solutions
+  for business automation.
+tags:
+- other-product-companies
+_meta:
+  checked_at: '2026-05-09T18:50:35.119525+00:00'

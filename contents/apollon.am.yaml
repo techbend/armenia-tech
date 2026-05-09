@@ -1,0 +1,12 @@
+name: APOLLON LAB
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://www.apollon.am
+description: An Armenian software company specializing in the implementation, automation,
+  and maintenance of 1C-Bitrix and Bitrix24 solutions.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:19:55.968299+00:00'

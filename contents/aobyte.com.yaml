@@ -1,0 +1,12 @@
+name: AOBYTE
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://aobyte.com
+description: A software development company providing end-to-end engineering solutions
+  for FinTech, Healthcare, and InsurTech industries.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:19:55.964591+00:00'

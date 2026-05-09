@@ -1,0 +1,12 @@
+name: BLEENK
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://bleenk.app
+description: An AI-powered coding agent platform designed to help developers build
+  and ship software faster.
+tags:
+- developer-tools-cloud
+_meta:
+  checked_at: '2026-05-09T18:25:30.776549+00:00'

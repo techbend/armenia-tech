@@ -1,0 +1,12 @@
+name: BEEONCODE
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://beeoncode.com
+description: A software development firm providing specialized IT services and staff
+  augmentation.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:24:00.513830+00:00'

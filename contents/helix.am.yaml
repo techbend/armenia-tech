@@ -1,0 +1,15 @@
+name: HELIX
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://helix.am
+description: An IT company offering software development, digital consulting, and
+  custom business solutions.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/helix-consulting
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.662738+00:00'

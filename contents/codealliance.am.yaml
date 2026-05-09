@@ -1,0 +1,12 @@
+name: CODE ALLIANCE LLC
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://codealliance.am
+description: A software development firm offering custom web and mobile development
+  services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:51:50.603720+00:00'

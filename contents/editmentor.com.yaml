@@ -1,0 +1,12 @@
+name: EDITMENTOR
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://editmentor.com
+description: An educational platform teaching video editing through interactive web-based
+  browser tools.
+tags:
+- hr-tech-edtech
+_meta:
+  checked_at: '2026-05-09T18:54:45.393976+00:00'

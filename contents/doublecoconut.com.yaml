@@ -1,0 +1,15 @@
+name: DOUBLE COCONUT
+origin: global
+employees: 51-100
+company_type: product
+website:
+  url: https://doublecoconut.com
+description: A game development studio providing high-quality art, design, and full-cycle
+  development services.
+tags:
+- gamedev-ar-vr
+links:
+- url: https://www.linkedin.com/company/double-coconut
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:54:45.372344+00:00'

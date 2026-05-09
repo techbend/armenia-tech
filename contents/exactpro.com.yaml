@@ -1,0 +1,15 @@
+name: EXACTPRO
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://www.exactpro.com
+description: A provider of specialized software testing services for financial markets
+  with an Armenian R&D office.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/exactpro
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:55:57.126570+00:00'

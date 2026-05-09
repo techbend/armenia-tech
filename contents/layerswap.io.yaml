@@ -1,0 +1,12 @@
+name: LAYERSWAP
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://layerswap.io
+description: A crypto-bridge platform for cross-chain token transfers between exchanges
+  and blockchains.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T19:05:08.392358+00:00'

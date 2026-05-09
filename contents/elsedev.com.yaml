@@ -1,0 +1,11 @@
+name: ELSE DEV
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://elsedev.com
+description: A software development and digital product design studio.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:54:45.404657+00:00'

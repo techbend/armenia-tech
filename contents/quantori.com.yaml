@@ -1,0 +1,15 @@
+name: QUANTORI ARMENIA
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://quantori.com
+description: A global software engineering and data analytics company with a major
+  presence in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/quantori
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.712655+00:00'

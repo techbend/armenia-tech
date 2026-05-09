@@ -1,0 +1,12 @@
+name: GAMERAM
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://gameram.com
+description: A social network and community platform designed specifically for gamers
+  to share moments.
+tags:
+- gamedev-ar-vr
+_meta:
+  checked_at: '2026-05-09T18:57:43.107757+00:00'

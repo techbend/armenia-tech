@@ -1,0 +1,12 @@
+name: ESTIMATEX
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://estimatex.com
+description: A platform providing automated construction cost estimation and project
+  management tools.
+tags:
+- other-product-companies
+_meta:
+  checked_at: '2026-05-09T18:55:57.121228+00:00'

@@ -1,0 +1,14 @@
+name: DIGITAL CARAMEL
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://digitalcaramel.com
+description: A digital advertising and monetization platform for online publishers.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/digital-caramel
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:53:39.173410+00:00'

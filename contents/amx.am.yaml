@@ -1,0 +1,12 @@
+name: AMX
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://amx.am
+description: The Armenia Securities Exchange (AMX) is the sole regulated securities
+  market operator in Armenia, providing listing and trading services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:19:55.957985+00:00'

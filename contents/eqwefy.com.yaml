@@ -1,0 +1,12 @@
+name: EQWEFY
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://eqwefy.com
+description: A fintech company providing digital payment solutions and blockchain-based
+  financial services.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:55:57.112899+00:00'

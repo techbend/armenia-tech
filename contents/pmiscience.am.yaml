@@ -1,0 +1,12 @@
+name: PMI SCIENCE R&D CENTER
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://pmiscience.am
+description: A research and development center in Armenia focused on advanced science
+  and technology initiatives.
+tags:
+- other-product-companies
+_meta:
+  checked_at: '2026-05-09T19:12:33.678336+00:00'

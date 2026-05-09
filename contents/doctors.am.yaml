@@ -1,0 +1,12 @@
+name: DOCTORS.AM
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://doctors.am
+description: A medical information and healthcare directory platform for finding doctors
+  and booking appointments in Armenia.
+tags:
+- healthtech
+_meta:
+  checked_at: '2026-05-09T18:54:45.367590+00:00'

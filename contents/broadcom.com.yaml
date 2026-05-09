@@ -1,0 +1,15 @@
+name: BROADCOM
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.broadcom.com
+description: A global technology leader that designs, develops, and supplies semiconductor
+  and infrastructure software solutions with a presence in Armenia.
+tags:
+- hardware-eda
+links:
+- url: https://www.linkedin.com/company/broadcom
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:49:43.468352+00:00'

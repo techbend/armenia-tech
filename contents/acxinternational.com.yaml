@@ -1,0 +1,12 @@
+name: ACX INTERNATIONAL
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://acxinternational.com
+description: A crypto-specialized service provider offering compliance, regulatory
+  support, and technical support for digital asset platforms.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:16:15.119009+00:00'

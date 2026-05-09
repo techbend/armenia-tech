@@ -1,0 +1,15 @@
+name: PLAYKOT
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://playkot.com
+description: A global mobile game development company with a large engineering and
+  product team in Armenia.
+tags:
+- gamedev-ar-vr
+links:
+- url: https://www.linkedin.com/company/playkot
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.673664+00:00'

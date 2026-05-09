@@ -1,0 +1,12 @@
+name: BRANDPACK
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://brandpack.am
+description: A creative studio providing comprehensive design, branding, and digital
+  marketing services for businesses.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:49:43.464519+00:00'

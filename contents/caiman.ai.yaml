@@ -1,0 +1,12 @@
+name: CAIMAN NMS
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://caiman.ai
+description: An AI-powered network management solution providing automated monitoring
+  and optimization for enterprise infrastructures.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:49:43.472411+00:00'

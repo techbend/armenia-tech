@@ -1,0 +1,11 @@
+name: KIRAKI.DEV
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: https://kiraki.dev
+description: A software development studio providing web and mobile engineering services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:05:08.374334+00:00'

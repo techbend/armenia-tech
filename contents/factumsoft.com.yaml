@@ -1,0 +1,15 @@
+name: FACTUMSOFT
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://factumsoft.com
+description: A software company offering ERP, CRM, and bespoke business automation
+  systems.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/factumsoft
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:55:57.134905+00:00'

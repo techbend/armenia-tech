@@ -1,0 +1,11 @@
+name: FARMFRESH
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://farmfresh.am
+description: An e-commerce platform for agricultural products and grocery delivery.
+tags:
+- e-commerce-marketing-adtech
+_meta:
+  checked_at: '2026-05-09T18:55:57.139039+00:00'

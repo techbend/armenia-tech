@@ -1,0 +1,14 @@
+name: COINSTATS
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://coinstats.app
+description: A leading crypto portfolio tracking and management platform.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/coinstats
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:51:50.616941+00:00'

@@ -1,0 +1,12 @@
+name: BOO VISION TECHNOLOGIES
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://boovist.com
+description: An engineering company specializing in computer vision, signal processing,
+  and AI-based tracking solutions for hardware.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:25:30.786296+00:00'

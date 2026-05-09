@@ -1,0 +1,14 @@
+name: GG
+origin: local
+employees: 101-250
+company_type: product
+website:
+  url: https://ggtaxi.com
+description: A leading Armenian on-demand ride-sharing and delivery platform.
+tags:
+- lifetime-on-demand-hospitality
+links:
+- url: https://www.linkedin.com/company/ggtaxi
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:57:43.117105+00:00'

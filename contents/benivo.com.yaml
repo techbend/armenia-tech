@@ -1,0 +1,15 @@
+name: BENIVO
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://www.benivo.com
+description: A global mobility management platform that simplifies employee relocation
+  and international assignments.
+tags:
+- hr-tech-edtech
+links:
+- url: https://www.linkedin.com/company/benivo
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:24:00.516442+00:00'

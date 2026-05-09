@@ -1,0 +1,12 @@
+name: OPEN DATA ARMENIA
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://opendata.am
+description: An organization focused on collecting, processing, and providing open-source
+  data and statistics for Armenia.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:11:35.243415+00:00'

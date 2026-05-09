@@ -1,0 +1,15 @@
+name: QUESTRADE
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.questrade.com
+description: A Canadian financial services company with significant software engineering
+  operations in Armenia.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/questrade-inc
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.714840+00:00'

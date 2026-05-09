@@ -1,0 +1,12 @@
+name: AMBRAIN
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://ambrain.org
+description: A Yerevan-based software development company focusing on high-performance
+  digital products for FinTech, iGaming, and AdTech.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:19:55.954843+00:00'

@@ -1,0 +1,14 @@
+name: EMIDS
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://www.emids.com
+description: A global digital engineering and healthtech firm with operations in Armenia.
+tags:
+- healthtech
+links:
+- url: https://www.linkedin.com/company/emids
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:55:57.102445+00:00'

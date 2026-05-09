@@ -1,0 +1,12 @@
+name: HEX SYSTEMS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://hex.team
+description: An IT solutions provider specializing in systems integration, cybersecurity,
+  and software development.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:59:31.666685+00:00'

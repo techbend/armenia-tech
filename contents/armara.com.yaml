@@ -1,0 +1,12 @@
+name: ARMARA
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://armara.com
+description: An international team specializing in delivering customized mobile solutions,
+  software development, and UI/UX design.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:20:55.439478+00:00'

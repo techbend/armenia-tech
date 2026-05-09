@@ -1,0 +1,12 @@
+name: DATAMOTUS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://datamotus.com
+description: A software development firm specializing in data analytics, AI, and enterprise
+  software.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:53:39.132153+00:00'

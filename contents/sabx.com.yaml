@@ -1,0 +1,11 @@
+name: SABX
+origin: global
+employees: 11-50
+company_type: product
+website:
+  url: https://sabx.com
+description: A digital marketplace and e-commerce technology platform for trade facilitation.
+tags:
+- e-commerce-marketing-adtech
+_meta:
+  checked_at: '2026-05-09T19:16:33.697124+00:00'

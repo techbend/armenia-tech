@@ -1,0 +1,15 @@
+name: INCREDO LLC
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://incredo.co
+description: A web development and digital marketing agency providing HubSpot and
+  website solutions.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/incredo
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:01:11.137504+00:00'

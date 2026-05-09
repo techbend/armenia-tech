@@ -1,0 +1,12 @@
+name: ARMENOTECH LLC
+origin: global
+employees: 51-100
+company_type: service
+website:
+  url: https://armenotech.com
+description: Armenotech provides fintech infrastructure, including payment processing,
+  blockchain integration, and wallet solutions for regulated institutions.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:22:10.784253+00:00'

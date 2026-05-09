@@ -1,0 +1,15 @@
+name: DEVELOPER EXPRESS
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://devexpress.com
+description: A global provider of software development tools and components with engineering
+  operations in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/devexpress
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:53:39.154206+00:00'

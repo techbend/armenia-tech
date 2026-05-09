@@ -1,0 +1,15 @@
+name: REVIZTO
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://revizto.com
+description: A global BIM software company with a major R&D office in Armenia for
+  integrated project collaboration.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/revizto
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:16:33.685321+00:00'

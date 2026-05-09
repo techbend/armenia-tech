@@ -1,0 +1,15 @@
+name: DEVELEX INTERNATIONAL LTD
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://develex.com
+description: A software development company providing custom engineering and IT outsourcing
+  services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/develex
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:53:39.152892+00:00'

@@ -1,0 +1,12 @@
+name: CASSETTE
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://cassette.ai
+description: An interactive media platform creating immersive storytelling and gamified
+  experiences.
+tags:
+- gamedev-ar-vr
+_meta:
+  checked_at: '2026-05-09T18:50:35.107783+00:00'

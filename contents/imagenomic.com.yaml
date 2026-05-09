@@ -1,0 +1,15 @@
+name: IMAGENOMIC
+origin: global
+employees: 11-50
+company_type: product
+website:
+  url: https://imagenomic.com
+description: A provider of professional image retouching software for photographers
+  and filmmakers.
+tags:
+- media-photo-video-audio-voip
+links:
+- url: https://www.linkedin.com/company/imagenomic
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:01:11.130606+00:00'

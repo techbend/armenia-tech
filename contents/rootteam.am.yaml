@@ -1,0 +1,11 @@
+name: ROOTTEAM
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://rootteam.am
+description: An IT company providing web and mobile software development services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:16:33.691075+00:00'

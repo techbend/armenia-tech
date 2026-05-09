@@ -1,0 +1,15 @@
+name: KWORK
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://kwork.com
+description: A global freelance marketplace platform with significant operations in
+  Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/kwork
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:05:08.383709+00:00'

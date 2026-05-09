@@ -1,0 +1,12 @@
+name: ARMSPIDER
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://armspider.com
+description: ARMSPIDER is a web studio specializing in website design, development,
+  SEO, and technical support services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:22:10.789046+00:00'

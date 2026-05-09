@@ -1,0 +1,12 @@
+name: DOCUS
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://docus.ai
+description: An AI-powered telemedicine platform providing automated diagnostics and
+  health consultations.
+tags:
+- healthtech
+_meta:
+  checked_at: '2026-05-09T18:54:45.368624+00:00'

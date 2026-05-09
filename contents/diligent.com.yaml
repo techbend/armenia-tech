@@ -1,0 +1,15 @@
+name: DILIGENT
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.diligent.com
+description: A global SaaS company providing governance, risk, and compliance solutions
+  with operations in Armenia.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/diligent-corporation
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:54:45.361664+00:00'

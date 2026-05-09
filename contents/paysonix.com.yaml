@@ -1,0 +1,14 @@
+name: PAYSONIX
+origin: global
+employees: 51-100
+company_type: product
+website:
+  url: https://paysonix.com
+description: A fintech company providing payment processing and digital wallet solutions.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/paysonix
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:11:35.258648+00:00'

@@ -1,0 +1,12 @@
+name: ARDESK
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: https://ardesk.am
+description: An engineering and architectural training center and authorized Autodesk
+  reseller in Armenia.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:20:55.434304+00:00'

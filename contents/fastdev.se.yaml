@@ -1,0 +1,15 @@
+name: FASTDEV AB
+origin: global
+employees: 101-250
+company_type: service
+website:
+  url: https://fastdev.se
+description: A Swedish software development company with a large engineering office
+  in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/fastdev
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:55:57.140061+00:00'

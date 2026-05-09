@@ -1,0 +1,15 @@
+name: BUILDERN
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://buildern.com
+description: A comprehensive project management software platform designed specifically
+  for home builders and construction professionals.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/buildern
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:49:43.470390+00:00'

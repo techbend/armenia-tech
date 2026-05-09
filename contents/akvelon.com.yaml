@@ -1,0 +1,15 @@
+name: AKVELON
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://akvelon.com
+description: An international software engineering company headquartered in the US
+  with a global office providing AI and custom software solutions.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/akvelon
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:18:10.628045+00:00'

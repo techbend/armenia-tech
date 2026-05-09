@@ -1,0 +1,15 @@
+name: DATA42
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://data42.com
+description: A company providing specialized data management and software development
+  services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/data42
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:53:39.122516+00:00'

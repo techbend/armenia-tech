@@ -1,0 +1,15 @@
+name: FUNCORP
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://funcorp.com
+description: A global entertainment tech company with significant engineering and
+  product operations in Armenia.
+tags:
+- lifetime-on-demand-hospitality
+links:
+- url: https://www.linkedin.com/company/funcorp
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:57:43.097964+00:00'

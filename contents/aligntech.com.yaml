@@ -1,0 +1,15 @@
+name: ALIGN TECHNOLOGY
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.aligntech.com
+description: A global medical device company specializing in digital orthodontics
+  that operates a major regional office in Yerevan.
+tags:
+- healthtech
+links:
+- url: https://www.linkedin.com/company/align-technology
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:18:10.632282+00:00'

@@ -1,0 +1,15 @@
+name: PRIOTIX
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://priotix.com
+description: A full-cycle software development company providing web and mobile engineering
+  services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/priotix
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.692390+00:00'

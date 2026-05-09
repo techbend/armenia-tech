@@ -1,0 +1,15 @@
+name: INTELINAIR
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://intelinair.com
+description: An aerial data analytics company with Armenian operations that provides
+  crop health insights for agriculture.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/intelinair
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:03:38.991400+00:00'

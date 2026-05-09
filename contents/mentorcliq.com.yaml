@@ -1,0 +1,15 @@
+name: MENTORCLIQ
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://mentorcliq.com
+description: A mentoring software platform that leverages AI to connect employees
+  for development, with engineering teams in Armenia.
+tags:
+- hr-tech-edtech
+links:
+- url: https://www.linkedin.com/company/mentorcliq
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:08:44.500773+00:00'

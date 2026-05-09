@@ -1,0 +1,12 @@
+name: MAYRO IT
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://mayro.io
+description: An IT consultancy and outsourcing firm providing software development,
+  business process services, and IT maintenance.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:08:44.488320+00:00'

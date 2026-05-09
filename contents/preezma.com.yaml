@@ -1,0 +1,15 @@
+name: PREEZMA
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://preezma.com
+description: A full-stack software development agency based in Yerevan offering custom
+  engineering services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/preezma
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.688254+00:00'

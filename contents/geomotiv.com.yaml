@@ -1,0 +1,15 @@
+name: GEOMOTIV
+origin: global
+employees: 51-100
+company_type: service
+website:
+  url: https://geomotiv.com
+description: A software development company providing team augmentation and custom
+  engineering services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/geomotiv
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:57:43.113262+00:00'

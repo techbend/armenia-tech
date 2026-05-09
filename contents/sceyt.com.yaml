@@ -1,0 +1,15 @@
+name: SCEYT
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://sceyt.com
+description: A developer of real-time messaging and chat API solutions for enterprise
+  applications.
+tags:
+- media-photo-video-audio-voip
+links:
+- url: https://www.linkedin.com/company/sceyt
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:16:33.709373+00:00'

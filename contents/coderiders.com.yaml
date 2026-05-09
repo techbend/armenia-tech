@@ -1,0 +1,15 @@
+name: CODERIDERS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://coderiders.com
+description: A software development company providing staff augmentation and custom
+  development services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/coderiders
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:51:50.610331+00:00'

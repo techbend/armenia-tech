@@ -1,0 +1,12 @@
+name: EVERABLE
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://everable.com
+description: An edtech company providing accessible digital learning tools and inclusive
+  technology solutions.
+tags:
+- hr-tech-edtech
+_meta:
+  checked_at: '2026-05-09T18:55:57.122329+00:00'

@@ -1,0 +1,15 @@
+name: GROVF
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://grovf.com
+description: A tech company specializing in hardware acceleration solutions, FPGA,
+  and high-performance computing.
+tags:
+- hardware-eda
+links:
+- url: https://www.linkedin.com/company/grovf
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.649982+00:00'

@@ -1,0 +1,15 @@
+name: GLOVO
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://glovoapp.com
+description: A global multi-category delivery platform that operates extensively within
+  the Armenian market.
+tags:
+- lifetime-on-demand-hospitality
+links:
+- url: https://www.linkedin.com/company/glovoapp
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.635615+00:00'

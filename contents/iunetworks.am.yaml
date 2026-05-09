@@ -1,0 +1,15 @@
+name: IUNETWORKS
+origin: local
+employees: 101-250
+company_type: product
+website:
+  url: https://iunetworks.am
+description: A software development company specialized in e-government and enterprise
+  automation systems.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/iunetworks
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:03:39.019912+00:00'

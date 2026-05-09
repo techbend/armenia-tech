@@ -1,0 +1,15 @@
+name: GROKSMITH
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://groksmith.co
+description: A venture builder and software development agency focused on full-cycle
+  product creation.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/groksmith
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.647839+00:00'

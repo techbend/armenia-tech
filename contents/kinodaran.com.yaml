@@ -1,0 +1,15 @@
+name: KINODARAN
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://kinodaran.com
+description: An Armenian streaming platform providing legal access to Armenian movies,
+  series, and animation.
+tags:
+- media-photo-video-audio-voip
+links:
+- url: https://www.linkedin.com/company/kinodaran
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:05:08.371947+00:00'

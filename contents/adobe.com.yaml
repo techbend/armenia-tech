@@ -1,0 +1,15 @@
+name: ADOBE
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.adobe.com
+description: A global software company with a major Armenian R&D office focusing on
+  AI, cloud platforms, and enterprise solutions.
+tags:
+- media-photo-video-audio-voip
+links:
+- url: https://www.linkedin.com/company/adobe
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:16:15.123096+00:00'

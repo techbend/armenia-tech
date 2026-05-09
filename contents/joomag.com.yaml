@@ -1,0 +1,15 @@
+name: JOOMAG
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://joomag.com
+description: A digital publishing platform with a major engineering and R&D hub in
+  Armenia.
+tags:
+- media-photo-video-audio-voip
+links:
+- url: https://www.linkedin.com/company/joomag
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:03:39.026600+00:00'

@@ -1,0 +1,15 @@
+name: IGUAN SYSTEMS
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://iguansystems.com
+description: A software development company providing outsourcing and custom engineering
+  services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/iguan-systems
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:01:11.129520+00:00'

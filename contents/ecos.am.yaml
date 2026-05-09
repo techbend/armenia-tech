@@ -1,0 +1,15 @@
+name: ECOS
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://ecos.am
+description: An infrastructure company providing data center services for mining and
+  blockchain operations.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/ecos-am
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:54:45.392028+00:00'

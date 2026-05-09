@@ -1,0 +1,15 @@
+name: CYPRESS
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://www.cypress.io
+description: A leading provider of front-end testing tools with an active engineering
+  presence in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/cypress-io
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:51:50.644127+00:00'

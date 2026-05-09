@@ -1,0 +1,12 @@
+name: FITTIN INC
+origin: global
+employees: 11-50
+company_type: product
+website:
+  url: https://fittin.io
+description: An AI-powered virtual try-on and size recommendation platform for e-commerce
+  retailers.
+tags:
+- e-commerce-marketing-adtech
+_meta:
+  checked_at: '2026-05-09T18:57:43.077547+00:00'

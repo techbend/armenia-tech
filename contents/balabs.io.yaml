@@ -1,0 +1,12 @@
+name: BA LABS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://balabs.io
+description: A software development and technology consulting company specializing
+  in web and mobile applications.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:24:00.503962+00:00'

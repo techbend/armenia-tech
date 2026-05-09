@@ -1,0 +1,12 @@
+name: HI TECH GATEWAY
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://hitechgateway.com
+description: A communications and internet service provider offering telephony and
+  IT infrastructure solutions.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:59:31.670742+00:00'

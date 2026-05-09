@@ -1,0 +1,12 @@
+name: EXIO.TECH
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://exio.tech
+description: A technology company providing fintech infrastructure and blockchain
+  development services.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:55:57.128855+00:00'

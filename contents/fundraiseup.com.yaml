@@ -1,0 +1,15 @@
+name: FUNDRAISE UP
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://fundraiseup.com
+description: A fundraising technology platform using AI to increase donation conversion
+  with a strong Armenian R&D team.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/fundraiseup
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:57:43.100007+00:00'

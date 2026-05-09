@@ -1,0 +1,15 @@
+name: GAMEPLAY GALAXY
+origin: global
+employees: 11-50
+company_type: product
+website:
+  url: https://gameplaygalaxy.com
+description: A decentralized gaming platform with operations and development team
+  in Armenia.
+tags:
+- gamedev-ar-vr
+links:
+- url: https://www.linkedin.com/company/gameplay-galaxy
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:57:43.106703+00:00'

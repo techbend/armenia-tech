@@ -1,0 +1,15 @@
+name: EASYPAY
+origin: local
+employees: 101-250
+company_type: product
+website:
+  url: https://easypay.am
+description: A fintech payment solution providing digital wallets, terminal networks,
+  and online payment processing.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/easypay-am
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:54:45.390080+00:00'

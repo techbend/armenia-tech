@@ -1,0 +1,15 @@
+name: EPYGI TECHNOLOGIES
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://www.epygi.com
+description: A company specializing in the design and manufacture of IP PBX and VoIP
+  hardware.
+tags:
+- hardware-eda
+links:
+- url: https://www.linkedin.com/company/epygi-technologies
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:55:57.111609+00:00'

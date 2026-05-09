@@ -1,0 +1,12 @@
+name: MARKTGURU
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://marktguru.de
+description: A location-based digital service and marketing platform with an engineering
+  team based in Armenia.
+tags:
+- e-commerce-marketing-adtech
+_meta:
+  checked_at: '2026-05-09T19:08:44.483432+00:00'

@@ -1,0 +1,12 @@
+name: CLINSOFT
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://clinsoft.com
+description: A software provider offering specialized management and data solutions
+  for clinical research organizations.
+tags:
+- healthtech
+_meta:
+  checked_at: '2026-05-09T18:51:50.598504+00:00'

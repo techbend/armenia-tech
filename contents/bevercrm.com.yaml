@@ -1,0 +1,12 @@
+name: BEVERCRM
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://bevercrm.com
+description: A CRM platform designed to streamline business management and client
+  interaction processes.
+tags:
+- other-product-companies
+_meta:
+  checked_at: '2026-05-09T18:24:00.522453+00:00'

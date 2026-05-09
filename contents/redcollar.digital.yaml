@@ -1,0 +1,15 @@
+name: RED COLLAR
+origin: global
+employees: 51-100
+company_type: service
+website:
+  url: https://redcollar.digital
+description: A digital agency providing software development, design, and marketing
+  services.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/red-collar-digital
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:12:33.722842+00:00'

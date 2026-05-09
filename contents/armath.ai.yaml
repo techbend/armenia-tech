@@ -1,0 +1,11 @@
+name: ARMATH AI
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://armath.ai
+description: A game development company specializing in HTML5 games and playable ads.
+tags:
+- gamedev-ar-vr
+_meta:
+  checked_at: '2026-05-09T18:20:55.441577+00:00'

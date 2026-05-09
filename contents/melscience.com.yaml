@@ -1,0 +1,12 @@
+name: MEL SCIENCE
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://melscience.com
+description: An edtech company providing science kits and VR/AR lessons with an R&D
+  presence in Armenia.
+tags:
+- gamedev-ar-vr
+_meta:
+  checked_at: '2026-05-09T19:08:44.496898+00:00'

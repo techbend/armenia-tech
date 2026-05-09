@@ -1,0 +1,15 @@
+name: AGNIAN
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://www.agnian.com
+description: A digital product agency and startup accelerator with offices in London
+  and Yerevan, specializing in strategy, design, and development.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/agnian
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:17:45.222215+00:00'

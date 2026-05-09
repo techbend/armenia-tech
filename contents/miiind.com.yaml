@@ -1,0 +1,12 @@
+name: MIIIND
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://miiind.com
+description: A digital design agency in Yerevan specializing in UX/UI, product design,
+  and mobile app development.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:08:44.505722+00:00'

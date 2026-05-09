@@ -1,0 +1,15 @@
+name: DIGITAL POMEGRANATE
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://digitalpomegranate.com
+description: A web and software development agency providing a range of technical
+  solutions.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/digital-pomegranate
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:53:39.177203+00:00'

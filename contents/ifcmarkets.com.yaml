@@ -1,0 +1,14 @@
+name: IFC MARKETS
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://www.ifcmarkets.com
+description: An international financial brokerage company with operations in Armenia.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/ifc-markets
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:01:11.127501+00:00'

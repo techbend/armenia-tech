@@ -1,0 +1,12 @@
+name: BRANDLENS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://brandlens.am
+description: A digital agency providing media production, professional photography,
+  video services, and marketing content.
+tags:
+- media-photo-video-audio-voip
+_meta:
+  checked_at: '2026-05-09T18:49:43.462518+00:00'

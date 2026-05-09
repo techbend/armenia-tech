@@ -1,0 +1,11 @@
+name: DATENO
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://dateno.com
+description: An AI-powered document processing and data extraction platform.
+tags:
+- other-product-companies
+_meta:
+  checked_at: '2026-05-09T18:53:39.134428+00:00'

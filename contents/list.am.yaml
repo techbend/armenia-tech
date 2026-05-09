@@ -1,0 +1,15 @@
+name: LIST
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://list.am
+description: The largest online classifieds marketplace in Armenia for goods, services,
+  and real estate.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/list-am
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:05:08.407684+00:00'

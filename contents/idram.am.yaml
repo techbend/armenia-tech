@@ -1,0 +1,14 @@
+name: IDRAM
+origin: local
+employees: 101-250
+company_type: product
+website:
+  url: https://idram.am
+description: A leading digital payment and electronic wallet platform in Armenia.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/idram-llc
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:01:11.126430+00:00'

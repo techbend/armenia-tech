@@ -1,0 +1,15 @@
+name: ONEMARKETDATA
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://onetick.com
+description: A financial software company providing time-series data management solutions
+  with Armenian engineering teams.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/onetick
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:11:35.238417+00:00'

@@ -1,0 +1,12 @@
+name: BIOBRAIN PRO
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://biobrainpro.net
+description: An IT company providing an AI-powered platform for generating synthetic
+  clinical datasets to support research and regulatory compliance.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:25:30.769338+00:00'

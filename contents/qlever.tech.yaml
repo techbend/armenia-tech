@@ -1,0 +1,11 @@
+name: QLEVER TECH
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://qlever.tech
+description: A technology services firm providing custom software and IT consulting.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:12:33.707724+00:00'

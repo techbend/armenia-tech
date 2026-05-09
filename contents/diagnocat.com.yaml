@@ -1,0 +1,14 @@
+name: DIAGNOCAT
+origin: global
+employees: 51-100
+company_type: product
+website:
+  url: https://diagnocat.com
+description: An AI-powered dental imaging diagnostic platform used by dental professionals.
+tags:
+- healthtech
+links:
+- url: https://www.linkedin.com/company/diagnocat
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:53:39.161794+00:00'

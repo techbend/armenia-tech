@@ -1,0 +1,12 @@
+name: AMD
+origin: global
+employees: 11-50
+company_type: product
+website:
+  url: https://www.amd.com
+description: A global semiconductor company with a Yerevan-based R&D team focusing
+  on chip design, EDA technologies, and software development.
+tags:
+- hardware-eda
+_meta:
+  checked_at: '2026-05-09T18:19:55.955860+00:00'

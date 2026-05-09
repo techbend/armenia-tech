@@ -1,0 +1,15 @@
+name: HYSTAX
+origin: global
+employees: 51-100
+company_type: product
+website:
+  url: https://hystax.com
+description: A cloud management and disaster recovery software company with operations
+  in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/hystax
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:01:11.121381+00:00'

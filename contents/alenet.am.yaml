@@ -1,0 +1,12 @@
+name: ALENET.AM
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://alenet.am
+description: An Armenian provider of internet, telecommunications, and IT infrastructure
+  services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:18:10.630211+00:00'

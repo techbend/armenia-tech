@@ -1,0 +1,11 @@
+name: EACHBASE
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://eachbase.com
+description: An IT services company focused on database solutions and software architecture.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:54:45.385158+00:00'

@@ -1,0 +1,12 @@
+name: ARMENIAN CARD CJSC (ARCA)
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://www.arca.am
+description: ARCA is the national payment system of Armenia, providing card processing
+  services and banking infrastructure for payment transactions.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T18:22:10.783256+00:00'

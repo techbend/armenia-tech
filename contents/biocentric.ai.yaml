@@ -1,0 +1,12 @@
+name: BIOCENTRIC.AI
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://biocentric.ai
+description: A biotech startup using AI and computational biophysics to accelerate
+  drug discovery and optimize medicine development.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:25:30.770755+00:00'

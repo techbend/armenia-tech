@@ -1,0 +1,12 @@
+name: BRAINT SYSTEMS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://braint.am
+description: An Armenian IT company providing automation and software solutions for
+  business efficiency.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:49:43.461464+00:00'

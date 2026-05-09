@@ -1,0 +1,12 @@
+name: APRICOT SPACE
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://www.apricotspace.com
+description: An enterprise technology and AI transformation company specializing in
+  intelligent automated systems and custom software development.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:20:55.424170+00:00'

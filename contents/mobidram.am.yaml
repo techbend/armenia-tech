@@ -1,0 +1,12 @@
+name: MOBIDRAM
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://mobidram.am
+description: A mobile payment and electronic wallet system developed as a subsidiary
+  of Telecom Armenia (Viva).
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T19:08:44.511444+00:00'

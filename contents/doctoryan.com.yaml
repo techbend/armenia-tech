@@ -1,0 +1,12 @@
+name: DOCTOR YAN
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://doctoryan.com
+description: A telehealth platform connecting patients with doctors for consultations
+  and medical services.
+tags:
+- healthtech
+_meta:
+  checked_at: '2026-05-09T18:54:45.366511+00:00'

@@ -1,0 +1,11 @@
+name: ICON COMMUNICATIONS
+origin: local
+employees: 101-250
+company_type: service
+website:
+  url: https://icon.am
+description: An Armenian internet service provider and telecommunications company.
+tags:
+- fintech-blockchain
+_meta:
+  checked_at: '2026-05-09T19:01:11.125371+00:00'

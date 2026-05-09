@@ -1,0 +1,15 @@
+name: ADSCOOK
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://adscook.com
+description: A Facebook and Instagram ads management platform helping advertisers
+  automate and optimize digital campaigns.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/adscook
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:16:15.125159+00:00'

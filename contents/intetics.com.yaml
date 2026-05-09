@@ -1,0 +1,15 @@
+name: INTETICS
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://intetics.com
+description: A global software engineering and data processing company with a presence
+  in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/intetics
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:03:38.996523+00:00'

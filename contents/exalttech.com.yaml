@@ -1,0 +1,15 @@
+name: EXALT TECHNOLOGIES LTD.
+origin: local
+employees: 101-250
+company_type: service
+website:
+  url: https://exalttech.com
+description: A software development and IT services company providing custom solutions
+  and staff augmentation.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/exalt-technologies
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:55:57.127746+00:00'

@@ -1,0 +1,15 @@
+name: LIVEBOARD
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://liveboard.online
+description: A collaborative interactive whiteboard app for online education and remote
+  tutoring.
+tags:
+- hr-tech-edtech
+links:
+- url: https://www.linkedin.com/company/liveboard
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:05:08.410541+00:00'

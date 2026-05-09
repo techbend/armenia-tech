@@ -1,0 +1,11 @@
+name: CROSS.AM
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://cross.am
+description: A digital agency providing branding, development, and marketing services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:51:50.635823+00:00'

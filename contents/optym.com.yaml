@@ -1,0 +1,15 @@
+name: OPTYM
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://optym.com
+description: A global company optimizing transportation networks through advanced
+  software with a large Armenian engineering office.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/optym
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:11:35.246419+00:00'

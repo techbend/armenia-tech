@@ -1,0 +1,15 @@
+name: HEXENS
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://hexens.io
+description: A cybersecurity company specializing in blockchain security, smart contract
+  auditing, and incident response.
+tags:
+- fintech-blockchain
+links:
+- url: https://www.linkedin.com/company/hexens
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:59:31.668753+00:00'

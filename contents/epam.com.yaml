@@ -1,0 +1,15 @@
+name: EPAM
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://www.epam.com
+description: A global leader in digital engineering services with a large presence
+  in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/epam-systems
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:55:57.109220+00:00'

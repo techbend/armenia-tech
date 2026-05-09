@@ -1,0 +1,12 @@
+name: SELFCV
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://selfcv.com
+description: A platform providing tools for resume building, job search, and career
+  development.
+tags:
+- hr-tech-edtech
+_meta:
+  checked_at: '2026-05-09T19:16:33.716817+00:00'

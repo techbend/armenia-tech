@@ -1,0 +1,15 @@
+name: GAIJIN ENTERTAINMENT
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://gaijin.games
+description: A global game developer and publisher with a significant R&D presence
+  in Armenia.
+tags:
+- gamedev-ar-vr
+links:
+- url: https://www.linkedin.com/company/gaijin-entertainment
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:57:43.103807+00:00'

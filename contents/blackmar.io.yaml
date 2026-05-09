@@ -1,0 +1,12 @@
+name: BLACKMAR
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://blackmar.io
+description: A software development and fintech consulting firm providing expert financial
+  reporting and operational guidance.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:25:30.775515+00:00'

@@ -1,0 +1,12 @@
+name: ARMCODING
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://armcoding.com
+description: ARMCODING is an Armenian software development company providing custom
+  programming and IT consulting services.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T18:22:10.780157+00:00'

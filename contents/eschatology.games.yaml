@@ -1,0 +1,14 @@
+name: ESCHATOLOGY ENTERTAINMENT
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://eschatology.games
+description: A game development studio creating high-end immersive titles.
+tags:
+- gamedev-ar-vr
+links:
+- url: https://www.linkedin.com/company/eschatology-entertainment
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T18:55:57.116872+00:00'
