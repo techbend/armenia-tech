@@ -1,0 +1,12 @@
+name: SPIRIT OF SOFT LLC
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://spiritofsoft.com
+description: An IT company providing custom software development, specializing in
+  medical and business applications.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:31:09.525400+00:00'

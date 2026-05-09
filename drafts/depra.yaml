@@ -1,0 +1,9 @@
+name: DEPRA
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: ''
+description: A game and simulation development studio.
+tags:
+- gamedev-ar-vr

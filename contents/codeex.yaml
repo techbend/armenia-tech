@@ -1,9 +1,0 @@
-name: "CODEEX"
-origin: "local"
-employees: "51-100"
-company_type: "service"
-website:
-  url: ""  # TODO: add company website
-description: ""  # TODO: add description
-tags:
-  - fintech-blockchain

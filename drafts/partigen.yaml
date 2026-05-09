@@ -1,0 +1,9 @@
+name: PARTIGEN
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: An IT services company focused on development and data engineering.
+tags:
+- service-providers

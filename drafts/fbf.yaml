@@ -1,0 +1,9 @@
+name: FBF
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: An engineering firm focused on industrial systems and hardware development.
+tags:
+- hardware-eda

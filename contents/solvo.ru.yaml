@@ -1,0 +1,15 @@
+name: SOLVO
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://solvo.ru
+description: An IT solutions provider for warehouse management and logistics with
+  operations in Armenia.
+tags:
+- hr-tech-edtech
+links:
+- url: https://www.linkedin.com/company/solvo
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:31:09.517321+00:00'

@@ -1,0 +1,10 @@
+name: ITRESOURCES
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: A company providing technical staff augmentation and resource management
+  services.
+tags:
+- service-providers

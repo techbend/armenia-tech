@@ -1,0 +1,12 @@
+name: TECHVISM
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://spark.work
+description: A cloud-based human resources and employee management platform.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/spark.work
+  type: linkedin

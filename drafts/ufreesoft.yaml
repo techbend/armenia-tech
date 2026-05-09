@@ -1,0 +1,13 @@
+name: UFREESOFT
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://solvo.ru
+description: An IT solutions provider for warehouse management and logistics with
+  operations in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/solvo
+  type: linkedin

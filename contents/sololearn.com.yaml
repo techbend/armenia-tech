@@ -1,0 +1,15 @@
+name: SOLOLEARN
+origin: local
+employees: 101-250
+company_type: product
+website:
+  url: https://sololearn.com
+description: A leading global mobile learning platform for coding and programming,
+  founded in Armenia.
+tags:
+- hr-tech-edtech
+links:
+- url: https://www.linkedin.com/company/sololearn
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:31:09.516243+00:00'

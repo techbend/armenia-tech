@@ -1,0 +1,15 @@
+name: SEVEN SMARTS
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://sevensmarts.com
+description: A software development firm providing custom IT solutions and mobile
+  and web applications.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/seven-smarts
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:31:09.478579+00:00'

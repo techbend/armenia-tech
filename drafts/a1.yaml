@@ -1,0 +1,10 @@
+name: A1
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://2people.io
+description: A software development agency focused on web, mobile, AI solutions, and
+  IT staff augmentation.
+tags:
+- other-product-companies

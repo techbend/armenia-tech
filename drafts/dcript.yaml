@@ -1,0 +1,9 @@
+name: DÉCRIPT
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: ''
+description: A company offering blockchain development and fintech security solutions.
+tags:
+- fintech-blockchain

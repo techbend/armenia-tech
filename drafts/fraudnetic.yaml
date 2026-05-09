@@ -1,0 +1,10 @@
+name: FRAUDNETIC
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: ''
+description: A cybersecurity company focused on fraud prevention and digital security
+  software.
+tags:
+- service-providers

@@ -1,0 +1,9 @@
+name: PERSONAL DATA WIZARD
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: ''
+description: A digital tool focused on managing personal data and HR-related compliance.
+tags:
+- hr-tech-edtech

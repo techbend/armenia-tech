@@ -1,0 +1,10 @@
+name: ASYNC (PODCASTLE)
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://armcp.net
+description: ARMCP is a crypto-focused project that provides blockchain insights,
+  analytics, exchange tools, and decentralized ecosystem services.
+tags:
+- media-photo-video-audio-voip

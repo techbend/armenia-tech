@@ -1,0 +1,10 @@
+name: A2SEVEN
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: https://360stories.com
+description: A platform using VR and AR technology to create immersive 360-degree
+  virtual tours and travel experiences.
+tags:
+- service-providers

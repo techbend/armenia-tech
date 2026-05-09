@@ -1,0 +1,10 @@
+name: NOSTDLIB
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://milies.net
+description: A software development agency based in Gyumri, Armenia, offering custom
+  development, web, and mobile solutions.
+tags:
+- service-providers

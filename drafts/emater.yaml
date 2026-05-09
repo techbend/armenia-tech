@@ -1,0 +1,10 @@
+name: EMATER
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: A service provider focused on software development and technical project
+  management.
+tags:
+- service-providers

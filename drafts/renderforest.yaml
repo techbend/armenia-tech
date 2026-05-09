@@ -1,0 +1,13 @@
+name: RENDERFOREST
+origin: local
+employees: 101-250
+company_type: product
+website:
+  url: https://www.renderforest.com
+description: A leading Armenian platform for creating videos, animations, logos, and
+  websites using automated cloud tools.
+tags:
+- media-photo-video-audio-voip
+links:
+- url: https://www.linkedin.com/company/renderforest
+  type: linkedin

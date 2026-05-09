@@ -1,0 +1,13 @@
+name: ZVUK
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://sperasoft.com
+description: A global game development and co-development company with a large engineering
+  studio in Armenia.
+tags:
+- media-photo-video-audio-voip
+links:
+- url: https://www.linkedin.com/company/sperasoft
+  type: linkedin

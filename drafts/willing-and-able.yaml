@@ -1,0 +1,13 @@
+name: WILLING AND ABLE
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://new.siemens.com
+description: A global industrial automation and software leader with engineering operations
+  in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/siemens
+  type: linkedin

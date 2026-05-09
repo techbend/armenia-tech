@@ -1,0 +1,15 @@
+name: SMARTCAT
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://smartcat.ai
+description: An AI-powered translation and localization management platform with a
+  strong engineering presence in Armenia.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/smartcat-ai
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:31:09.505030+00:00'

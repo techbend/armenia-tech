@@ -1,0 +1,12 @@
+name: SLICE CONSULTING
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://sliceconsulting.org
+description: A business agency providing marketing, branding, and digital transformation
+  strategy.
+tags:
+- e-commerce-marketing-adtech
+_meta:
+  checked_at: '2026-05-09T19:31:09.498033+00:00'

@@ -1,0 +1,9 @@
+name: FOODSTRUCT
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: ''
+description: A digital solution provider for food industry management and infrastructure.
+tags:
+- lifetime-on-demand-hospitality

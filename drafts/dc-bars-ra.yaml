@@ -1,0 +1,9 @@
+name: DC BARS RA
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: An engineering firm focused on industrial hardware and automation solutions.
+tags:
+- hardware-eda

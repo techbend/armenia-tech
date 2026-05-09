@@ -1,0 +1,13 @@
+name: STUDIO ONE
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://simplytechnologies.net
+description: A software development firm providing custom web, mobile, and enterprise
+  solutions.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/simply-technologies
+  type: linkedin

@@ -1,0 +1,13 @@
+name: KRISP
+origin: local
+employees: '+500'
+company_type: product
+website:
+  url: https://krisp.ai
+description: An AI-powered noise-cancellation software company founded by Armenians
+  with global operations.
+tags:
+- media-photo-video-audio-voip
+links:
+- url: https://www.linkedin.com/company/krisp
+  type: linkedin

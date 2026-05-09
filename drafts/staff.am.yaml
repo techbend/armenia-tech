@@ -1,0 +1,10 @@
+name: STAFF.AM
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://sharpant.com
+description: A software development company specialized in custom web, mobile, and
+  backend solutions.
+tags:
+- hr-tech-edtech

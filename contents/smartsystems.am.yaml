@@ -1,0 +1,12 @@
+name: SMART SYSTEMS LLC
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://smartsystems.am
+description: A provider of enterprise hardware and software solutions, including automation
+  and office systems.
+tags:
+- service-providers
+_meta:
+  checked_at: '2026-05-09T19:31:09.503063+00:00'

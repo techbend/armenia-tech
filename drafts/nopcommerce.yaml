@@ -1,0 +1,13 @@
+name: NOPCOMMERCE
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://www.microchip.com
+description: A global semiconductor and embedded systems company with a significant
+  R&D presence in Armenia.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/microchip-technology
+  type: linkedin

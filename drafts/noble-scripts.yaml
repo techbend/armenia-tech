@@ -1,0 +1,13 @@
+name: NOBLE SCRIPTS
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://mentorcliq.com
+description: A mentoring software platform that leverages AI to connect employees
+  for development, with engineering teams in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/mentorcliq
+  type: linkedin

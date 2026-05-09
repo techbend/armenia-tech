@@ -1,0 +1,12 @@
+name: SLEEPDOCTOR
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://sleepdoctor.me
+description: A digital health startup providing telemedicine and diagnostics for sleep
+  disorders.
+tags:
+- healthtech
+_meta:
+  checked_at: '2026-05-09T19:31:09.496906+00:00'

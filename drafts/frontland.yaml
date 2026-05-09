@@ -1,0 +1,9 @@
+name: FRONTLAND
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: A digital service provider specializing in web applications and design.
+tags:
+- service-providers

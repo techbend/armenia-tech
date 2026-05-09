@@ -1,0 +1,13 @@
+name: YMPAKT.COM
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://smartclick.ai
+description: A software provider delivering artificial intelligence and machine learning
+  solutions for enterprises.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/smartclick
+  type: linkedin

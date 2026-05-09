@@ -1,0 +1,9 @@
+name: RELCU
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: ''
+description: A fintech-focused company involved in blockchain and financial data research.
+tags:
+- fintech-blockchain

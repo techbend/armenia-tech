@@ -1,0 +1,10 @@
+name: NEETRY
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://mdsystems.am
+description: A software development company specializing in web, mobile, and SaaS
+  solutions for business automation.
+tags:
+- service-providers

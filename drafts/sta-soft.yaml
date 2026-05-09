@@ -1,0 +1,13 @@
+name: STA SOFT
+origin: local
+employees: 51-100
+company_type: service
+website:
+  url: https://sevensmarts.com
+description: A software development firm providing custom IT solutions and mobile
+  and web applications.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/seven-smarts
+  type: linkedin

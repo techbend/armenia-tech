@@ -1,0 +1,15 @@
+name: SIEMENS
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://new.siemens.com
+description: A global industrial automation and software leader with engineering operations
+  in Armenia.
+tags:
+- hardware-eda
+links:
+- url: https://www.linkedin.com/company/siemens
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:31:09.486769+00:00'

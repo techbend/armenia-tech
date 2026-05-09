@@ -1,0 +1,9 @@
+name: TRIVELO
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: An IT consultancy and software solutions firm.
+tags:
+- hr-tech-edtech

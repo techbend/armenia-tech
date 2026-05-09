@@ -1,9 +1,0 @@
-name: "FEEDCONSTRUCT"
-origin: "local"
-employees: "51-100"
-company_type: "product"
-website:
-  url: ""  # TODO: add company website
-description: ""  # TODO: add description
-tags:
-  - gambling

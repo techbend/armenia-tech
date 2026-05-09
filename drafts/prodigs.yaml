@@ -1,0 +1,9 @@
+name: PRODIGS
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: A technology services firm focused on software project development.
+tags:
+- service-providers

@@ -1,0 +1,10 @@
+name: NTIC AM
+origin: local
+employees: 51-100
+company_type: product
+website:
+  url: https://mobidram.am
+description: A mobile payment and electronic wallet system developed as a subsidiary
+  of Telecom Armenia (Viva).
+tags:
+- service-providers

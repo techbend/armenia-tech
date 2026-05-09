@@ -1,0 +1,9 @@
+name: DOM DANIEL
+origin: local
+employees: 1-10
+company_type: service
+website:
+  url: ''
+description: An IT consulting and software development services provider.
+tags:
+- service-providers

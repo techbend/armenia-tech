@@ -1,0 +1,10 @@
+name: NODO
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://mersoft.am
+description: A software development firm providing automated business management systems
+  and software for various industries.
+tags:
+- service-providers

@@ -1,0 +1,13 @@
+name: CODESIGNAL
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://codesignal.com
+description: A global technical assessment platform for recruiting and skill evaluation
+  with significant Armenian R&D operations.
+tags:
+- hr-tech-edtech
+links:
+- url: https://www.linkedin.com/company/codesignal
+  type: linkedin

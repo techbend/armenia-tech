@@ -1,0 +1,10 @@
+name: TWEET TELECOM
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: https://softshark.com
+description: A global software development services company specializing in custom
+  engineering and consulting.
+tags:
+- fintech-blockchain

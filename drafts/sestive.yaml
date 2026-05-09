@@ -1,0 +1,9 @@
+name: SESTIVE
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: ''
+description: A healthtech company focused on innovative wellness and diagnostic solutions.
+tags:
+- healthtech

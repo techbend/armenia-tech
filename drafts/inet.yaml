@@ -1,0 +1,9 @@
+name: INET
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: An internet and network services company.
+tags:
+- service-providers

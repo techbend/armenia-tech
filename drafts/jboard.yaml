@@ -1,0 +1,9 @@
+name: JBOARD
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: ''
+description: A software provider focused on interactive dashboards and tools.
+tags:
+- service-providers

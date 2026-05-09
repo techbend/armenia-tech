@@ -1,0 +1,15 @@
+name: SPARKERS
+origin: global
+employees: 101-250
+company_type: product
+website:
+  url: https://sparkers.com
+description: A data and intelligence provider for the video game industry with an
+  engineering hub in Armenia.
+tags:
+- e-commerce-marketing-adtech
+links:
+- url: https://www.linkedin.com/company/sparkers
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:31:09.522310+00:00'

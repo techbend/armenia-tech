@@ -1,0 +1,13 @@
+name: UBILOPER
+origin: local
+employees: 101-250
+company_type: product
+website:
+  url: https://sololearn.com
+description: A leading global mobile learning platform for coding and programming,
+  founded in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/sololearn
+  type: linkedin

@@ -1,0 +1,9 @@
+name: DOODOOC
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: ''
+description: A digital platform focused on media production and content creation tools.
+tags:
+- media-photo-video-audio-voip

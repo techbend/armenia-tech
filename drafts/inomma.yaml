@@ -1,0 +1,9 @@
+name: INOMMA
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: An IT company providing custom software development and consulting.
+tags:
+- service-providers

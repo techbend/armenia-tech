@@ -1,0 +1,13 @@
+name: SERVICETITAN
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://servicetitan.com
+description: A leading vertical software company for home and commercial field service
+  businesses with its largest R&D office in Armenia.
+tags:
+- other-product-companies
+links:
+- url: https://www.linkedin.com/company/servicetitan
+  type: linkedin

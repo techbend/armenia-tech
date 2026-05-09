@@ -1,0 +1,9 @@
+name: FIMETECH
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: A technology firm providing software engineering and hardware consulting.
+tags:
+- service-providers

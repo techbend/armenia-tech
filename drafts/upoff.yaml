@@ -1,0 +1,9 @@
+name: UPOFF
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: An IT services company specialized in sports and fitness software solutions.
+tags:
+- fintech-blockchain

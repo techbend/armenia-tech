@@ -1,0 +1,13 @@
+name: VTG
+origin: global
+employees: '+500'
+company_type: product
+website:
+  url: https://sdventures.com
+description: A global technology company building social discovery products with an
+  engineering hub in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/sdventures
+  type: linkedin

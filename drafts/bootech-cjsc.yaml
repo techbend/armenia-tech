@@ -1,0 +1,10 @@
+name: BOOTECH CJSC
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: An Armenian technology firm primarily involved in hardware-related engineering
+  services.
+tags:
+- hardware-eda

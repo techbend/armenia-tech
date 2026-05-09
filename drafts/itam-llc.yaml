@@ -1,0 +1,9 @@
+name: ITAM LLC
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: An IT management and service firm specializing in system administration.
+tags:
+- service-providers

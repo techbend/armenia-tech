@@ -1,0 +1,13 @@
+name: PICSART
+origin: local
+employees: '+500'
+company_type: product
+website:
+  url: https://picsart.com
+description: A global leader in photo and video editing software founded in Armenia
+  with a massive user base.
+tags:
+- media-photo-video-audio-voip
+links:
+- url: https://www.linkedin.com/company/picsart
+  type: linkedin

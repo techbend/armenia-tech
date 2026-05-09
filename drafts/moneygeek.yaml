@@ -1,0 +1,10 @@
+name: MONEYGEEK
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://luacrm.com
+description: An Armenian cloud-based CRM and business automation platform featuring
+  an AI assistant for managing sales, tasks, and inventory.
+tags:
+- fintech-blockchain

@@ -1,0 +1,9 @@
+name: NITKA
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://menthory.io
+description: An AI-powered performance management and OKR software platform for teams.
+tags:
+- service-providers

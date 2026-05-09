@@ -1,9 +1,0 @@
-name: "INFORMATION SYSTEMS AGENCY OF ARMENIA"
-origin: "local"
-employees: "101-250"
-company_type: "service"
-website:
-  url: ""  # TODO: add company website
-description: ""  # TODO: add description
-tags:
-  - cybersecurity

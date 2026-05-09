@@ -1,0 +1,9 @@
+name: LINK COMPANY
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: An IT and fintech services provider.
+tags:
+- fintech-blockchain

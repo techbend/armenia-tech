@@ -1,0 +1,10 @@
+name: NEEMU
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://masystech.am
+description: A software development firm providing AI-powered predictive systems,
+  e-commerce solutions, and enterprise automation.
+tags:
+- service-providers

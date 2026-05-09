@@ -1,0 +1,13 @@
+name: TELUS INTERNATIONAL
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://sperasoft.com
+description: A global game development and co-development company with a large engineering
+  studio in Armenia.
+tags:
+- service-providers
+links:
+- url: https://www.linkedin.com/company/sperasoft
+  type: linkedin

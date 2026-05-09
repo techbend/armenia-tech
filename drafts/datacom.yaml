@@ -1,0 +1,9 @@
+name: DATACOM
+origin: local
+employees: 11-50
+company_type: service
+website:
+  url: ''
+description: An IT services and data communications provider.
+tags:
+- service-providers

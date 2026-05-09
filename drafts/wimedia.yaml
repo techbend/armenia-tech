@@ -1,0 +1,9 @@
+name: WIMEDIA
+origin: local
+employees: 1-10
+company_type: product
+website:
+  url: ''
+description: A healthtech startup focused on sign language translation technologies.
+tags:
+- fintech-blockchain

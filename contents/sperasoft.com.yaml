@@ -1,0 +1,15 @@
+name: SPERASOFT
+origin: global
+employees: '+500'
+company_type: service
+website:
+  url: https://sperasoft.com
+description: A global game development and co-development company with a large engineering
+  studio in Armenia.
+tags:
+- gamedev-ar-vr
+links:
+- url: https://www.linkedin.com/company/sperasoft
+  type: linkedin
+_meta:
+  checked_at: '2026-05-09T19:31:09.523338+00:00'

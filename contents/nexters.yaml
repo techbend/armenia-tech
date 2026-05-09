@@ -1,9 +1,0 @@
-name: "NEXTERS"
-origin: "global"
-employees: "251-500"
-company_type: "product"
-website:
-  url: ""  # TODO: add company website
-description: ""  # TODO: add description
-tags:
-  - gamedev-ar-vr

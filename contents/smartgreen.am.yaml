@@ -1,0 +1,12 @@
+name: SMART GREEN
+origin: local
+employees: 11-50
+company_type: product
+website:
+  url: https://smartgreen.am
+description: A technology company creating automation systems for sustainable agriculture
+  and greenhouses.
+tags:
+- other-product-companies
+_meta:
+  checked_at: '2026-05-09T19:31:09.500129+00:00'

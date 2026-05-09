@@ -1,0 +1,10 @@
+name: ATOM
+origin: global
+employees: 51-100
+company_type: service
+website:
+  url: https://armenotech.com
+description: Armenotech provides fintech infrastructure, including payment processing,
+  blockchain integration, and wallet solutions for regulated institutions.
+tags:
+- service-providers
