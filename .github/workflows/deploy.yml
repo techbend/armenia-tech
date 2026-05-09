@@ -46,7 +46,7 @@ jobs:
       - name: Enable corepack & pnpm
         run: |
           corepack enable
-          corepack prepare pnpm@latest --activate
+          corepack prepare pnpm@9.15.0 --activate
           pnpm --version
 
       # ─── Build: YAML → JSON / Markdown + Svelte frontend ───
